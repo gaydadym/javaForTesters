@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="java_for_testers_main" target="1.8" />
       <module name="java_for_testers_test" target="1.8" />
+      <module name="javaForTesters_main" target="1.8" />
+      <module name="javaForTesters_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

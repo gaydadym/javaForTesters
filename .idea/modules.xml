@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java_for_testers.iml" filepath="$PROJECT_DIR$/.idea/modules/java_for_testers.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java_for_testers_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java_for_testers_main.iml" group="java_for_testers" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java_for_testers_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java_for_testers_test.iml" group="java_for_testers" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/javaForTesters.iml" filepath="$PROJECT_DIR$/.idea/modules/javaForTesters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/javaForTesters_main.iml" filepath="$PROJECT_DIR$/.idea/modules/javaForTesters_main.iml" group="javaForTesters" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/javaForTesters_test.iml" filepath="$PROJECT_DIR$/.idea/modules/javaForTesters_test.iml" group="javaForTesters" />
     </modules>
   </component>
 </project>
