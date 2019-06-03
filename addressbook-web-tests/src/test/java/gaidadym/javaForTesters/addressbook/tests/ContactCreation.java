@@ -41,6 +41,7 @@ public class ContactCreation {
         wd.findElement(By.name("nickname")).sendKeys(contactData.getNickname());
         wd.findElement(By.name("lastname")).click();
         wd.findElement(By.name("lastname")).sendKeys(contactData.getLastname());
+        wd.findElement(By.name("address")).click();
         wd.findElement(By.name("address")).sendKeys(contactData.getAddress());
         wd.findElement(By.name("mobile")).sendKeys(contactData.getPhone());
         wd.findElement(By.name("email")).click();
