@@ -45,7 +45,7 @@ public class ContactCreation {
         wd.findElement(By.name("mobile")).sendKeys(contactData.getPhone());
         wd.findElement(By.name("email")).click();
         wd.findElement(By.name("email")).sendKeys(contactData.getEmail());
-        wd.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Notes:'])[1]/following::input[1]")).click();
+        wd.findElement(By.cssSelector("input[type = submit][name = submit]")).click();
     }
 
     private void login(String username, String password) {
