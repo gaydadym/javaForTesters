@@ -25,4 +25,20 @@ public class ContactHelper extends HelperBase {
         click(By.cssSelector("input[type = submit][name = submit]"));
     }
 
+    public void viewContactDetails() {
+        click(By.cssSelector("img[title = 'Details']"));
+    }
+
+    public void clickModifiy() {
+        click(By.cssSelector("input[type = 'submit'][name = 'modifiy']"));
+    }
+
+    public void clickDelete() {
+        click(By.cssSelector("input[type = 'submit'][value = 'Delete']"));
+    }
+
+    public void clickUpdate() {
+        click(By.cssSelector("input[type = 'submit'][value = 'Enter']"));
+    }
+
 }

@@ -1,9 +1,7 @@
 package gaidadym.javaForTesters.addressbook.tests;
 
-import gaidadym.javaForTesters.addressbook.appmanager.SessionHelper;
 import gaidadym.javaForTesters.addressbook.model.GroupData;
 import gaidadym.javaForTesters.addressbook.TestBase;
-import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 public class GroupCreation extends TestBase {
