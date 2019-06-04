@@ -1,5 +1,6 @@
 package gaidadym.javaForTesters.addressbook.tests;
 
+import gaidadym.javaForTesters.addressbook.appmanager.SessionHelper;
 import gaidadym.javaForTesters.addressbook.model.GroupData;
 import gaidadym.javaForTesters.addressbook.TestBase;
 import org.openqa.selenium.By;
@@ -14,8 +15,9 @@ public class GroupCreation extends TestBase {
         app.getGroupHelper().fillGroupForm(new GroupData("test4", "test5", "test6"));
         app.getGroupHelper().submitGroupCreation();
         app.getGroupHelper().returnToGroupPage();
-        app.getGroupHelper().wd.findElement(By.linkText("Logout")).click();
     }
+
+
 
 
 }
