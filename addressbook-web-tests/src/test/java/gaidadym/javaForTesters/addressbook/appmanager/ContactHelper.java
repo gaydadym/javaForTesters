@@ -2,11 +2,12 @@ package gaidadym.javaForTesters.addressbook.appmanager;
 
 import gaidadym.javaForTesters.addressbook.model.ContactData;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class ContactHelper extends HelperBase {
 
-    public ContactHelper(ChromeDriver wd) {
+    public ContactHelper(WebDriver wd) {
         super(wd);
     }
 
@@ -40,5 +41,11 @@ public class ContactHelper extends HelperBase {
     public void clickUpdate() {
         click(By.cssSelector("input[type = 'submit'][value = 'Enter']"));
     }
+
+    public void closeAlertWindow() {
+        wd.switchTo().alert().accept();
+    }
+
+
 
 }

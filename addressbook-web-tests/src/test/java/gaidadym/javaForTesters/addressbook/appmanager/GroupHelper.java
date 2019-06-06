@@ -2,11 +2,12 @@ package gaidadym.javaForTesters.addressbook.appmanager;
 
 import gaidadym.javaForTesters.addressbook.model.GroupData;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class GroupHelper extends HelperBase {
 
-    public GroupHelper(ChromeDriver wd) {
+    public GroupHelper(WebDriver wd) {
         super(wd);
     }
 

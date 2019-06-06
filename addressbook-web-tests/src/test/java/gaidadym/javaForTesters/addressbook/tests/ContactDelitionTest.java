@@ -12,6 +12,5 @@ public class ContactDelitionTest extends TestBase {
         app.getContactHelper().clickModifiy();
         app.getContactHelper().clickDelete();
 
-
     }
 }
