@@ -13,4 +13,9 @@ public class NavigationHelper extends HelperBase{
     public void gotoGroupPage() {
         click(By.linkText("groups"));
     }
+    public void gotoMainPage() {click(By.cssSelector("img[id = 'logo']"));}
+
+    public void closeAlertWindow() {
+        wd.switchTo().alert().accept();
+    }
 }

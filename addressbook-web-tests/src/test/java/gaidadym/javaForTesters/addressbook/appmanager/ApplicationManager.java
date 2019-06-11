@@ -12,7 +12,8 @@ import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
 
-    WebDriver wd;
+
+    public WebDriver wd;
 
     private SessionHelper sessionHelper;
     private NavigationHelper navigationHelper;
@@ -27,7 +28,6 @@ public class ApplicationManager {
 
 
     public void init() {
-
         if (browser.equals(BrowserType.CHROME)){
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--kiosk");
@@ -37,7 +37,7 @@ public class ApplicationManager {
             wd = new FirefoxDriver();
         }
 
-        wd.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        wd.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
         groupHelper = new GroupHelper(wd);
         navigationHelper = new NavigationHelper(wd);
         sessionHelper = new SessionHelper(wd);

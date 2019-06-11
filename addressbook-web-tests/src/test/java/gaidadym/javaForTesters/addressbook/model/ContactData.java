@@ -1,6 +1,7 @@
 package gaidadym.javaForTesters.addressbook.model;
 
 public class ContactData {
+    private final String group;
     private final String firstname;
     private final String middlename;
     private final String lastname;
@@ -9,7 +10,8 @@ public class ContactData {
     private final String address;
     private final String phone;
 
-    public ContactData(String firstname, String middlename, String lastname, String nickname, String email, String address, String phone) {
+    public ContactData(String group, String firstname, String middlename, String lastname, String nickname, String email, String address, String phone) {
+        this.group = group;
         this.firstname = firstname;
         this.middlename = middlename;
         this.lastname = lastname;
@@ -45,5 +47,9 @@ public class ContactData {
 
     public String getPhone() {
         return phone;
+    }
+
+    public String getGroup() {
+        return group;
     }
 }

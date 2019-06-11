@@ -16,6 +16,7 @@ public class GroupHelper extends HelperBase {
     }
 
     public void fillGroupForm(GroupData groupData) {
+
         type(By.name("group_name"), groupData.getName());
         type(By.name("group_header"), groupData.getHeader());
         type(By.name("group_footer"), groupData.getFooter());
@@ -25,7 +26,7 @@ public class GroupHelper extends HelperBase {
         click(By.name("submit"));
     }
 
-    public void initGroupCareation() {
+    public void initGroupCreation() {
         click(By.name("new"));
     }
 
@@ -38,5 +39,16 @@ public class GroupHelper extends HelperBase {
 
     public void selectGroup() {
         click(By.name("selected[]"));
+    }
+
+    public boolean isThereGroup() {
+        return isElementPresent(By.cssSelector("input[name = 'selected[]']"));
+    }
+
+    public void createGroup(GroupData groupData){
+        initGroupCreation();
+        fillGroupForm(groupData);
+        submitGroupCreation();
+        returnToGroupPage();
     }
 }
