@@ -4,6 +4,7 @@ import gaidadym.javaForTesters.addressbook.TestBase;
 import gaidadym.javaForTesters.addressbook.appmanager.HelperBase;
 import gaidadym.javaForTesters.addressbook.model.ContactData;
 import org.openqa.selenium.By;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class ContactDelitionTest extends TestBase {
@@ -13,10 +14,13 @@ public class ContactDelitionTest extends TestBase {
             app.getContactHelper().createContact(new ContactData("test4", "Updated","Updated","Updated","Updated","Updated@gmail.com","Updated","99999999999"));
             app.getNavigationHelper().gotoMainPage();
         }
-        Thread.sleep(3000);
+        int before = app.getContactHelper().getContactCount();
         app.getContactHelper().selectContact();
         app.getContactHelper().clickDelete();
         app.getNavigationHelper().closeAlertWindow();
+        app.getNavigationHelper().gotoMainPage();
+        int after = app.getContactHelper().getContactCount();
+        Assert.assertEquals(after,before-1);
 
     }
 }

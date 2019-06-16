@@ -63,4 +63,8 @@ public class ContactHelper extends HelperBase {
     public boolean isThereContact() {
         return isElementPresent(By.cssSelector("input[name = 'selected[]']"));
     }
+
+    public int getContactCount() {
+        return wd.findElements(By.cssSelector("input[type = 'checkbox'][name = 'selected[]']")).size();
+    }
 }
