@@ -3,9 +3,13 @@ package gaidadym.javaForTesters.addressbook.appmanager;
 import gaidadym.javaForTesters.addressbook.model.ContactData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class ContactHelper extends HelperBase {
 
@@ -70,4 +74,17 @@ public class ContactHelper extends HelperBase {
     public int getContactCount() {
         return wd.findElements(By.cssSelector("input[type = 'checkbox'][name = 'selected[]']")).size();
     }
+    public List<ContactData> getContactList() {
+        List<ContactData> contacts = new ArrayList<ContactData>();
+        List<WebElement> elements = wd.findElements(By.cssSelector("tr[name = entry]"));
+        for (WebElement element: elements){
+            String data = element.getText();
+            ContactData contact = new ContactData(data,null,null,null,null,null,null,null);
+            contacts.add(contact);
+        }
+        return contacts;
+    }
+
+
+
 }

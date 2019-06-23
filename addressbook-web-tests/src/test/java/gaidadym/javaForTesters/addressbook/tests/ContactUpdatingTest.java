@@ -6,6 +6,8 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.util.List;
+
 public class ContactUpdatingTest extends TestBase {
     @Test
     public void testContactUpdating() throws Exception {
@@ -13,13 +15,13 @@ public class ContactUpdatingTest extends TestBase {
             app.getContactHelper().createContact((new ContactData("test4", "new_user","new_user","new_user","new_user","new_user@gmail.com","new_user","99999999999")));
             app.getNavigationHelper().gotoMainPage();
         }
-        int before = app.getContactHelper().getContactCount();
-        app.getContactHelper().viewContactDetails(before-1);
+        List<ContactData> before = app.getContactHelper().getContactList();
+        app.getContactHelper().viewContactDetails(before.size()-1);
         app.getContactHelper().clickModifiy();
         app.getContactHelper().fillContactForm(new ContactData(null, "Updated","Updated","Updated","Updated","Updated@gmail.com","Updated","99999999999"),false);
         app.getContactHelper().clickUpdate();
         app.getNavigationHelper().gotoMainPage();
-        int after = app.getContactHelper().getContactCount();
+        List<ContactData> after = app.getContactHelper().getContactList();
         Assert.assertEquals(after,before);
 
     }

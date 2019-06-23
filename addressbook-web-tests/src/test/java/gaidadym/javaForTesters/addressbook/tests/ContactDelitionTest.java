@@ -7,6 +7,8 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.util.List;
+
 public class ContactDelitionTest extends TestBase {
     @Test
     public void testContactDelition() throws Exception {
@@ -14,13 +16,14 @@ public class ContactDelitionTest extends TestBase {
             app.getContactHelper().createContact(new ContactData("test4", "Updated","Updated","Updated","Updated","Updated@gmail.com","Updated","99999999999"));
             app.getNavigationHelper().gotoMainPage();
         }
-        int before = app.getContactHelper().getContactCount();
-        app.getContactHelper().selectContact(before-1);
+        List<ContactData> before = app.getContactHelper().getContactList();
+        app.getContactHelper().selectContact(before.size()-1);
         app.getContactHelper().clickDelete();
         app.getNavigationHelper().closeAlertWindow();
         app.getNavigationHelper().gotoMainPage();
-        int after = app.getContactHelper().getContactCount();
-        Assert.assertEquals(after,before-1);
+        List<ContactData> after = app.getContactHelper().getContactList();
+        before.remove(before.size()-1);
+        Assert.assertEquals(after,before);
 
     }
 }
