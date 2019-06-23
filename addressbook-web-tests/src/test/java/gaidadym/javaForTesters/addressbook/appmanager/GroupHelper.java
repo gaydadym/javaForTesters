@@ -37,8 +37,9 @@ public class GroupHelper extends HelperBase {
         click(By.name("edit"));
     }
 
-    public void selectGroup() {
-        click(By.name("selected[]"));
+    public void selectGroup(int index) {
+        wd.findElements(By.cssSelector("input[name = 'selected[]']")).get(index).click();
+
     }
 
     public boolean isThereGroup() {

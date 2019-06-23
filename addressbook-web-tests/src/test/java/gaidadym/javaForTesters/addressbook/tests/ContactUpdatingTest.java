@@ -14,7 +14,7 @@ public class ContactUpdatingTest extends TestBase {
             app.getNavigationHelper().gotoMainPage();
         }
         int before = app.getContactHelper().getContactCount();
-        app.getContactHelper().viewContactDetails();
+        app.getContactHelper().viewContactDetails(before-1);
         app.getContactHelper().clickModifiy();
         app.getContactHelper().fillContactForm(new ContactData(null, "Updated","Updated","Updated","Updated","Updated@gmail.com","Updated","99999999999"),false);
         app.getContactHelper().clickUpdate();

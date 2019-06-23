@@ -15,7 +15,7 @@ public class ContactDelitionTest extends TestBase {
             app.getNavigationHelper().gotoMainPage();
         }
         int before = app.getContactHelper().getContactCount();
-        app.getContactHelper().selectContact();
+        app.getContactHelper().selectContact(before-1);
         app.getContactHelper().clickDelete();
         app.getNavigationHelper().closeAlertWindow();
         app.getNavigationHelper().gotoMainPage();

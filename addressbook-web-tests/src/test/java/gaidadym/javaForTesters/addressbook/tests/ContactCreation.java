@@ -14,6 +14,7 @@ public class ContactCreation extends TestBase {
         app.getContactHelper().clickAddContact();
         app.getContactHelper().fillContactForm(new ContactData("test4", "test", null, "test", "test_contact", "gaydadym+1@inbox.ru", "Москва, Новая Басманная, 4", "89999999999"),true);
         app.getContactHelper().submitContactCreation();
+        app.getNavigationHelper().gotoMainPage();
         int after = app.getContactHelper().getContactCount();
         Assert.assertEquals(after,before+1);
     }

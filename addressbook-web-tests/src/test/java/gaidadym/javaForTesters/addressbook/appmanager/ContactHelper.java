@@ -39,9 +39,12 @@ public class ContactHelper extends HelperBase {
     public void submitContactCreation(){
         click(By.cssSelector("input[type = submit][name = submit]"));
     }
-    public void selectContact() {click(By.cssSelector("input[name = 'selected[]']"));}
-    public void viewContactDetails() {
-        click(By.cssSelector("img[title = 'Details']"));
+
+    public void selectContact(int index) {
+        wd.findElements(By.cssSelector("input[name = 'selected[]']")).get(index).click();
+    }
+    public void viewContactDetails(int index) {
+        wd.findElements(By.cssSelector("img[title = 'Details']")).get(index).click();
     }
 
     public void clickModifiy() {
