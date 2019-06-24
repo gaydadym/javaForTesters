@@ -74,14 +74,8 @@ public class ContactData {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         ContactData that = (ContactData) o;
-        return Objects.equals(group, that.group) &&
-                Objects.equals(firstname, that.firstname) &&
-                Objects.equals(middlename, that.middlename) &&
-                Objects.equals(lastname, that.lastname) &&
-                Objects.equals(nickname, that.nickname) &&
-                Objects.equals(email, that.email) &&
-                Objects.equals(address, that.address) &&
-                Objects.equals(phone, that.phone);
+        return Objects.equals(firstname, that.firstname) &&
+                Objects.equals(lastname, that.lastname);
     }
 
     @Override
