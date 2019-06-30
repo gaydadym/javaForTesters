@@ -57,6 +57,19 @@ public class GroupHelper extends HelperBase {
         returnToGroupPage();
     }
 
+    public void UpdateGroup(GroupData group, int index) {
+        selectGroup(index);
+        clickUpdateGroup();
+        fillGroupForm(group);
+        returnToGroupPage();
+    }
+
+    public void deleteGroup(int index) {
+        selectGroup(index);
+        deleteSelectedGroups();
+        returnToGroupPage();
+    }
+
     public int getGroupCount() {
         return wd.findElements(By.cssSelector("input[type = 'checkbox'][name = 'selected[]']")).size();
     }

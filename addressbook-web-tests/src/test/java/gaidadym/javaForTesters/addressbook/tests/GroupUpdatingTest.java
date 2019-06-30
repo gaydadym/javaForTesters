@@ -3,26 +3,30 @@ package gaidadym.javaForTesters.addressbook.tests;
 import gaidadym.javaForTesters.addressbook.TestBase;
 import gaidadym.javaForTesters.addressbook.model.GroupData;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.util.HashSet;
 import java.util.List;
 
 public class GroupUpdatingTest extends TestBase {
-
-    @Test
-    public void testGroupUpdating() throws Exception {
-        app.getNavigationHelper().gotoGroupPage();
+    @BeforeMethod
+    public void ensurePreconditions(){
         if (! app.getGroupHelper().isThereGroup()){
             app.getGroupHelper().createGroup(new GroupData("new_group", "new_group", "new_group"));
         }
+    }
+
+    @Test
+    public void testGroupUpdating() throws Exception {
+        GroupData group = new GroupData("new_group", "new_group", "new_group");
+        app.getNavigationHelper().gotoGroupPage();
         List<GroupData> before = app.getGroupHelper().getGroupList();
-        app.getGroupHelper().selectGroup(before.size()-1);
-        app.getGroupHelper().clickUpdateGroup();
-        app.getGroupHelper().fillGroupForm(new GroupData("Updated_group","Updated_group","Updated"));
-        app.getGroupHelper().returnToGroupPage();
+        int index = before.size()-1;
+        app.getGroupHelper().UpdateGroup(group, index);
         List<GroupData> after = app.getGroupHelper().getGroupList();
         Assert.assertEquals(new HashSet<Object>(after),new HashSet<Object>(before));
     }
+
 
 }

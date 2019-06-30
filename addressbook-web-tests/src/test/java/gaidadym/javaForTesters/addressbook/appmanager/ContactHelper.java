@@ -11,6 +11,9 @@ import org.testng.Assert;
 import java.util.ArrayList;
 import java.util.List;
 
+import static gaidadym.javaForTesters.addressbook.TestBase.app;
+import static gaidadym.javaForTesters.addressbook.appmanager.NavigationHelper.*;
+
 public class ContactHelper extends HelperBase {
 
     public ContactHelper(WebDriver wd) {
@@ -37,9 +40,22 @@ public class ContactHelper extends HelperBase {
         clickAddContact();
         fillContactForm(contactData,true);
         submitContactCreation();
-
-
     }
+    public void updateContact(ContactData contact, int index) {
+        app.getContactHelper().viewContactDetails(index);
+        app.getContactHelper().clickModifiy();
+        app.getContactHelper().fillContactForm(contact,false);
+        app.getContactHelper().clickUpdate();
+        app.getNavigationHelper().gotoMainPage();
+    }
+
+    public void deleteContact(int index) {
+        selectContact(index);
+        clickDelete();
+        app.getNavigationHelper().closeAlertWindow();
+        app.getNavigationHelper().gotoMainPage();
+    }
+
     public void submitContactCreation(){
         click(By.cssSelector("input[type = submit][name = submit]"));
     }
