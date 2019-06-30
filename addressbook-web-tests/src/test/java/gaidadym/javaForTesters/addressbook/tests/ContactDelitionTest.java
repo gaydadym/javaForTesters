@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.util.HashSet;
 import java.util.List;
 
 public class ContactDelitionTest extends TestBase {
@@ -23,7 +24,7 @@ public class ContactDelitionTest extends TestBase {
         app.getNavigationHelper().gotoMainPage();
         List<ContactData> after = app.getContactHelper().getContactList();
         before.remove(before.size()-1);
-        Assert.assertEquals(after,before);
+        Assert.assertEquals(new HashSet<Object>(after),new HashSet<Object>(before));
 
     }
 }

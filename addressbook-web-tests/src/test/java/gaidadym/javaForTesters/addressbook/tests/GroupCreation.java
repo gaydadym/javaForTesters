@@ -5,6 +5,7 @@ import gaidadym.javaForTesters.addressbook.TestBase;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.util.HashSet;
 import java.util.List;
 
 public class GroupCreation extends TestBase {
@@ -19,7 +20,7 @@ public class GroupCreation extends TestBase {
         app.getGroupHelper().returnToGroupPage();
         List<GroupData> after = app.getGroupHelper().getGroupList();
         before.add(after.get(after.size()-1));
-        Assert.assertEquals(after, before);
+        Assert.assertEquals(new HashSet<Object>(after),new HashSet<Object>(before));
     }
 
 

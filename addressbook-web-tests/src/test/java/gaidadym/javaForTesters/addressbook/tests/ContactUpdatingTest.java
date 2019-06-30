@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.util.HashSet;
 import java.util.List;
 
 public class ContactUpdatingTest extends TestBase {
@@ -18,11 +19,11 @@ public class ContactUpdatingTest extends TestBase {
         List<ContactData> before = app.getContactHelper().getContactList();
         app.getContactHelper().viewContactDetails(before.size()-1);
         app.getContactHelper().clickModifiy();
-        app.getContactHelper().fillContactForm(new ContactData(null, "Updated","Updated","Updated","Updated","Updated@gmail.com","Updated","99999999999"),false);
+        app.getContactHelper().fillContactForm(new ContactData(null, "Updated1","Updated","Updated","Updated","Updated@gmail.com","Updated","99999999999"),false);
         app.getContactHelper().clickUpdate();
         app.getNavigationHelper().gotoMainPage();
         List<ContactData> after = app.getContactHelper().getContactList();
-        Assert.assertEquals(after,before);
+        Assert.assertNotEquals(new HashSet<Object>(after),new HashSet<Object>(before));
 
     }
 }

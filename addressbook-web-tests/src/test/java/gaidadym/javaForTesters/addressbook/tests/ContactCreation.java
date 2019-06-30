@@ -7,6 +7,7 @@ import gaidadym.javaForTesters.addressbook.model.GroupData;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.util.HashSet;
 import java.util.List;
 
 public class ContactCreation extends TestBase {
@@ -20,7 +21,7 @@ public class ContactCreation extends TestBase {
         app.getNavigationHelper().gotoMainPage();
         List<ContactData> after = app.getContactHelper().getContactList();
         before.add(after.get(after.size()-1));
-        Assert.assertEquals(after,before);
+        Assert.assertEquals(new HashSet<Object>(after),new HashSet<Object>(before));
     }
 
 
