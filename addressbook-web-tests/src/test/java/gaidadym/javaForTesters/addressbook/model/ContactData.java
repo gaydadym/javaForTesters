@@ -3,25 +3,55 @@ package gaidadym.javaForTesters.addressbook.model;
 import java.util.Objects;
 
 public class ContactData {
-    private final String group;
-    private final String firstname;
-    private final String middlename;
-    private final String lastname;
-    private final String nickname;
-    private final String email;
-    private final String address;
-    private final String phone;
+    private String group;
+    private String firstname;
 
-    public ContactData(String group, String firstname, String middlename, String lastname, String nickname, String email, String address, String phone) {
+    public ContactData withGroup(String group) {
         this.group = group;
-        this.firstname = firstname;
-        this.middlename = middlename;
-        this.lastname = lastname;
-        this.nickname = nickname;
-        this.email = email;
-        this.address = address;
-        this.phone = phone;
+        return this;
     }
+
+    public ContactData withFirstname(String firstname) {
+        this.firstname = firstname;
+        return this;
+    }
+
+    public ContactData withMiddlename(String middlename) {
+        this.middlename = middlename;
+        return this;
+    }
+
+    public ContactData withLastname(String lastname) {
+        this.lastname = lastname;
+        return this;
+    }
+
+    public ContactData withNickname(String nickname) {
+        this.nickname = nickname;
+        return this;
+    }
+
+    public ContactData withEmail(String email) {
+        this.email = email;
+        return this;
+    }
+
+    public ContactData withAddress(String address) {
+        this.address = address;
+        return this;
+    }
+
+    public ContactData withPhone(String phone) {
+        this.phone = phone;
+        return this;
+    }
+
+    private String middlename;
+    private String lastname;
+    private String nickname;
+    private String email;
+    private String address;
+    private String phone;
 
     public String getFirstname() {
         return firstname;

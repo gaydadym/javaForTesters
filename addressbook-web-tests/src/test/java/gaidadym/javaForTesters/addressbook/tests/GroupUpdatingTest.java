@@ -13,13 +13,13 @@ public class GroupUpdatingTest extends TestBase {
     @BeforeMethod
     public void ensurePreconditions(){
         if (app.group().list().size()==0){
-            app.group().create(new GroupData("new_group", "new_group", "new_group"));
+            app.group().create(new GroupData().withName("new group").withFooter("new group").withHeader("new hroup"));
         }
     }
 
     @Test
     public void testGroupUpdating() throws Exception {
-        GroupData group = new GroupData("new_group", "new_group", "new_group");
+        GroupData group = new GroupData().withName("Updated");
         app.goTo().groupPage();
         List<GroupData> before = app.group().list();
         int index = before.size()-1;

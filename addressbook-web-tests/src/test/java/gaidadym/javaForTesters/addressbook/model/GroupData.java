@@ -3,14 +3,24 @@ package gaidadym.javaForTesters.addressbook.model;
 import java.util.Objects;
 
 public class GroupData {
-    private final String name;
-    private final String header;
-    private final String footer;
+    private int id = Integer.MAX_VALUE;
+    private String name;
+    private String header;
+    private String footer;
 
-    public GroupData(String name, String header, String footer) {
+    public GroupData withName(String name) {
         this.name = name;
+        return this;
+    }
+
+    public GroupData withHeader(String header) {
         this.header = header;
+        return this;
+    }
+
+    public GroupData withFooter(String footer) {
         this.footer = footer;
+        return this;
     }
 
     public String getName() {

@@ -13,7 +13,8 @@ public class ContactDelitionTest extends TestBase {
     @BeforeMethod
     public void ensurePrecondition(){
         if (app.contact().list().size()==0){
-            app.contact().create((new ContactData("test4", "new_user","new_user","new_user","new_user","new_user@gmail.com","new_user","99999999999")));
+            app.contact().create((new ContactData().withFirstname("test1")
+                    .withLastname("Testovich").withMiddlename("Testoviy")));
             app.goTo().mainPage();
         }
     }

@@ -99,7 +99,7 @@ public class ContactHelper extends HelperBase {
             String address = data.get(3).getAttribute("innerText");
             String email = data.get(4).getAttribute("innerText");
             String phone = data.get(5).getAttribute("innerText");
-            ContactData contact = new ContactData(null,firstname,null,lastname,null,email,address,phone);
+            ContactData contact = new ContactData().withLastname(lastname).withFirstname(firstname).withAddress(address).withEmail(email).withPhone(phone);
             contacts.add(contact);
         }
         return (contacts);
