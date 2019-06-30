@@ -12,19 +12,19 @@ import java.util.List;
 public class GroupUpdatingTest extends TestBase {
     @BeforeMethod
     public void ensurePreconditions(){
-        if (! app.getGroupHelper().isThereGroup()){
-            app.getGroupHelper().createGroup(new GroupData("new_group", "new_group", "new_group"));
+        if (app.group().list().size()==0){
+            app.group().create(new GroupData("new_group", "new_group", "new_group"));
         }
     }
 
     @Test
     public void testGroupUpdating() throws Exception {
         GroupData group = new GroupData("new_group", "new_group", "new_group");
-        app.getNavigationHelper().gotoGroupPage();
-        List<GroupData> before = app.getGroupHelper().getGroupList();
+        app.goTo().groupPage();
+        List<GroupData> before = app.group().list();
         int index = before.size()-1;
-        app.getGroupHelper().UpdateGroup(group, index);
-        List<GroupData> after = app.getGroupHelper().getGroupList();
+        app.group().update(group, index);
+        List<GroupData> after = app.group().list();
         Assert.assertEquals(new HashSet<Object>(after),new HashSet<Object>(before));
     }
 

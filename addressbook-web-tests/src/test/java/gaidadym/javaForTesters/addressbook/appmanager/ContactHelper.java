@@ -4,7 +4,6 @@ import gaidadym.javaForTesters.addressbook.model.ContactData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
@@ -12,7 +11,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static gaidadym.javaForTesters.addressbook.TestBase.app;
-import static gaidadym.javaForTesters.addressbook.appmanager.NavigationHelper.*;
 
 public class ContactHelper extends HelperBase {
 
@@ -36,24 +34,24 @@ public class ContactHelper extends HelperBase {
         }
 
     }
-    public void createContact (ContactData contactData){
+    public void create(ContactData contactData){
         clickAddContact();
         fillContactForm(contactData,true);
         submitContactCreation();
     }
-    public void updateContact(ContactData contact, int index) {
-        app.getContactHelper().viewContactDetails(index);
-        app.getContactHelper().clickModifiy();
-        app.getContactHelper().fillContactForm(contact,false);
-        app.getContactHelper().clickUpdate();
-        app.getNavigationHelper().gotoMainPage();
+    public void update(ContactData contact, int index) {
+        app.contact().viewContactDetails(index);
+        app.contact().clickModifiy();
+        app.contact().fillContactForm(contact,false);
+        app.contact().clickUpdate();
+        app.goTo().mainPage();
     }
 
-    public void deleteContact(int index) {
+    public void delete(int index) {
         selectContact(index);
         clickDelete();
-        app.getNavigationHelper().closeAlertWindow();
-        app.getNavigationHelper().gotoMainPage();
+        app.goTo().closeAlertWindow();
+        app.goTo().mainPage();
     }
 
     public void submitContactCreation(){
@@ -90,7 +88,7 @@ public class ContactHelper extends HelperBase {
     public int getContactCount() {
         return wd.findElements(By.cssSelector("input[type = 'checkbox'][name = 'selected[]']")).size();
     }
-    public List<ContactData> getContactList() {
+    public List<ContactData> list() {
         List<ContactData> contacts = new ArrayList<ContactData>();
         List<WebElement> elements = wd.findElements(By.cssSelector("tr[name = entry]"));
         for (WebElement element: elements){

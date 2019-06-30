@@ -50,21 +50,21 @@ public class GroupHelper extends HelperBase {
         return isElementPresent(By.cssSelector("input[name = 'selected[]']"));
     }
 
-    public void createGroup(GroupData groupData){
+    public void create(GroupData groupData){
         initGroupCreation();
         fillGroupForm(groupData);
         submitGroupCreation();
         returnToGroupPage();
     }
 
-    public void UpdateGroup(GroupData group, int index) {
+    public void update(GroupData group, int index) {
         selectGroup(index);
         clickUpdateGroup();
         fillGroupForm(group);
         returnToGroupPage();
     }
 
-    public void deleteGroup(int index) {
+    public void delete(int index) {
         selectGroup(index);
         deleteSelectedGroups();
         returnToGroupPage();
@@ -74,7 +74,7 @@ public class GroupHelper extends HelperBase {
         return wd.findElements(By.cssSelector("input[type = 'checkbox'][name = 'selected[]']")).size();
     }
 
-    public List<GroupData> getGroupList() {
+    public List<GroupData> list() {
         List<GroupData> groups = new ArrayList<GroupData>();
         List<WebElement> elements = wd.findElements(By.cssSelector("span.group"));
         for (WebElement element: elements){

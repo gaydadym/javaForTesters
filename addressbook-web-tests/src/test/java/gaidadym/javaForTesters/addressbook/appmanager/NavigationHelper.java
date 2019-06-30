@@ -10,10 +10,10 @@ public class NavigationHelper extends HelperBase{
         super(wd);
     }
 
-    public void gotoGroupPage() {
+    public void groupPage() {
         click(By.linkText("groups"));
     }
-    public void gotoMainPage() {click(By.cssSelector("img[id = 'logo']"));}
+    public void mainPage() {click(By.cssSelector("img[id = 'logo']"));}
 
     public void closeAlertWindow() {
         wd.switchTo().alert().accept();
