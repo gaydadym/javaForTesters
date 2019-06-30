@@ -7,19 +7,29 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.HashSet;
-import java.util.List;
+import java.util.Set;
 
 public class ContactCreation extends TestBase {
-
     @Test
     public void testContactCreation() throws Exception {
-        List<ContactData> before = app.contact().list();
-        ContactData contact = new ContactData().withNickname("test4").withFirstname("test").withLastname("test").withGroup("test4");
+
+        ContactData contact = new ContactData();
+        contact.withNickname("test4");
+        contact.withFirstname("test");
+        contact.withLastname("test");
+        contact.withGroup("test4");
+        contact.withAddress("Test4");
+        contact.withEmail("test@test.com");
+        contact.withPhone("48421654");
+        contact.withMiddlename("Testovich");
+        Set<ContactData> before = app.contact().all();
         app.contact().create(contact);
-        app.goTo().mainPage();
-        List<ContactData> after = app.contact().list();
-        before.add(after.get(after.size()-1));
-        Assert.assertEquals(new HashSet<Object>(after),new HashSet<Object>(before));
+
+
+        Set<ContactData> after = app.contact().all();
+        contact.withId(after.stream().mapToInt((g)-> g.getId()).max().getAsInt());
+        //before.add(contact);
+        Assert.assertEquals(after,before);
     }
 
 

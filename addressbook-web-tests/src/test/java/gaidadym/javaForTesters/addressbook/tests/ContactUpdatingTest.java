@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 
 import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class ContactUpdatingTest extends TestBase {
     @BeforeMethod
@@ -23,10 +24,10 @@ public class ContactUpdatingTest extends TestBase {
         ensurePrecondition();
         ContactData contact = new ContactData().withFirstname("Updated").withLastname("Updated")
                 .withAddress("Updated").withEmail("Updated");
-        List<ContactData> before = app.contact().list();
+        Set<ContactData> before = app.contact().all();
         int index = before.size()-1;
         app.contact().update(contact, index);
-        List<ContactData> after = app.contact().list();
+        Set<ContactData> after = app.contact().all();
         Assert.assertNotEquals(new HashSet<Object>(after),new HashSet<Object>(before));
     }
 

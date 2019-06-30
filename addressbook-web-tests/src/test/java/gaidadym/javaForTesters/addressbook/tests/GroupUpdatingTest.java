@@ -8,10 +8,12 @@ import org.testng.annotations.Test;
 
 import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class GroupUpdatingTest extends TestBase {
     @BeforeMethod
     public void ensurePreconditions(){
+        app.goTo().groupPage();
         if (app.group().list().size()==0){
             app.group().create(new GroupData().withName("new group").withFooter("new group").withHeader("new hroup"));
         }
@@ -20,11 +22,11 @@ public class GroupUpdatingTest extends TestBase {
     @Test
     public void testGroupUpdating() throws Exception {
         GroupData group = new GroupData().withName("Updated");
-        app.goTo().groupPage();
-        List<GroupData> before = app.group().list();
+        Set<GroupData> before = app.group().all();
         int index = before.size()-1;
         app.group().update(group, index);
-        List<GroupData> after = app.group().list();
+        Set<GroupData> after = app.group().all();
+        group.withId(after.stream().mapToInt((g)-> g.getId()).max().getAsInt());
         Assert.assertEquals(new HashSet<Object>(after),new HashSet<Object>(before));
     }
 

@@ -8,7 +8,9 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import static gaidadym.javaForTesters.addressbook.TestBase.app;
 
@@ -38,6 +40,7 @@ public class ContactHelper extends HelperBase {
         clickAddContact();
         fillContactForm(contactData,true);
         submitContactCreation();
+        app.goTo().mainPage();
     }
     public void update(ContactData contact, int index) {
         app.contact().viewContactDetails(index);
@@ -104,7 +107,22 @@ public class ContactHelper extends HelperBase {
         }
         return (contacts);
     }
-
+    public Set<ContactData> all() {
+        Set<ContactData> contacts = new HashSet<>();
+        List<WebElement> elements = wd.findElements(By.cssSelector("tr[name = entry]"));
+        for (WebElement element: elements){
+            List <WebElement> data;
+            data = element.findElements(By.cssSelector("td"));
+            String firstname = data.get(2).getAttribute("innerText");
+            String lastname = data.get(1).getAttribute("innerText");
+            String address = data.get(3).getAttribute("innerText");
+            String email = data.get(4).getAttribute("innerText");
+            String phone = data.get(5).getAttribute("innerText");
+            ContactData contact = new ContactData().withLastname(lastname).withFirstname(firstname).withAddress(address).withEmail(email).withPhone(phone);
+            contacts.add(contact);
+        }
+        return (contacts);
+    }
 
 
 }

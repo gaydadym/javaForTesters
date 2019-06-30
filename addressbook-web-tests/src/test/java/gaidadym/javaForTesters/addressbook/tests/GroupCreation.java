@@ -8,23 +8,18 @@ import org.testng.annotations.Test;
 
 import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class GroupCreation extends TestBase {
-    @BeforeMethod
-    public void ensurePreconditions(){
-        app.goTo().groupPage();
-        if (app.group().list().size()==0){
-            app.group().create(new GroupData().withName("test1"));
-        }
-    }
-
     @Test
     public void testGroupCreation() throws Exception {
-        List<GroupData> before = app.group().list();
+        app.goTo().groupPage();
+        Set<GroupData> before = app.group().all();
         GroupData group = new GroupData().withName("test2").withHeader("test2").withFooter("test2");
         app.group().create(group);
-        List<GroupData> after = app.group().list();
-        before.add(after.get(after.size()-1));
+        Set<GroupData> after = app.group().all();
+        group.withId(after.stream().mapToInt((g)-> g.getId()).max().getAsInt());
+        before.add(group);
         Assert.assertEquals(new HashSet<Object>(after),new HashSet<Object>(before));
     }
 

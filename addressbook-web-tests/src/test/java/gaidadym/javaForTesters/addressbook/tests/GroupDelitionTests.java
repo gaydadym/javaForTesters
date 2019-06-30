@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 
 import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class GroupDelitionTests extends TestBase {
     @BeforeMethod
@@ -20,11 +21,12 @@ public class GroupDelitionTests extends TestBase {
 
     @Test
     public void testGroupDelition() throws Exception {
-        List<GroupData> before = app.group().list();
+        Set<GroupData> before = app.group().all();
         int index = before.size()-1;
         app.group().delete(index);
-        List<GroupData> after = app.group().list();
-        before.remove(1);
+        Set<GroupData> after = app.group().all();
+
+        before.remove(index);
         Assert.assertEquals(new HashSet<Object>(after),new HashSet<Object>(before));
     }
 

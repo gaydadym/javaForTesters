@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 
 import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class ContactDelitionTest extends TestBase {
     @BeforeMethod
@@ -23,10 +24,10 @@ public class ContactDelitionTest extends TestBase {
 
     public void testContactDelition() throws Exception {
 
-        List<ContactData> before = app.contact().list();
+        Set<ContactData> before = app.contact().all();
         int index = before.size()-1;
         app.contact().delete(index);
-        List<ContactData> after = app.contact().list();
+        Set<ContactData> after = app.contact().all();
         before.remove(before.size()-1);
         Assert.assertEquals(new HashSet<Object>(after),new HashSet<Object>(before));
 
