@@ -14,20 +14,20 @@ public class GroupUpdatingTest extends TestBase {
     @BeforeMethod
     public void ensurePreconditions(){
         app.goTo().groupPage();
-        if (app.group().list().size()==0){
+        if (app.group().all().size()==0){
             app.group().create(new GroupData().withName("new group").withFooter("new group").withHeader("new hroup"));
         }
     }
 
     @Test
     public void testGroupUpdating() throws Exception {
-        GroupData group = new GroupData().withName("Updated");
         Set<GroupData> before = app.group().all();
-        int index = before.size()-1;
-        app.group().update(group, index);
+        GroupData updatedGroup = before.iterator().next();
+        GroupData group = new GroupData().withId(updatedGroup.getId()).withName("Updated");
+        app.group().update(group);
         Set<GroupData> after = app.group().all();
         group.withId(after.stream().mapToInt((g)-> g.getId()).max().getAsInt());
-        Assert.assertEquals(new HashSet<Object>(after),new HashSet<Object>(before));
+        Assert.assertEquals(after.size(),before.size());
     }
 
 

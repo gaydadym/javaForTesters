@@ -18,9 +18,7 @@ public class ContactData {
         ContactData that = (ContactData) o;
         return id == that.id &&
                 Objects.equals(firstname, that.firstname) &&
-                Objects.equals(middlename, that.middlename) &&
                 Objects.equals(lastname, that.lastname) &&
-                Objects.equals(nickname, that.nickname) &&
                 Objects.equals(email, that.email) &&
                 Objects.equals(address, that.address) &&
                 Objects.equals(phone, that.phone);
@@ -28,7 +26,7 @@ public class ContactData {
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, firstname, middlename, lastname, nickname, email, address, phone);
+        return Objects.hash(id, firstname, lastname, email, address, phone);
     }
 
     public ContactData withId(int id) {

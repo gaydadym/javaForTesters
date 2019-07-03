@@ -4,9 +4,6 @@ import gaidadym.javaForTesters.addressbook.model.GroupData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-
-import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -43,8 +40,8 @@ public class GroupHelper extends HelperBase {
         click(By.name("edit"));
     }
 
-    public void selectGroup(int index) {
-        wd.findElements(By.cssSelector("input[name = 'selected[]']")).get(index).click();
+    public void selectGroupById(int id) {
+        wd.findElement(By.cssSelector("input[value = '" + id + "']")).click();
 
     }
 
@@ -59,15 +56,15 @@ public class GroupHelper extends HelperBase {
         returnToGroupPage();
     }
 
-    public void update(GroupData group, int index) {
-        selectGroup(index);
+    public void update(GroupData group) {
+        selectGroupById(group.getId());
         clickUpdateGroup();
         fillGroupForm(group);
         returnToGroupPage();
     }
 
-    public void delete(int index) {
-        selectGroup(index);
+    public void delete(GroupData group) {
+        selectGroupById(group.getId());
         deleteSelectedGroups();
         returnToGroupPage();
     }
@@ -76,25 +73,16 @@ public class GroupHelper extends HelperBase {
         return wd.findElements(By.cssSelector("input[type = 'checkbox'][name = 'selected[]']")).size();
     }
 
-    public List<GroupData> list() {
-        List<GroupData> groups = new ArrayList<GroupData>();
-        List<WebElement> elements = wd.findElements(By.cssSelector("span.group"));
-        for (WebElement element: elements){
-            String name = element.getText();
-            GroupData group = new GroupData().withName(name);
-            groups.add(group);
-        }
-        return groups;
-    }
     public Set<GroupData> all() {
         Set <GroupData> groups = new HashSet<>();
         List<WebElement> elements = wd.findElements(By.cssSelector("span.group"));
         for (WebElement element: elements){
             String name = element.getText();
-            GroupData group = new GroupData().withName(name);
-            groups.add(group);
+            int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
+            groups.add(new GroupData().withId(id).withName(name));
         }
         return groups;
     }
+
 
 }

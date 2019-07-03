@@ -14,7 +14,7 @@ public class GroupDelitionTests extends TestBase {
     @BeforeMethod
     public void ensurePreconditions(){
         app.goTo().groupPage();
-        if (app.group().list().size()==0){
+        if (app.group().all().size()==0){
             app.group().create(new GroupData().withName("test1"));
         }
     }
@@ -22,11 +22,10 @@ public class GroupDelitionTests extends TestBase {
     @Test
     public void testGroupDelition() throws Exception {
         Set<GroupData> before = app.group().all();
-        int index = before.size()-1;
-        app.group().delete(index);
+        GroupData deletedGroup = before.iterator().next();
+        app.group().delete(deletedGroup);
         Set<GroupData> after = app.group().all();
-
-        before.remove(index);
+        before.remove(deletedGroup);
         Assert.assertEquals(new HashSet<Object>(after),new HashSet<Object>(before));
     }
 
