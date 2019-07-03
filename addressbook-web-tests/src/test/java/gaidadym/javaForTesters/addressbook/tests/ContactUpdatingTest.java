@@ -22,11 +22,11 @@ public class ContactUpdatingTest extends TestBase {
     @Test
     public void testContactUpdating() throws Exception {
         ensurePrecondition();
-        ContactData contact = new ContactData().withFirstname("Updated").withLastname("Updated")
-                .withAddress("Updated").withEmail("Updated");
         Set<ContactData> before = app.contact().all();
-        int index = before.size()-1;
-        app.contact().update(contact, index);
+        ContactData updatedContact = before.iterator().next();
+        ContactData contact = new ContactData().withId(updatedContact.getId()).withFirstname("Updated").withLastname("Updated")
+                .withAddress("Updated").withEmail("Updated");
+        app.contact().update(contact);
         Set<ContactData> after = app.contact().all();
         Assert.assertNotEquals(new HashSet<Object>(after),new HashSet<Object>(before));
     }

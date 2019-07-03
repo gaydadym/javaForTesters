@@ -2,6 +2,7 @@ package gaidadym.javaForTesters.addressbook.tests;
 
 import gaidadym.javaForTesters.addressbook.TestBase;
 import gaidadym.javaForTesters.addressbook.model.ContactData;
+import gaidadym.javaForTesters.addressbook.model.GroupData;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -25,10 +26,10 @@ public class ContactDelitionTest extends TestBase {
     public void testContactDelition() throws Exception {
 
         Set<ContactData> before = app.contact().all();
-        int index = before.size()-1;
-        app.contact().delete(index);
+        ContactData deletedContact = before.iterator().next();
+        app.contact().delete(deletedContact);
         Set<ContactData> after = app.contact().all();
-        before.remove(before.size()-1);
+        before.remove(deletedContact);
         Assert.assertEquals(new HashSet<Object>(after),new HashSet<Object>(before));
 
     }

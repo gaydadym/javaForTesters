@@ -42,16 +42,15 @@ public class ContactHelper extends HelperBase {
         submitContactCreation();
         app.goTo().mainPage();
     }
-    public void update(ContactData contact, int index) {
-        app.contact().viewContactDetails(index);
-        app.contact().clickModifiy();
+    public void update(ContactData contact) {
+        app.contact().clickEdit(contact.getId());
         app.contact().fillContactForm(contact,false);
         app.contact().clickUpdate();
         app.goTo().mainPage();
     }
 
-    public void delete(int index) {
-        selectContact(index);
+    public void delete(ContactData contact) {
+        selectContactById(contact.getId());
         clickDelete();
         app.goTo().closeAlertWindow();
         app.goTo().mainPage();
@@ -61,11 +60,14 @@ public class ContactHelper extends HelperBase {
         click(By.cssSelector("input[type = submit][name = submit]"));
     }
 
-    public void selectContact(int index) {
-        wd.findElements(By.cssSelector("input[name = 'selected[]']")).get(index).click();
+    public void selectContactById(int id) {
+        wd.findElement(By.cssSelector("input[value = '" + id + "']")).click();
+
     }
-    public void viewContactDetails(int index) {
-        wd.findElements(By.cssSelector("img[title = 'Details']")).get(index).click();
+
+    public void clickEdit(int id) {
+        wd.findElement(By.cssSelector("input[value = '" +id+ "'], img[alt = 'Edit']")).click();
+
     }
 
     public void clickModifiy() {
@@ -119,7 +121,8 @@ public class ContactHelper extends HelperBase {
             String address = data.get(3).getAttribute("innerText");
             String email = data.get(4).getAttribute("innerText");
             String phone = data.get(5).getAttribute("innerText");
-            ContactData contact = new ContactData().withLastname(lastname).withFirstname(firstname).withAddress(address).withEmail(email).withPhone(phone);
+            int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
+            ContactData contact = new ContactData().withId(id).withLastname(lastname).withFirstname(firstname).withAddress(address).withEmail(email).withPhone(phone);
             contacts.add(contact);
         }
         return (contacts);
