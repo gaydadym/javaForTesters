@@ -3,11 +3,10 @@ package gaidadym.javaForTesters.addressbook.tests;
 
 import gaidadym.javaForTesters.addressbook.TestBase;
 import gaidadym.javaForTesters.addressbook.model.ContactData;
-import org.testng.Assert;
+import gaidadym.javaForTesters.addressbook.model.Contacts;
 import org.testng.annotations.Test;
-
-import java.util.HashSet;
-import java.util.Set;
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class ContactCreation extends TestBase {
     @Test
@@ -22,12 +21,11 @@ public class ContactCreation extends TestBase {
         contact.withEmail("test@test.com");
         contact.withPhone("48421654");
         contact.withMiddlename("Testovich");
-        Set<ContactData> before = app.contact().all();
+        Contacts before = app.contact().all();
         app.contact().create(contact);
-        Set<ContactData> after = app.contact().all();
-        contact.withId(after.stream().mapToInt((g)-> g.getId()).max().getAsInt());
-        before.add(contact);
-        Assert.assertEquals(after,before);
+        Contacts after = app.contact().all();
+        assertThat(after, equalTo
+                (before.withAdded(contact.withId(after.stream().mapToInt((g)-> g.getId()).max().getAsInt()))));
     }
 
 

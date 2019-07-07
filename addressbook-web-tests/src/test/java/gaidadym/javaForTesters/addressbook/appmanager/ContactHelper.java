@@ -1,6 +1,7 @@
 package gaidadym.javaForTesters.addressbook.appmanager;
 
 import gaidadym.javaForTesters.addressbook.model.ContactData;
+import gaidadym.javaForTesters.addressbook.model.Contacts;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -66,7 +67,7 @@ public class ContactHelper extends HelperBase {
     }
 
     public void clickEdit(int id) {
-        wd.findElement(By.cssSelector("input[value = '" +id+ "'], img[alt = 'Edit']")).click();
+        wd.findElement(By.cssSelector("tr>input[value = '" +id+ "'], img[alt = 'Edit']")).click();
 
     }
 
@@ -110,8 +111,8 @@ public class ContactHelper extends HelperBase {
         }
         return (contacts);
     }
-    public Set<ContactData> all() {
-        Set<ContactData> contacts = new HashSet<>();
+    public Contacts all() {
+        Contacts contacts = new Contacts();
         List<WebElement> elements = wd.findElements(By.cssSelector("tr[name = entry]"));
         for (WebElement element: elements){
             List <WebElement> data;

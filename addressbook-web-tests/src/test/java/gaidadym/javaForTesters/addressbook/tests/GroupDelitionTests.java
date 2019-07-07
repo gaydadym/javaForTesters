@@ -2,6 +2,7 @@ package gaidadym.javaForTesters.addressbook.tests;
 
 import gaidadym.javaForTesters.addressbook.TestBase;
 import gaidadym.javaForTesters.addressbook.model.GroupData;
+import gaidadym.javaForTesters.addressbook.model.Groups;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -9,6 +10,9 @@ import org.testng.annotations.Test;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class GroupDelitionTests extends TestBase {
     @BeforeMethod
@@ -21,12 +25,11 @@ public class GroupDelitionTests extends TestBase {
 
     @Test
     public void testGroupDelition() throws Exception {
-        Set<GroupData> before = app.group().all();
+        Groups before = app.group().all();
         GroupData deletedGroup = before.iterator().next();
         app.group().delete(deletedGroup);
-        Set<GroupData> after = app.group().all();
-        before.remove(deletedGroup);
-        Assert.assertEquals(new HashSet<Object>(after),new HashSet<Object>(before));
+        Groups after = app.group().all();
+        assertThat(after, equalTo(before.without(deletedGroup)));
     }
 
 
