@@ -19,7 +19,11 @@ public class ContactCreation extends TestBase {
         contact.withGroup("test2");
         contact.withAddress("Test4");
         contact.withEmail("test@test.com");
-        contact.withPhone("48421654");
+        contact.withEmail2("test@test.com");
+        contact.withEmail3("test@test.com");
+        contact.withHomePhone("48421654");
+        contact.withMobilePhone("48421653");
+        contact.withWorkPhone("48421651");
         contact.withMiddlename("Testovich");
         Contacts before = app.contact().all();
         app.contact().create(contact);
