@@ -29,6 +29,7 @@ public class GroupUpdatingTest extends TestBase {
         GroupData updatedGroup = before.iterator().next();
         GroupData group = new GroupData().withId(updatedGroup.getId()).withName("Updated");
         app.group().update(group);
+        assertThat(app.group().count(),equalTo(before.size()));
         Groups after = app.group().all();
         assertThat(after, equalTo(before.without(group).withAdded(updatedGroup)));
     }

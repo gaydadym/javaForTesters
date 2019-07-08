@@ -7,11 +7,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
-
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 import static gaidadym.javaForTesters.addressbook.TestBase.app;
 
@@ -41,12 +38,14 @@ public class ContactHelper extends HelperBase {
         clickAddContact();
         fillContactForm(contactData,true);
         submitContactCreation();
+        contactCache = null;
         app.goTo().mainPage();
     }
     public void update(ContactData contact) {
         app.contact().clickEdit(contact.getId());
         app.contact().fillContactForm(contact,false);
         app.contact().clickUpdate();
+        contactCache = null;
         app.goTo().mainPage();
     }
 
@@ -54,6 +53,7 @@ public class ContactHelper extends HelperBase {
         selectContactById(contact.getId());
         clickDelete();
         app.goTo().closeAlertWindow();
+        contactCache = null;
         app.goTo().mainPage();
     }
 
@@ -91,7 +91,7 @@ public class ContactHelper extends HelperBase {
         return isElementPresent(By.cssSelector("input[name = 'selected[]']"));
     }
 
-    public int getContactCount() {
+    public int count() {
         return wd.findElements(By.cssSelector("input[type = 'checkbox'][name = 'selected[]']")).size();
     }
     public List<ContactData> list() {
@@ -111,8 +111,14 @@ public class ContactHelper extends HelperBase {
         }
         return (contacts);
     }
+
+    private Contacts contactCache = null;
+
     public Contacts all() {
-        Contacts contacts = new Contacts();
+        if (contactCache !=null){
+            return new Contacts(contactCache);
+        }
+        contactCache = new Contacts();
         List<WebElement> elements = wd.findElements(By.cssSelector("tr[name = entry]"));
         for (WebElement element: elements){
             List <WebElement> data;
@@ -124,9 +130,9 @@ public class ContactHelper extends HelperBase {
             String phone = data.get(5).getAttribute("innerText");
             int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
             ContactData contact = new ContactData().withId(id).withLastname(lastname).withFirstname(firstname).withAddress(address).withEmail(email).withPhone(phone);
-            contacts.add(contact);
+            contactCache.add(contact);
         }
-        return (contacts);
+        return (contactCache);
     }
 
 
