@@ -5,6 +5,9 @@ import gaidadym.javaForTesters.addressbook.TestBase;
 import gaidadym.javaForTesters.addressbook.model.ContactData;
 import gaidadym.javaForTesters.addressbook.model.Contacts;
 import org.testng.annotations.Test;
+
+import java.io.File;
+
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 
@@ -25,6 +28,8 @@ public class ContactCreation extends TestBase {
         contact.withMobilePhone("48421653");
         contact.withWorkPhone("48421651");
         contact.withMiddlename("Testovich");
+        File photo = new File("src\\test\\resources\\screen.jpg");
+        contact.withPhoto(photo);
         Contacts before = app.contact().all();
         app.contact().create(contact);
         assertThat(app.contact().count(),equalTo(before.size()+1));
@@ -32,7 +37,5 @@ public class ContactCreation extends TestBase {
         assertThat(after, equalTo
                 (before.withAdded(contact.withId(after.stream().mapToInt((g)-> g.getId()).max().getAsInt()))));
     }
-
-
 
 }

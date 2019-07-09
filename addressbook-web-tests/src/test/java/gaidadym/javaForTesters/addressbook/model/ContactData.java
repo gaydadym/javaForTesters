@@ -1,12 +1,10 @@
 package gaidadym.javaForTesters.addressbook.model;
 
+import java.io.File;
 import java.util.Objects;
 
 public class ContactData {
 
-    public int getId() {
-        return id;
-    }
 
     private int id = Integer.MAX_VALUE;
     private String group;
@@ -107,6 +105,11 @@ public class ContactData {
         return this;
     }
 
+    public ContactData withPhoto(File photo) {
+        this.photo = photo;
+        return this;
+    }
+
     private String middlename;
     private String lastname;
     private String nickname;
@@ -123,8 +126,11 @@ public class ContactData {
     private String company;
     private String title;
     private String homePage;
+    private File photo;
 
-
+    public int getId() {
+        return id;
+    }
 
     public String getFirstname() {
         return firstname;
@@ -144,22 +150,6 @@ public class ContactData {
 
     public String getEmail() {
         return email;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        ContactData that = (ContactData) o;
-        return id == that.id &&
-                Objects.equals(firstname, that.firstname) &&
-                Objects.equals(lastname, that.lastname) &&
-                Objects.equals(address, that.address);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(id, firstname, lastname, address);
     }
 
     public String getAddress() {
@@ -185,21 +175,6 @@ public class ContactData {
     public String getCompany() {
         return company;
     }
-
-    @Override
-    public String toString() {
-        return "ContactData{" +
-                "group='" + group + '\'' +
-                ", firstname='" + firstname + '\'' +
-                ", middlename='" + middlename + '\'' +
-                ", lastname='" + lastname + '\'' +
-                ", nickname='" + nickname + '\'' +
-                ", email='" + email + '\'' +
-                ", address='" + address + '\'' +
-                ", allPhones='" + allPhones + '\'' +
-                '}';
-    }
-
 
     public String getTitle() {
         return title;
@@ -228,4 +203,44 @@ public class ContactData {
     public String getAllEmails() {
         return allEmails;
     }
+
+    public File getPhoto() {
+        return photo;
+    }
+
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        ContactData that = (ContactData) o;
+        return id == that.id &&
+                Objects.equals(firstname, that.firstname) &&
+                Objects.equals(lastname, that.lastname) &&
+                Objects.equals(address, that.address);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, firstname, lastname, address);
+    }
+
+
+
+    @Override
+    public String toString() {
+        return "ContactData{" +
+                "group='" + group + '\'' +
+                ", firstname='" + firstname + '\'' +
+                ", middlename='" + middlename + '\'' +
+                ", lastname='" + lastname + '\'' +
+                ", nickname='" + nickname + '\'' +
+                ", email='" + email + '\'' +
+                ", address='" + address + '\'' +
+                ", allPhones='" + allPhones + '\'' +
+                '}';
+    }
+
+
+
 }
