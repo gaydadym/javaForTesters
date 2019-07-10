@@ -1,36 +1,36 @@
 package gaidadym.javaForTesters.addressbook.tests;
 
-
+import com.thoughtworks.xstream.XStream;
 import gaidadym.javaForTesters.addressbook.TestBase;
 import gaidadym.javaForTesters.addressbook.model.ContactData;
 import gaidadym.javaForTesters.addressbook.model.Contacts;
-import gaidadym.javaForTesters.addressbook.model.GroupData;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
+import java.io.BufferedReader;
 import java.io.File;
-import java.util.ArrayList;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.Iterator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 public class ContactCreation extends TestBase {
     @DataProvider
-    public Iterator<Object[]> validContacts(){
-        List<Object[]> list = new ArrayList<Object[]>();
-        File photo = new File("src\\test\\resources\\screen.jpg");
-        list.add(new Object[]{new ContactData().withNickname("Test 1").withFirstname("Header 1").withLastname("Footer 1")
-                .withGroup("test2").withAddress("Test4").withEmail("test@test.com").withEmail2("test2@test.com")
-                .withEmail3("test3@test.com").withHomePhone("1111111").withMobilePhone("222222").withWorkPhone("33333")
-                .withMiddlename("Testovich").withPhoto(photo)});
-        list.add(new Object[]{new ContactData().withNickname("Test 2").withFirstname("Header 2").withLastname("Footer 2")
-                .withGroup("test2").withAddress("Test2").withEmail("test@test2.com").withEmail2("test2@test2.com")
-                .withEmail3("test3@test2.com").withHomePhone("21111111").withMobilePhone("3222222").withWorkPhone("433333")
-                .withMiddlename("Testovich2").withPhoto(photo)});
-
-        return list.iterator();
+    public Iterator<Object[]> validContacts() throws IOException {
+        BufferedReader reader = new BufferedReader(new FileReader(new File("src\\test\\resources\\contacts.xml")));
+        String xml = "";
+        String line = reader.readLine();
+        while (line != null){
+            xml += line;
+            line = reader.readLine();
+        }
+        XStream xstream = new XStream();
+        xstream.processAnnotations(ContactData.class);
+        List<ContactData> contacts = (List<ContactData>) xstream.fromXML(xml);
+        return contacts.stream().map((g)-> new Object[] {g}).collect(Collectors.toList()).iterator();
     }
 
     @Test(dataProvider = "validContacts")

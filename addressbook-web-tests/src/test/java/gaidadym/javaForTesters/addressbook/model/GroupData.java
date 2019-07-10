@@ -1,7 +1,11 @@
 package gaidadym.javaForTesters.addressbook.model;
 
+import com.thoughtworks.xstream.annotations.XStreamAlias;
+import com.thoughtworks.xstream.annotations.XStreamOmitField;
+
 import java.util.Objects;
 
+@XStreamAlias("group")
 public class GroupData {
     public GroupData withId(int id) {
         this.id = id;
@@ -11,7 +15,7 @@ public class GroupData {
     public int getId() {
         return id;
     }
-
+    @XStreamOmitField()
     private int id = Integer.MAX_VALUE;
     private String name;
     private String header;
