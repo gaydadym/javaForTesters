@@ -4,6 +4,8 @@ import com.thoughtworks.xstream.XStream;
 import gaidadym.javaForTesters.addressbook.model.GroupData;
 import gaidadym.javaForTesters.addressbook.TestBase;
 import gaidadym.javaForTesters.addressbook.model.Groups;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -17,6 +19,7 @@ import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 public class GroupCreation extends TestBase {
+
     @DataProvider
     public Iterator<Object[]> validGroups() throws IOException {
         try (BufferedReader reader = new BufferedReader(new FileReader(new File("src\\test\\resources\\groups.xml")))){
