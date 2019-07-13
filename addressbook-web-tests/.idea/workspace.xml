@@ -2,38 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1587991b-a09b-4496-876c-2639089a3564" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/addressbook-web-tests_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/addressbook-web-tests_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/addressbook-web-tests_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/addressbook-web-tests_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/gaidadym/javaForTesters/addressbook/appmanager/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/gaidadym/javaForTesters/addressbook/appmanager/ApplicationManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/gaidadym/javaForTesters/addressbook/generators/ContactDataGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/gaidadym/javaForTesters/addressbook/generators/ContactDataGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/gaidadym/javaForTesters/addressbook/model/ContactData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/gaidadym/javaForTesters/addressbook/model/ContactData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/gaidadym/javaForTesters/addressbook/model/Contacts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/gaidadym/javaForTesters/addressbook/model/Contacts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/gaidadym/javaForTesters/addressbook/model/GroupData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/gaidadym/javaForTesters/addressbook/model/GroupData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/gaidadym/javaForTesters/addressbook/model/Groups.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/gaidadym/javaForTesters/addressbook/model/Groups.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/gaidadym/javaForTesters/addressbook/tests/ContactCreation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/gaidadym/javaForTesters/addressbook/tests/ContactCreation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/gaidadym/javaForTesters/addressbook/tests/GroupCreation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/gaidadym/javaForTesters/addressbook/tests/GroupCreation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/gaidadym/javaForTesters/addressbook/tests/GroupDelitionTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/gaidadym/javaForTesters/addressbook/tests/GroupDelitionTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/gaidadym/javaForTesters/addressbook/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/gaidadym/javaForTesters/addressbook/TestBase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/gaidadym/javaForTesters/addressbook/tests/GroupUpdatingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/gaidadym/javaForTesters/addressbook/tests/GroupUpdatingTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/resources/contacts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/resources/contacts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/appmanager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/generators/ContactDataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/generators/ContactDataGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/model/ContactData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/model/ContactData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/model/Contacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/model/Contacts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/model/GroupData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/model/GroupData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/model/Groups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/model/Groups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/appmanager/ContactHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/appmanager/ContactHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/ContactCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/ContactCreation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/ContactDelitionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/ContactDelitionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/ContactPhoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/ContactPhoneTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/ContactUpdatingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/ContactUpdatingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/GroupCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/GroupCreation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/GroupDelitionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/GroupDelitionTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/GroupUpdatingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/GroupUpdatingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/logs/test-20190711T132740.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/contacts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/contacts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -72,13 +51,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/GroupCreation.java">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="45" column="44" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="680">
+              <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/GroupUpdatingTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -86,17 +71,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/GroupDelitionTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+            <state relative-caret-position="357">
+              <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/GroupUpdatingTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/GroupCreation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="318">
+              <caret line="46" column="12" selection-start-line="46" selection-end-line="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,8 +92,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/ContactCreation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="40" column="51" lean-forward="true" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+            <state relative-caret-position="369">
+              <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,29 +101,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/ContactDelitionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="301">
+              <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/ContactPhoneTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            <state relative-caret-position="454">
+              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/ContactUpdatingTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/model/ContactData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+            <state relative-caret-position="158">
+              <caret line="239" column="18" selection-start-line="239" selection-start-column="18" selection-end-line="239" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4063#4064#0" expanded="true" />
+                <element signature="e#4088#4089#0" expanded="true" />
+                <element signature="e#5234#5235#0" expanded="true" />
+                <element signature="e#5266#5267#0" expanded="true" />
+                <element signature="e#5296#5297#0" expanded="true" />
+                <element signature="e#5334#5335#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,35 +140,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/appmanager/ContactHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="301">
+              <caret line="181" column="5" lean-forward="true" selection-start-line="181" selection-start-column="5" selection-end-line="181" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/appmanager/DbHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/model/Contacts.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-              <folding>
-                <element signature="e#555#556#0" expanded="true" />
-                <element signature="e#613#614#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -214,6 +186,8 @@
       <find>xm</find>
       <find>contact</find>
       <find>[</find>
+      <find>all</find>
+      <find>merge</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -439,9 +413,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4681833073470" />
+        <entry key="$PROJECT_DIR$" value="4682011313010" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="1142058630" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="3294445393" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2889983086" />
       </map>
     </option>
@@ -651,16 +625,13 @@
         <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/appmanager/SessionHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/appmanager/NavigationHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/appmanager/GroupHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/appmanager/ContactHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/generators/GroupDataGenerator.java" />
         <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/testng-contacts.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/testng-groups.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/local.properties" />
         <option value="$PROJECT_DIR$/src/test/resources/groups.csv" />
-        <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/dbConnectionTest.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/model/ContactData.java" />
@@ -672,14 +643,17 @@
         <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/generators/ContactDataGenerator.java" />
         <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/hbConnectionTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/model/Contacts.java" />
-        <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/ContactCreation.java" />
-        <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/ContactDelitionTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/ContactPhoneTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/ContactUpdatingTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/appmanager/DbHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/GroupCreation.java" />
-        <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/GroupDelitionTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/GroupUpdatingTest.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/GroupDelitionTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/GroupCreation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/ContactCreation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/appmanager/ContactHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/ContactDelitionTest.java" />
       </list>
     </option>
   </component>
@@ -783,7 +757,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ToolWindowRun.ShowToolbar" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563021666769" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563029021337" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last.edited.regexp" value="4556 64 654564  &#10;" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -818,8 +792,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.gaidadym.javaForTesters.addressbook.tests">
-    <configuration name="ContactCreation.testContactCreation" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ContactPhoneTest">
+    <configuration name="ContactCreation" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook-web-tests_test" />
       <extension name="coverage">
         <pattern>
@@ -829,15 +803,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="gaidadym.javaForTesters.addressbook.tests" />
       <option name="MAIN_CLASS_NAME" value="gaidadym.javaForTesters.addressbook.tests.ContactCreation" />
-      <option name="METHOD_NAME" value="testContactCreation" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContactDelitionTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactCreation.testContactCreation" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook-web-tests_test" />
       <extension name="coverage">
         <pattern>
@@ -845,49 +817,53 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="gaidadym.javaForTesters.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="gaidadym.javaForTesters.addressbook.tests.ContactCreation" />
+      <option name="METHOD_NAME" value="testContactCreation" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -DverifyUI=false" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactDelitionTest.testContactDelition" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gaidadym.javaForTesters.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="gaidadym.javaForTesters.addressbook.tests" />
       <option name="MAIN_CLASS_NAME" value="gaidadym.javaForTesters.addressbook.tests.ContactDelitionTest" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContactUpdatingTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook-web-tests_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gaidadym.javaForTesters.addressbook.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="gaidadym.javaForTesters.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="gaidadym.javaForTesters.addressbook.tests.ContactUpdatingTest" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContactUpdatingTest.testContactUpdating" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook-web-tests_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gaidadym.javaForTesters.addressbook.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="gaidadym.javaForTesters.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="gaidadym.javaForTesters.addressbook.tests.ContactUpdatingTest" />
-      <option name="METHOD_NAME" value="testContactUpdating" />
+      <option name="METHOD_NAME" value="testContactDelition" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -DverifyUI=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gaidadym.javaForTesters.addressbook.tests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactPhoneTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook-web-tests_test" />
       <extension name="coverage">
         <pattern>
@@ -896,7 +872,72 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="gaidadym.javaForTesters.addressbook.tests" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="MAIN_CLASS_NAME" value="gaidadym.javaForTesters.addressbook.tests.ContactPhoneTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupCreation" type="TestNG" factoryName="TestNG">
+      <module name="addressbook-web-tests_test" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="gaidadym.javaForTesters.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="gaidadym.javaForTesters.addressbook.tests.GroupCreation" />
+      <option name="GROUP_NAME" value="" />
+      <option name="VM_PARAMETERS" value="-ea -DverifyUI=false" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupCreation.testGroupCreation" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="addressbook-web-tests_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gaidadym.javaForTesters.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="gaidadym.javaForTesters.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="gaidadym.javaForTesters.addressbook.tests.GroupCreation" />
+      <option name="METHOD_NAME" value="testGroupCreation" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -DverifyUI=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupDelition" type="TestNG" factoryName="TestNG">
+      <module name="addressbook-web-tests_test" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="gaidadym.javaForTesters.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="gaidadym.javaForTesters.addressbook.tests.GroupDelitionTests" />
+      <option name="GROUP_NAME" value="" />
+      <option name="VM_PARAMETERS" value="-ea -DverifyUI=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -904,19 +945,21 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.GroupDelition" />
+      <item itemvalue="TestNG.GroupCreation" />
+      <item itemvalue="TestNG.GroupCreation.testGroupCreation" />
       <item itemvalue="TestNG.ContactCreation.testContactCreation" />
-      <item itemvalue="TestNG.ContactDelitionTest" />
-      <item itemvalue="TestNG.ContactUpdatingTest.testContactUpdating" />
-      <item itemvalue="TestNG.ContactUpdatingTest" />
-      <item itemvalue="TestNG.gaidadym.javaForTesters.addressbook.tests" />
+      <item itemvalue="TestNG.ContactCreation" />
+      <item itemvalue="TestNG.ContactDelitionTest.testContactDelition" />
+      <item itemvalue="TestNG.ContactPhoneTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.gaidadym.javaForTesters.addressbook.tests" />
-        <item itemvalue="TestNG.ContactUpdatingTest" />
-        <item itemvalue="TestNG.ContactUpdatingTest.testContactUpdating" />
-        <item itemvalue="TestNG.ContactDelitionTest" />
+        <item itemvalue="TestNG.ContactPhoneTest" />
+        <item itemvalue="TestNG.ContactDelitionTest.testContactDelition" />
+        <item itemvalue="TestNG.ContactCreation" />
         <item itemvalue="TestNG.ContactCreation.testContactCreation" />
+        <item itemvalue="TestNG.GroupCreation.testGroupCreation" />
       </list>
     </recent_temporary>
   </component>
@@ -934,35 +977,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ContactCreation - 2019.07.13 at 14h 57m 54s.xml">
-      <configuration name="ContactCreation" configurationId="TestNG" />
+    <history-entry file="GroupDelition - 2019.07.13 at 16h 38m 08s.xml">
+      <configuration name="GroupDelition" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupCreation_testGroupCreation - 2019.07.13 at 14h 59m 47s.xml">
+    <history-entry file="GroupCreation_testGroupCreation - 2019.07.13 at 16h 42m 02s.xml">
       <configuration name="GroupCreation.testGroupCreation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupCreation_testGroupCreation - 2019.07.13 at 15h 00m 53s.xml">
-      <configuration name="GroupCreation.testGroupCreation" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ContactCreation_(1) - 2019.07.13 at 15h 02m 03s.xml">
-      <configuration name="ContactCreation (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupCreation - 2019.07.13 at 15h 02m 54s.xml">
+    <history-entry file="GroupCreation - 2019.07.13 at 16h 42m 51s.xml">
       <configuration name="GroupCreation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactCreation_(2) - 2019.07.13 at 15h 13m 43s.xml">
-      <configuration name="ContactCreation (2)" configurationId="TestNG" />
+    <history-entry file="GroupCreation_testGroupCreation - 2019.07.13 at 16h 44m 27s.xml">
+      <configuration name="GroupCreation.testGroupCreation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactCreation_testContactCreation - 2019.07.13 at 15h 25m 26s.xml">
+    <history-entry file="ContactCreation_testContactCreation - 2019.07.13 at 17h 25m 22s.xml">
       <configuration name="ContactCreation.testContactCreation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactDelitionTest - 2019.07.13 at 15h 28m 05s.xml">
-      <configuration name="ContactDelitionTest" configurationId="TestNG" />
+    <history-entry file="ContactCreation_testContactCreation - 2019.07.13 at 17h 26m 06s.xml">
+      <configuration name="ContactCreation.testContactCreation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactUpdatingTest_testContactUpdating - 2019.07.13 at 15h 34m 26s.xml">
-      <configuration name="ContactUpdatingTest.testContactUpdating" configurationId="TestNG" />
+    <history-entry file="ContactCreation - 2019.07.13 at 17h 27m 17s.xml">
+      <configuration name="ContactCreation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactUpdatingTest - 2019.07.13 at 15h 37m 01s.xml">
-      <configuration name="ContactUpdatingTest" configurationId="TestNG" />
+    <history-entry file="ContactDelitionTest_testContactDelition - 2019.07.13 at 17h 28m 07s.xml">
+      <configuration name="ContactDelitionTest.testContactDelition" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactDelitionTest_testContactDelition - 2019.07.13 at 17h 29m 02s.xml">
+      <configuration name="ContactDelitionTest.testContactDelition" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactDelitionTest_testContactDelition - 2019.07.13 at 17h 29m 26s.xml">
+      <configuration name="ContactDelitionTest.testContactDelition" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -979,7 +1022,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20469083" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20469083" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -995,7 +1038,7 @@
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" weight="0.32814237" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32925472" />
       <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.48134327" weight="0.32814237" />
-      <window_info anchor="bottom" x="0" y="0" width="1920" height="1040" id="Run" order="9" sideWeight="0.51865673" side_tool="true" visible="true" weight="0.32814237" />
+      <window_info active="true" anchor="bottom" x="0" y="0" width="1920" height="1040" id="Run" order="9" sideWeight="0.51865673" side_tool="true" visible="true" weight="0.32814237" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" weight="0.32925472" />
       <window_info anchor="bottom" id="Regex Tester" order="11" />
       <window_info anchor="bottom" id="Debug" order="12" sideWeight="0.49733475" weight="0.39933258" />
@@ -1098,22 +1141,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test-20190711T130239.log" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/logs/test-20190711T132740.log" />
     <entry file="file://$PROJECT_DIR$/src/test/logs/test-20190711T155525.log" />
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="62" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/dbConnectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1237,20 +1266,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/model/ContactData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3043">
-          <caret line="189" column="5" selection-start-line="189" selection-start-column="5" selection-end-line="189" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4063#4064#0" expanded="true" />
-            <element signature="e#4088#4089#0" expanded="true" />
-            <element signature="e#5296#5297#0" expanded="true" />
-            <element signature="e#5334#5335#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/hbConnectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
@@ -1279,10 +1294,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/ContactUpdatingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/appmanager/DbHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/GroupUpdatingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/GroupDelitionTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/GroupCreation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="46" column="12" selection-start-line="46" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/ContactPhoneTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/model/ContactData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="239" column="18" selection-start-line="239" selection-start-column="18" selection-end-line="239" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4063#4064#0" expanded="true" />
+            <element signature="e#4088#4089#0" expanded="true" />
+            <element signature="e#5234#5235#0" expanded="true" />
+            <element signature="e#5266#5267#0" expanded="true" />
+            <element signature="e#5296#5297#0" expanded="true" />
+            <element signature="e#5334#5335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/appmanager/ContactHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="181" column="5" lean-forward="true" selection-start-line="181" selection-start-column="5" selection-end-line="181" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/ContactCreation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="40" column="51" lean-forward="true" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+        <state relative-caret-position="369">
+          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1291,66 +1394,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/ContactDelitionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/ContactPhoneTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/appmanager/ContactHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/ContactUpdatingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/appmanager/DbHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/GroupCreation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="45" column="44" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/GroupDelitionTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/GroupUpdatingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="301">
+          <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
         </state>
       </provider>
     </entry>

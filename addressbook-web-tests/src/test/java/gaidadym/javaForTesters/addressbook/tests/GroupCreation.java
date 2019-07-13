@@ -4,13 +4,10 @@ import com.thoughtworks.xstream.XStream;
 import gaidadym.javaForTesters.addressbook.model.GroupData;
 import gaidadym.javaForTesters.addressbook.TestBase;
 import gaidadym.javaForTesters.addressbook.model.Groups;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.io.*;
-import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -47,6 +44,7 @@ public class GroupCreation extends TestBase {
         group.withId(after.stream().mapToInt((g)-> g.getId()).max().getAsInt());
         assertThat(after, equalTo(before.withAdded
                 (group.withId(after.stream().mapToInt((g)-> g.getId()).max().getAsInt()))));
+        verifyGroupListInUI();
     }
 
 

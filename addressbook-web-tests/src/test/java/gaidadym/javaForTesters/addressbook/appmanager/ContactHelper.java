@@ -2,13 +2,16 @@ package gaidadym.javaForTesters.addressbook.appmanager;
 
 import gaidadym.javaForTesters.addressbook.model.ContactData;
 import gaidadym.javaForTesters.addressbook.model.Contacts;
+import gaidadym.javaForTesters.addressbook.tests.ContactPhoneTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import static gaidadym.javaForTesters.addressbook.TestBase.app;
 
@@ -170,5 +173,18 @@ public class ContactHelper extends HelperBase {
         return contactInformationFromEditForm;
 
 
+    }
+    public String mergePhones(ContactData contact) {
+        return Arrays.asList(contact.getHomePhone(),contact.getMobilePhone(),contact.getWorkPhone())
+                .stream().filter((s)-> !s.equals(""))
+                .map(ContactPhoneTest::cleaned)
+                .collect(Collectors.joining("\n"));
+    }
+
+    public String mergeEmails(ContactData contact) {
+        return Arrays.asList(contact.getEmail(),contact.getEmail2(),contact.getEmail3())
+                .stream().filter((s)-> !s.equals(""))
+                .map(ContactPhoneTest::cleaned)
+                .collect(Collectors.joining("\n"));
     }
 }
