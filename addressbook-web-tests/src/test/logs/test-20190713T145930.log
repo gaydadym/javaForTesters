@@ -1,0 +1,1271 @@
+318  [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+352  [main] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator]. 
+354  [main] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator]. 
+358  [main] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator]. 
+505  [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.3.Final} 
+505  [main] DEBUG org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found 
+798  [main] DEBUG o.h.b.j.i.s.LocalXmlResourceResolver - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD 3.0//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd] 
+803  [main] DEBUG o.h.b.j.i.s.LocalXmlResourceResolver - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/ 
+811  [main] DEBUG o.h.b.c.internal.JaxbCfgProcessor - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information 
+1203 [main] DEBUG o.h.service.spi.ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService] 
+1222 [main] DEBUG o.h.c.i.RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered 
+1223 [main] DEBUG o.h.c.i.RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory 
+1242 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+1288 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@1b8a29df 
+1289 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@1b8a29df 
+1289 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@1b8a29df 
+1290 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@2049a9c1 
+1291 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@11bb571c 
+1291 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@2a225dd7 
+1291 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@616ac46a 
+1291 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@616ac46a 
+1294 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@616ac46a 
+1295 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@6337c201 
+1295 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@6337c201 
+1296 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@6337c201 
+1297 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@28d18df5 
+1297 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@28d18df5 
+1298 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@28d18df5 
+1299 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@b83a9be 
+1299 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@b83a9be 
+1299 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@b83a9be 
+1301 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@2b175c00 
+1301 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@2b175c00 
+1301 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@2b175c00 
+1303 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@30c8681 
+1303 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@30c8681 
+1303 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@30c8681 
+1305 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@35399441 
+1305 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@35399441 
+1305 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@35399441 
+1306 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@df6620a 
+1306 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@df6620a 
+1307 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@5e403b4a 
+1308 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@5e403b4a 
+1308 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@19e7a160 
+1309 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@19e7a160 
+1309 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@16b2bb0c 
+1310 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@c7045b9 
+1311 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@7e19ebf0 
+1311 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@7e19ebf0 
+1313 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@68f4865 
+1313 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@68f4865 
+1327 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@5a5338df 
+1327 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@5a5338df 
+1330 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@302f7971 
+1330 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@302f7971 
+1331 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@3370f42 
+1331 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@3370f42 
+1331 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@352c1b98 
+1331 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@352c1b98 
+1331 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@48d61b48 
+1331 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@48d61b48 
+1343 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@176b75f7 
+1343 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@176b75f7 
+1348 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@41294f8 
+1348 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@41294f8 
+1348 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@488d1cd7 
+1348 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@488d1cd7 
+1348 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@25f4878b 
+1352 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@25f4878b 
+1353 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@6e005dc9 
+1353 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@6e005dc9 
+1353 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@6e005dc9 
+1355 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@3561c410 
+1356 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@20f5281c 
+1357 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@20f5281c 
+1357 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@20f5281c 
+1357 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@3d246ea3 
+1358 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@6f19ac19 
+1359 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@6f19ac19 
+1359 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@20c0a64d 
+1360 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@20c0a64d 
+1360 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@41ab013 
+1360 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@41ab013 
+1360 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@3af0a9da 
+1360 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@3af0a9da 
+1363 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@6f7923a5 
+1363 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@6f7923a5 
+1363 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@45a37759 
+1364 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@1838ccb8 
+1365 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@1838ccb8 
+1365 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@1838ccb8 
+1366 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@4b213651 
+1366 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@4b213651 
+1366 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@4b213651 
+1367 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@95e33cc 
+1367 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@7393222f 
+1369 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@3688eb5b 
+1369 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@3688eb5b 
+1369 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@3688eb5b 
+1370 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@50de186c 
+1370 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@50de186c 
+1371 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@50de186c 
+1371 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@51549490 
+1372 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@36a5cabc 
+1373 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@6f44a157 
+1373 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@6f44a157 
+1373 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@17d88132 
+1373 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@36cda2c2 
+1373 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@36cda2c2 
+1373 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@2e48362c 
+1373 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@2e48362c 
+1380 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@7d446ed1 
+1381 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@413f69cc 
+1381 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@4ff8d125 
+1386 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@12359a82 
+1386 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@12359a82 
+1388 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@7164ca4c 
+1388 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@4f3bbf68 
+1388 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@5be46f9d 
+1389 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@3f91b517 
+1389 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@68702e03 
+1389 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@7a220c9a 
+1389 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@2421cc4 
+1389 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@30c93896 
+1414 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator] 
+1426 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator] 
+1427 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator] 
+1428 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator] 
+1428 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned] 
+1429 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator] 
+1430 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator] 
+1431 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator] 
+1431 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator] 
+1431 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator] 
+1435 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator] 
+1435 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator] 
+1435 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator] 
+1436 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator] 
+1436 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+1452 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/addressbook?serverTimezone=UTC] 
+1452 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=} 
+1452 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false 
+1456 [main] DEBUG o.h.e.j.c.i.DriverManagerConnectionProviderImpl - Initializing Connection pool with 1 Connections 
+1456 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1) 
+1712 [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - Database ->
+       name : MySQL
+    version : 5.5.5-10.1.38-MariaDB
+      major : 5
+      minor : 5 
+1713 [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-java-8.0.16 (Revision: 34cbc6bc61f72836e26327537a432d6db7c77de6)
+      major : 8
+      minor : 0 
+1713 [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - JDBC version : 4.2 
+1726 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect 
+1751 [main] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in more than one case 
+1759 [main] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers 
+1813 [main] DEBUG o.h.boot.model.relational.Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}] 
+1816 [main] DEBUG o.h.t.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@5b11a194] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@37bd68c3] 
+1883 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: gaidadym.javaForTesters.addressbook.model.GroupData 
+1913 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'} 
+1921 [main] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name GroupData 
+1923 [main] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity gaidadym.javaForTesters.addressbook.model.GroupData on table group_list 
+1952 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_id, insertable=true, updatable=true, unique=false} 
+1955 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false 
+1956 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.GroupData:id] 
+1960 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for id 
+1962 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property id 
+1967 [main] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(group_id)]), id, assigned, , ...) 
+1967 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_footer, insertable=true, updatable=true, unique=false} 
+1967 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property footer with lazy=false 
+1967 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.GroupData:footer] 
+1968 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for footer 
+1968 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property footer 
+1969 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_header, insertable=true, updatable=true, unique=false} 
+1969 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property header with lazy=false 
+1969 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.GroupData:header] 
+1969 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for header 
+1970 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property header 
+1970 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_name, insertable=true, updatable=true, unique=false} 
+1970 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property name with lazy=false 
+1970 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.GroupData:name] 
+1970 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for name 
+1970 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property name 
+1974 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: gaidadym.javaForTesters.addressbook.model.ContactData 
+1975 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'} 
+1975 [main] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name ContactData 
+1975 [main] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity gaidadym.javaForTesters.addressbook.model.ContactData on table addressbook 
+1979 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=id, insertable=true, updatable=true, unique=false} 
+1979 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false 
+1979 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:id] 
+1979 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for id 
+1979 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property id 
+1980 [main] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, assigned, , ...) 
+1980 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=address, insertable=true, updatable=true, unique=false} 
+1980 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property address with lazy=false 
+1980 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:address] 
+1980 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for address 
+1981 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property address 
+1981 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=company, insertable=true, updatable=true, unique=false} 
+1981 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property company with lazy=false 
+1981 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:company] 
+1981 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for company 
+1981 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property company 
+1981 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=email, insertable=true, updatable=true, unique=false} 
+1981 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property email with lazy=false 
+1982 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:email] 
+1982 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for email 
+1982 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property email 
+1982 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=email2, insertable=true, updatable=true, unique=false} 
+1982 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property email2 with lazy=false 
+1982 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:email2] 
+1982 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for email2 
+1982 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property email2 
+1983 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=email3, insertable=true, updatable=true, unique=false} 
+1983 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property email3 with lazy=false 
+1983 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:email3] 
+1983 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for email3 
+1983 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property email3 
+1983 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=fax, insertable=true, updatable=true, unique=false} 
+1983 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property faxPhone with lazy=false 
+1983 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:faxPhone] 
+1984 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for faxPhone 
+1984 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property faxPhone 
+1986 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=firstname, insertable=true, updatable=true, unique=false} 
+1986 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property firstname with lazy=false 
+1986 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:firstname] 
+1986 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for firstname 
+1986 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property firstname 
+1987 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=homepage, insertable=true, updatable=true, unique=false} 
+1987 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property homePage with lazy=false 
+1987 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:homePage] 
+1987 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for homePage 
+1987 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property homePage 
+1987 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=home, insertable=true, updatable=true, unique=false} 
+1987 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property homePhone with lazy=false 
+1987 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:homePhone] 
+1988 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for homePhone 
+1988 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property homePhone 
+1988 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=lastname, insertable=true, updatable=true, unique=false} 
+1988 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property lastname with lazy=false 
+1988 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:lastname] 
+1988 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for lastname 
+1988 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property lastname 
+1988 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=middlename, insertable=true, updatable=true, unique=false} 
+1989 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property middlename with lazy=false 
+1989 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:middlename] 
+1989 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for middlename 
+1989 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property middlename 
+1989 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=mobile, insertable=true, updatable=true, unique=false} 
+1989 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property mobilePhone with lazy=false 
+1990 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:mobilePhone] 
+1990 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for mobilePhone 
+1990 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property mobilePhone 
+1990 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=nickname, insertable=true, updatable=true, unique=false} 
+1990 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property nickname with lazy=false 
+1990 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:nickname] 
+1990 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for nickname 
+1990 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property nickname 
+1990 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=photo, insertable=true, updatable=true, unique=false} 
+1990 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property photo with lazy=false 
+1991 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:photo] 
+1991 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for photo 
+1991 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property photo 
+1991 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=title, insertable=true, updatable=true, unique=false} 
+1991 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property title with lazy=false 
+1991 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:title] 
+1991 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for title 
+1991 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property title 
+1991 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=work, insertable=true, updatable=true, unique=false} 
+1991 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property workPhone with lazy=false 
+1992 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:workPhone] 
+1992 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for workPhone 
+1992 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property workPhone 
+1993 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for id 
+1993 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for footer 
+1993 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for header 
+1993 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for name 
+1994 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for id 
+1994 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for address 
+1994 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for company 
+1994 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for email 
+1994 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for email2 
+1994 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for email3 
+1994 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for faxPhone 
+1994 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for firstname 
+1994 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for homePage 
+1994 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for homePhone 
+1994 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for lastname 
+1994 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for middlename 
+1995 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for mobilePhone 
+1996 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for nickname 
+1996 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for photo 
+1996 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for title 
+1996 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for workPhone 
+1997 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [group_id] to be non-null as it is part of the primary key for table [group_list] 
+1997 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [addressbook] 
+2044 [main] DEBUG o.h.internal.SessionFactoryImpl - Building session factory 
+2046 [main] DEBUG org.hibernate.cfg.Settings - SessionFactory name : null 
+2047 [main] DEBUG org.hibernate.cfg.Settings - Automatic flush during beforeCompletion(): enabled 
+2047 [main] DEBUG org.hibernate.cfg.Settings - Automatic session close at end of transaction: disabled 
+2047 [main] DEBUG org.hibernate.cfg.Settings - Statistics: disabled 
+2047 [main] DEBUG org.hibernate.cfg.Settings - Deleted entity synthetic identifier rollback: disabled 
+2047 [main] DEBUG org.hibernate.cfg.Settings - Default entity-mode: pojo 
+2047 [main] DEBUG org.hibernate.cfg.Settings - Check Nullability in Core (should be disabled when Bean Validation is on): enabled 
+2047 [main] DEBUG org.hibernate.cfg.Settings - Allow initialization of lazy state outside session : disabled 
+2047 [main] DEBUG org.hibernate.cfg.Settings - Using BatchFetchStyle : LEGACY 
+2047 [main] DEBUG org.hibernate.cfg.Settings - Default batch fetch size: -1 
+2047 [main] DEBUG org.hibernate.cfg.Settings - Maximum outer join fetch depth: 2 
+2047 [main] DEBUG org.hibernate.cfg.Settings - Default null ordering: NONE 
+2047 [main] DEBUG org.hibernate.cfg.Settings - Order SQL updates by primary key: disabled 
+2048 [main] DEBUG org.hibernate.cfg.Settings - Order SQL inserts for batching: disabled 
+2048 [main] DEBUG org.hibernate.cfg.Settings - multi-tenancy strategy : NONE 
+2048 [main] DEBUG org.hibernate.cfg.Settings - JTA Track by Thread: enabled 
+2048 [main] DEBUG org.hibernate.cfg.Settings - Query language substitutions: {} 
+2048 [main] DEBUG org.hibernate.cfg.Settings - Named query checking : enabled 
+2048 [main] DEBUG org.hibernate.cfg.Settings - Second-level cache: disabled 
+2048 [main] DEBUG org.hibernate.cfg.Settings - Second-level query cache: disabled 
+2048 [main] DEBUG org.hibernate.cfg.Settings - Second-level query cache factory: null 
+2049 [main] DEBUG org.hibernate.cfg.Settings - Second-level cache region prefix: null 
+2049 [main] DEBUG org.hibernate.cfg.Settings - Optimize second-level cache for minimal puts: disabled 
+2049 [main] DEBUG org.hibernate.cfg.Settings - Structured second-level cache entries: disabled 
+2049 [main] DEBUG org.hibernate.cfg.Settings - Second-level cache direct-reference entries: disabled 
+2049 [main] DEBUG org.hibernate.cfg.Settings - Automatic eviction of collection cache: disabled 
+2049 [main] DEBUG org.hibernate.cfg.Settings - JDBC batch size: 15 
+2049 [main] DEBUG org.hibernate.cfg.Settings - JDBC batch updates for versioned data: enabled 
+2049 [main] DEBUG org.hibernate.cfg.Settings - Scrollable result sets: enabled 
+2049 [main] DEBUG org.hibernate.cfg.Settings - Wrap result sets: disabled 
+2049 [main] DEBUG org.hibernate.cfg.Settings - JDBC3 getGeneratedKeys(): enabled 
+2050 [main] DEBUG org.hibernate.cfg.Settings - JDBC result set fetch size: null 
+2050 [main] DEBUG org.hibernate.cfg.Settings - Connection release mode: AFTER_TRANSACTION 
+2050 [main] DEBUG org.hibernate.cfg.Settings - Generate SQL with comments: disabled 
+2050 [main] DEBUG org.hibernate.cfg.Settings - JPA compliance - query :  
+2050 [main] DEBUG org.hibernate.cfg.Settings - JPA compliance - closed-handling :  
+2050 [main] DEBUG org.hibernate.cfg.Settings - JPA compliance - lists :  
+2050 [main] DEBUG org.hibernate.cfg.Settings - JPA compliance - transactions :  
+2170 [main] DEBUG o.h.internal.SessionFactoryImpl - Session factory constructed with filter configurations : {} 
+2170 [main] DEBUG o.h.internal.SessionFactoryImpl - Instantiating session factory with properties: {sun.desktop=windows, awt.toolkit=sun.awt.windows.WToolkit, dialect=org.hibernate.dialect.MySQLDialect, file.encoding.pkg=sun.io, java.specification.version=1.8, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1251, hibernate.dialect=org.hibernate.dialect.MySQLDialect, java.class.path=D:\IntelliJ IDEA Community Edition 2018.2.2\lib\idea_rt.jar;D:\IntelliJ IDEA Community Edition 2018.2.2\plugins\testng\lib\testng-plugin.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;D:\javaForTesters\addressbook-web-tests\out\test\classes;D:\javaForTesters\addressbook-web-tests\out\test\resources;D:\javaForTesters\addressbook-web-tests\out\production\resources;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.testng\testng\6.9.10\6feb3e964aeb7097aff30c372aac3ec0f8d87ede\testng-6.9.10.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-java\4.0.0-alpha-1\df2f51ab0723d8ec017a73c6ef8f6983f573229c\selenium-java-4.0.0-alpha-1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.hamcrest\java-hamcrest\2.0.0.0\f1c8853ade0ecf707f5a261c830e98893983813\java-hamcrest-2.0.0.0.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\de.weltraumschaf.commons\jcommander\2.2.0\cbf85fe3c4b1b73b71c52c1095f4db7d10c73f25\jcommander-2.2.0.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.5\f645ed69d595b24d4cf8b3fbb64cc505bede8829\gson-2.8.5.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.thoughtworks.xstream\xstream\1.4.11.1\6c120c45a8c480bb2fea5b56502e3993ddd74fd2\xstream-1.4.11.1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-classic\1.2.3\7c4f3c474fb2c041d8028740440937705ebb473a\logback-classic-1.2.3.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\mysql\mysql-connector-java\8.0.16\6088b7a25188ab4b3ab865422a8ec77ade29236\mysql-connector-java-8.0.16.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.hibernate\hibernate-core\5.4.3.Final\76352d4bbd8d9a3d68fe028e732efe26fdd65def\hibernate-core-5.4.3.Final.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.beust\jcommander\1.48\bfcb96281ea3b59d626704f74bc6d625ff51cbce\jcommander-1.48.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.beanshell\bsh\2.0b4\a05f0a0feefa8d8467ac80e16e7de071489f0d9c\bsh-2.0b4.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-chrome-driver\4.0.0-alpha-1\64f25b878c1c02e293abac973a2cc18fdc44492a\selenium-chrome-driver-4.0.0-alpha-1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-edge-driver\4.0.0-alpha-1\619e3c72fcb4881d8f805302ee661b2e0cad9099\selenium-edge-driver-4.0.0-alpha-1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-firefox-xpi-driver\4.0.0-alpha-1\9bdccb7dc1eb7d31e68ac3c3c8a60f89affeafca\selenium-firefox-xpi-driver-4.0.0-alpha-1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-ie-driver\4.0.0-alpha-1\5b754e046a63cbc25ea2788e91959cb95a5285d\selenium-ie-driver-4.0.0-alpha-1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-opera-driver\4.0.0-alpha-1\2dd553e50b9d0f447bc046a09a84f3d914a3840d\selenium-opera-driver-4.0.0-alpha-1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-safari-driver\4.0.0-alpha-1\c7a9fb35453dbe48d9202da826b3575475a02950\selenium-safari-driver-4.0.0-alpha-1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-support\4.0.0-alpha-1\91dd6fe9c4c424fe01a5aa4db7bae9c20bca07e7\selenium-support-4.0.0-alpha-1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\de.weltraumschaf.commons\validate\2.2.0\34f98a2e44bb42f5a08982ef5111db470b18da31\validate-2.2.0.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\net.sourceforge.findbugs\annotations\1.3.2\d77bc83e0408680034a29481a89de0dba9802a97\annotations-1.3.2.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.github.stephenc.jcip\jcip-annotations\1.0-1\ef31541dd28ae2cefdd17c7ebf352d93e9058c63\jcip-annotations-1.0-1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\xmlpull\xmlpull\1.1.3.1\2b8e230d2ab644e4ecaa94db7cdedbc40c805dfa\xmlpull-1.1.3.1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\xpp3\xpp3_min\1.1.4c\19d4e90b43059058f6e056f794f0ea4030d60b86\xpp3_min-1.1.4c.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-core\1.2.3\864344400c3d4d92dfeb0a305dc87d953677c03c\logback-core-1.2.3.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.25\da76ca59f6a57ee3102f8f9bd9cee742973efa8a\slf4j-api-1.7.25.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.google.protobuf\protobuf-java\3.6.1\d06d46ecfd92ec6d0f3b423b4cd81cb38d8b924\protobuf-java-3.6.1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.hibernate.common\hibernate-commons-annotations\5.1.0.Final\700aeedc4a2089816621948f0379e17cbd17d5db\hibernate-commons-annotations-5.1.0.Final.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.jboss.logging\jboss-logging\3.3.2.Final\3789d00e859632e6c6206adc0c71625559e6e3b0\jboss-logging-3.3.2.Final.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\javax.persistence\javax.persistence-api\2.2\25665ac8c0b62f50e6488173233239120fc52c96\javax.persistence-api-2.2.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.javassist\javassist\3.24.0-GA\d7466fc2e3af7c023e95c510f06448ad29b225b3\javassist-3.24.0-GA.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-firefox-driver\4.0.0-alpha-1\3562376492b1949b2c61b25e659088656c62185\selenium-firefox-driver-4.0.0-alpha-1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-remote-driver\4.0.0-alpha-1\22b29396340cb549e665d685d981dfa8670d01e6\selenium-remote-driver-4.0.0-alpha-1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy\1.9.12\39050dbbd36862ea87eb9a64158854b04619ccd6\byte-buddy-1.9.12.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\antlr\antlr\2.7.7\83cd2cd674a217ade95a4bb83a8a14f351f48bd0\antlr-2.7.7.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.jboss.spec.javax.transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\a8485cab9484dda36e9a8c319e76b5cc18797b58\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.jboss\jandex\2.0.5.Final\7060f67764565b9ee9d467e3ed0cb8a9c601b23a\jandex-2.0.5.Final.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.fasterxml\classmate\1.3.4\3d5f48f10bbe4eb7bd862f10c0583be2e0053c6\classmate-1.3.4.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.glassfish.jaxb\jaxb-runtime\2.3.1\dd6dda9da676a54c5b36ca2806ff95ee017d8738\jaxb-runtime-2.3.1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\javax.xml.bind\jaxb-api\2.3.1\8531ad5ac454cc2deb9d4d32c40c4d7451939b5d\jaxb-api-2.3.1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\javax.activation\javax.activation-api\1.2.0\85262acf3ca9816f9537ca47d5adeabaead7cb16\javax.activation-api-1.2.0.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.dom4j\dom4j\2.1.1\3dce5dbb3571aa820c677fadd8349bfa8f00c199\dom4j-2.1.1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.glassfish.jaxb\txw2\2.3.1\a09d2c48d3285f206fafbffe0e50619284e92126\txw2-2.3.1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.sun.istack\istack-commons-runtime\3.0.7\c197c86ceec7318b1284bffb49b54226ca774003\istack-commons-runtime-3.0.7.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.jvnet.staxex\stax-ex\1.8\8cc35f73da321c29973191f2cf143d29d26a1df7\stax-ex-1.8.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.sun.xml.fastinfoset\FastInfoset\1.2.15\bb7b7ec0379982b97c62cd17465cb6d9155f68e8\FastInfoset-1.2.15.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-api\4.0.0-alpha-1\9cb387573b8dd4673b7991066b7afd9e1cabd930\selenium-api-4.0.0-alpha-1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-exec\1.3\8dfb9facd0830a27b1b5f29f84593f0aeee7773b\commons-exec-1.3.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\27.1-jre\e47b59c893079b87743cdcfb6f17ca95c08c592c\guava-27.1-jre.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.14.0\c3a9efd10f26a802da2c47dbe54a8d4c44a6019f\okhttp-3.14.0.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\2.5.2\cea74543d5904a30861a61b4643a5f2bb372efc4\checker-qual-2.5.2.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.2.0\88e3c593e9b3586e1c6177f89267da6fc6986f0c\error_prone_annotations-2.2.0.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.1\ed28ded51a8b1c6b112568def5f4b455e6809019\j2objc-annotations-1.1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.codehaus.mojo\animal-sniffer-annotations\1.17\f97ce6decaea32b36101e37979f8b647f00681fb\animal-sniffer-annotations-1.17.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.17.2\78c7820b205002da4d2d137f6f312bd64b3d6049\okio-1.17.2.jar;D:\IntelliJ IDEA Community Edition 2018.2.2\plugins\testng\lib\jcommander.jar;D:\IntelliJ IDEA Community Edition 2018.2.2\lib\idea_rt.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, idea.test.cyclic.buffer.size=1048576, hbm2ddl.auto=validate, user.variant=, java.vendor.url=http://java.oracle.com/, user.timezone=Europe/Moscow, os.name=Windows 10, java.vm.specification.version=1.8, sun.java.launcher=SUN_STANDARD, user.country=RU, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_181\jre\bin, sun.java.command=org.testng.RemoteTestNGStarter -usedefaultlisteners false -socket40102 @w@C:\Users\Admin\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\Admin\AppData\Local\Temp\idea_testng.tmp, sun.cpu.endian=little, user.home=C:\Users\Admin, user.language=ru, java.specification.vendor=Oracle Corporation, hibernate.cache.provider_class=org.hibernate.cache.internal.NoCacheProvide, java.home=C:\Program Files\Java\jdk1.8.0_181\jre, file.separator=\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, cache.provider_class=org.hibernate.cache.internal.NoCacheProvide, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes, hibernate.hbm2ddl.auto=validate, user.script=, connection.password=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=1.8.0_181-b13, user.name=Admin, path.separator=;, hibernate.connection.username=****, os.version=10.0, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.url=jdbc:mysql://localhost:3306/addressbook?serverTimezone=UTC, connection.pool_size=1, file.encoding=UTF-8, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=true, show_sql=true, hibernate.connection.driver_class=com.mysql.jdbc.Driver, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.io.tmpdir=C:\Users\Admin\AppData\Local\Temp\, java.version=1.8.0_181, user.dir=D:\javaForTesters\addressbook-web-tests, os.arch=amd64, connection.username=root, java.vm.specification.name=Java Virtual Machine Specification, hibernate.connection.password=****, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.os.patch.level=, connection.driver_class=com.mysql.jdbc.Driver, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@7b02e036, java.library.path=C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\javaForTesters\addressbook-web-tests;D:\Python37-32\;C:\Windows\system32\WBEM;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;D:\Program Files\TortoiseHg\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\maven\bin;d:\Program Files\Git\cmd;D:\Selenium;c:\automation\Selenium\node_modules\;C:\Program Files\TortoiseGit\bin;D:\Program Files (x86)\Yarn\bin\;D:\Program Files\nodejs\;D:\Gradle\bin;D:\Selenium;C:\Users\Admin\AppData\Local\Yarn\bin;D:\Python37-32;C:\Users\Admin\AppData\Roaming\npm;D:\Gradle\bin;;., java.vendor=Oracle Corporation, java.vm.info=mixed mode, java.vm.version=25.181-b13, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, hibernate.connection.pool_size=1, connection.url=jdbc:mysql://localhost:3306/addressbook?serverTimezone=UTC, java.class.version=52.0} 
+2191 [main] DEBUG o.h.secure.spi.JaccIntegrator - Skipping JACC integration as it was not enabled 
+2197 [main] DEBUG o.h.internal.SessionFactoryImpl - Instantiated session factory 
+2198 [main] DEBUG o.h.t.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@5b11a194] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@704b2127] 
+2293 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [gaidadym.javaForTesters.addressbook.model.GroupData] is safe 
+2293 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : gaidadym.javaForTesters.addressbook.model.GroupData 
+2331 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [gaidadym.javaForTesters.addressbook.model.GroupData] is safe 
+2331 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : gaidadym.javaForTesters.addressbook.model.GroupData 
+2667 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [gaidadym.javaForTesters.addressbook.model.ContactData] is safe 
+2667 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : gaidadym.javaForTesters.addressbook.model.ContactData 
+2670 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [gaidadym.javaForTesters.addressbook.model.ContactData] is safe 
+2670 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : gaidadym.javaForTesters.addressbook.model.ContactData 
+2732 [main] DEBUG o.h.p.e.AbstractEntityPersister - Static SQL for entity: gaidadym.javaForTesters.addressbook.model.GroupData 
+2732 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Version select: select group_id from group_list where group_id =? 
+2732 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Snapshot select: select groupdata_.group_id, groupdata_.group_footer as group_fo2_1_, groupdata_.group_header as group_he3_1_, groupdata_.group_name as group_na4_1_ from group_list groupdata_ where groupdata_.group_id=? 
+2732 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Insert 0: insert into group_list (group_footer, group_header, group_name, group_id) values (?, ?, ?, ?) 
+2732 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Update 0: update group_list set group_footer=?, group_header=?, group_name=? where group_id=? 
+2732 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Delete 0: delete from group_list where group_id=? 
+2772 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4c2869a9] 
+2777 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : footer 
+2777 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : header 
+2777 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name 
+2777 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan... 
+2798 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0> 
+2803 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=gaidadym.javaForTesters.addressbook.model.GroupData)
+    - Returns
+       - EntityReturnImpl(entity=gaidadym.javaForTesters.addressbook.model.GroupData, querySpaceUid=<gen:0>, path=gaidadym.javaForTesters.addressbook.model.GroupData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=gaidadym.javaForTesters.addressbook.model.GroupData)
+          - SQL table alias mapping - groupdata0_
+          - alias suffix - 0_
+          - suffixed key columns - {group_id1_1_0_}
+ 
+2805 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity gaidadym.javaForTesters.addressbook.model.GroupData [NONE]: select groupdata0_.group_id as group_id1_1_0_, groupdata0_.group_footer as group_fo2_1_0_, groupdata0_.group_header as group_he3_1_0_, groupdata0_.group_name as group_na4_1_0_ from group_list groupdata0_ where groupdata0_.group_id=? 
+2805 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@29ea78b1] 
+2805 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : footer 
+2805 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : header 
+2805 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name 
+2806 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan... 
+2806 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0> 
+2806 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=gaidadym.javaForTesters.addressbook.model.GroupData)
+    - Returns
+       - EntityReturnImpl(entity=gaidadym.javaForTesters.addressbook.model.GroupData, querySpaceUid=<gen:0>, path=gaidadym.javaForTesters.addressbook.model.GroupData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=gaidadym.javaForTesters.addressbook.model.GroupData)
+          - SQL table alias mapping - groupdata0_
+          - alias suffix - 0_
+          - suffixed key columns - {group_id1_1_0_}
+ 
+2806 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity gaidadym.javaForTesters.addressbook.model.GroupData [READ]: select groupdata0_.group_id as group_id1_1_0_, groupdata0_.group_footer as group_fo2_1_0_, groupdata0_.group_header as group_he3_1_0_, groupdata0_.group_name as group_na4_1_0_ from group_list groupdata0_ where groupdata0_.group_id=? 
+2824 [main] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_MERGE on entity gaidadym.javaForTesters.addressbook.model.GroupData: select groupdata0_.group_id as group_id1_1_0_, groupdata0_.group_footer as group_fo2_1_0_, groupdata0_.group_header as group_he3_1_0_, groupdata0_.group_name as group_na4_1_0_ from group_list groupdata0_ where groupdata0_.group_id=? 
+2830 [main] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_REFRESH on entity gaidadym.javaForTesters.addressbook.model.GroupData: select groupdata0_.group_id as group_id1_1_0_, groupdata0_.group_footer as group_fo2_1_0_, groupdata0_.group_header as group_he3_1_0_, groupdata0_.group_name as group_na4_1_0_ from group_list groupdata0_ where groupdata0_.group_id=? 
+2830 [main] DEBUG o.h.p.e.AbstractEntityPersister - Static SQL for entity: gaidadym.javaForTesters.addressbook.model.ContactData 
+2830 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Version select: select id from addressbook where id =? 
+2830 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Snapshot select: select contactdat_.id, contactdat_.address as address2_0_, contactdat_.company as company3_0_, contactdat_.email as email4_0_, contactdat_.email2 as email5_0_, contactdat_.email3 as email6_0_, contactdat_.fax as fax7_0_, contactdat_.firstname as firstnam8_0_, contactdat_.homepage as homepage9_0_, contactdat_.home as home10_0_, contactdat_.lastname as lastnam11_0_, contactdat_.middlename as middlen12_0_, contactdat_.mobile as mobile13_0_, contactdat_.nickname as nicknam14_0_, contactdat_.photo as photo15_0_, contactdat_.title as title16_0_, contactdat_.work as work17_0_ from addressbook contactdat_ where contactdat_.id=? 
+2830 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Insert 0: insert into addressbook (address, company, email, email2, email3, fax, firstname, homepage, home, lastname, middlename, mobile, nickname, photo, title, work, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2830 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Update 0: update addressbook set address=?, company=?, email=?, email2=?, email3=?, fax=?, firstname=?, homepage=?, home=?, lastname=?, middlename=?, mobile=?, nickname=?, photo=?, title=?, work=? where id=? 
+2830 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Delete 0: delete from addressbook where id=? 
+2830 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@365553de] 
+2831 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : address 
+2831 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : company 
+2831 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : email 
+2831 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : email2 
+2831 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : email3 
+2831 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : faxPhone 
+2831 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : firstname 
+2831 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : homePage 
+2831 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : homePhone 
+2831 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : lastname 
+2831 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : middlename 
+2831 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : mobilePhone 
+2831 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : nickname 
+2831 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : photo 
+2831 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : title 
+2831 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : workPhone 
+2831 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan... 
+2832 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0> 
+2832 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=gaidadym.javaForTesters.addressbook.model.ContactData)
+    - Returns
+       - EntityReturnImpl(entity=gaidadym.javaForTesters.addressbook.model.ContactData, querySpaceUid=<gen:0>, path=gaidadym.javaForTesters.addressbook.model.ContactData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=gaidadym.javaForTesters.addressbook.model.ContactData)
+          - SQL table alias mapping - contactdat0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+ 
+2832 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity gaidadym.javaForTesters.addressbook.model.ContactData [NONE]: select contactdat0_.id as id1_0_0_, contactdat0_.address as address2_0_0_, contactdat0_.company as company3_0_0_, contactdat0_.email as email4_0_0_, contactdat0_.email2 as email5_0_0_, contactdat0_.email3 as email6_0_0_, contactdat0_.fax as fax7_0_0_, contactdat0_.firstname as firstnam8_0_0_, contactdat0_.homepage as homepage9_0_0_, contactdat0_.home as home10_0_0_, contactdat0_.lastname as lastnam11_0_0_, contactdat0_.middlename as middlen12_0_0_, contactdat0_.mobile as mobile13_0_0_, contactdat0_.nickname as nicknam14_0_0_, contactdat0_.photo as photo15_0_0_, contactdat0_.title as title16_0_0_, contactdat0_.work as work17_0_0_ from addressbook contactdat0_ where contactdat0_.id=? 
+2832 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5c0f79f0] 
+2832 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : address 
+2832 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : company 
+2832 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : email 
+2832 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : email2 
+2832 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : email3 
+2832 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : faxPhone 
+2833 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : firstname 
+2833 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : homePage 
+2833 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : homePhone 
+2833 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : lastname 
+2833 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : middlename 
+2833 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : mobilePhone 
+2833 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : nickname 
+2833 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : photo 
+2833 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : title 
+2833 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : workPhone 
+2833 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan... 
+2833 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0> 
+2834 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=gaidadym.javaForTesters.addressbook.model.ContactData)
+    - Returns
+       - EntityReturnImpl(entity=gaidadym.javaForTesters.addressbook.model.ContactData, querySpaceUid=<gen:0>, path=gaidadym.javaForTesters.addressbook.model.ContactData)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=gaidadym.javaForTesters.addressbook.model.ContactData)
+          - SQL table alias mapping - contactdat0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+ 
+2834 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity gaidadym.javaForTesters.addressbook.model.ContactData [READ]: select contactdat0_.id as id1_0_0_, contactdat0_.address as address2_0_0_, contactdat0_.company as company3_0_0_, contactdat0_.email as email4_0_0_, contactdat0_.email2 as email5_0_0_, contactdat0_.email3 as email6_0_0_, contactdat0_.fax as fax7_0_0_, contactdat0_.firstname as firstnam8_0_0_, contactdat0_.homepage as homepage9_0_0_, contactdat0_.home as home10_0_0_, contactdat0_.lastname as lastnam11_0_0_, contactdat0_.middlename as middlen12_0_0_, contactdat0_.mobile as mobile13_0_0_, contactdat0_.nickname as nicknam14_0_0_, contactdat0_.photo as photo15_0_0_, contactdat0_.title as title16_0_0_, contactdat0_.work as work17_0_0_ from addressbook contactdat0_ where contactdat0_.id=? 
+2834 [main] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_MERGE on entity gaidadym.javaForTesters.addressbook.model.ContactData: select contactdat0_.id as id1_0_0_, contactdat0_.address as address2_0_0_, contactdat0_.company as company3_0_0_, contactdat0_.email as email4_0_0_, contactdat0_.email2 as email5_0_0_, contactdat0_.email3 as email6_0_0_, contactdat0_.fax as fax7_0_0_, contactdat0_.firstname as firstnam8_0_0_, contactdat0_.homepage as homepage9_0_0_, contactdat0_.home as home10_0_0_, contactdat0_.lastname as lastnam11_0_0_, contactdat0_.middlename as middlen12_0_0_, contactdat0_.mobile as mobile13_0_0_, contactdat0_.nickname as nicknam14_0_0_, contactdat0_.photo as photo15_0_0_, contactdat0_.title as title16_0_0_, contactdat0_.work as work17_0_0_ from addressbook contactdat0_ where contactdat0_.id=? 
+2834 [main] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_REFRESH on entity gaidadym.javaForTesters.addressbook.model.ContactData: select contactdat0_.id as id1_0_0_, contactdat0_.address as address2_0_0_, contactdat0_.company as company3_0_0_, contactdat0_.email as email4_0_0_, contactdat0_.email2 as email5_0_0_, contactdat0_.email3 as email6_0_0_, contactdat0_.fax as fax7_0_0_, contactdat0_.firstname as firstnam8_0_0_, contactdat0_.homepage as homepage9_0_0_, contactdat0_.home as home10_0_0_, contactdat0_.lastname as lastnam11_0_0_, contactdat0_.middlename as middlen12_0_0_, contactdat0_.mobile as mobile13_0_0_, contactdat0_.nickname as nicknam14_0_0_, contactdat0_.photo as photo15_0_0_, contactdat0_.title as title16_0_0_, contactdat0_.work as work17_0_0_ from addressbook contactdat0_ where contactdat0_.id=? 
+2881 [main] INFO  o.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7ce7e83c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode. 
+2936 [main] DEBUG o.h.e.t.j.p.i.JtaPlatformInitiator - No JtaPlatform was specified, checking resolver 
+2936 [main] DEBUG o.h.e.t.j.p.i.JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver] 
+2945 [main] DEBUG o.h.e.t.j.p.i.StandardJtaPlatformResolver - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2945 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2945 [main] DEBUG o.h.query.spi.NamedQueryRepository - Checking 0 named HQL queries 
+2945 [main] DEBUG o.h.query.spi.NamedQueryRepository - Checking 0 named SQL queries 
+2950 [main] DEBUG o.h.internal.SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@21422231 
+2952 [main] DEBUG o.h.internal.SessionFactoryRegistry - Registering SessionFactory: be645ac7-421d-45c8-a145-d0ff2467a60c (<unnamed>) 
+2952 [main] DEBUG o.h.internal.SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured 
+9327 [main] INFO  g.j.addressbook.TestBase - Start test testGroupCreation with parameters [GroupData{name='test0'}] 
+9673 [main] DEBUG o.h.s.internal.StatisticsInitiator - Statistics initialized [enabled=false] 
+9681 [main] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false 
+9681 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin 
+9706 [main] DEBUG o.h.h.i.QueryTranslatorFactoryInitiator - QueryTranslatorFactory: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@ed2f2f6 
+9740 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - parse() - HQL: from gaidadym.javaForTesters.addressbook.model.GroupData 
+9748 [main] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors 
+9756 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       \-[FROM] Node: 'from'
+          \-[RANGE] Node: 'RANGE'
+             \-[DOT] Node: '.'
+                +-[DOT] Node: '.'
+                |  +-[DOT] Node: '.'
+                |  |  +-[DOT] Node: '.'
+                |  |  |  +-[IDENT] Node: 'gaidadym'
+                |  |  |  \-[IDENT] Node: 'javaForTesters'
+                |  |  \-[IDENT] Node: 'addressbook'
+                |  \-[IDENT] Node: 'model'
+                \-[IDENT] Node: 'GroupData'
+ 
+9790 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select << begin [level=1, statement=select] 
+9814 [main] DEBUG o.h.h.internal.ast.tree.FromElement - FromClause{level=1} : gaidadym.javaForTesters.addressbook.model.GroupData (<no alias>) -> groupdata0_ 
+9814 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select : finishing up [level=1, statement=select] 
+9814 [main] DEBUG o.h.hql.internal.ast.HqlSqlWalker - processQuery() :  ( SELECT ( FromClause{level=1} group_list groupdata0_ ) ) 
+9825 [main] DEBUG o.h.hql.internal.ast.HqlSqlWalker - Derived SELECT clause created. 
+9827 [main] DEBUG o.h.h.i.ast.util.JoinProcessor - Using FROM fragment [group_list groupdata0_] 
+9827 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select >> end [level=1, statement=select] 
+9827 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (group_list)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'groupdata0_.group_id as group_id1_1_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=group_list,tableAlias=groupdata0_,origin=null,columns={,className=gaidadym.javaForTesters.addressbook.model.GroupData}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'groupdata0_.group_footer as group_fo2_1_, groupdata0_.group_header as group_he3_1_, groupdata0_.group_name as group_na4_1_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[groupdata0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'group_list groupdata0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=group_list,tableAlias=groupdata0_,origin=null,columns={,className=gaidadym.javaForTesters.addressbook.model.GroupData}}
+ 
+9827 [main] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors 
+9840 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - HQL: from gaidadym.javaForTesters.addressbook.model.GroupData 
+9840 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - SQL: select groupdata0_.group_id as group_id1_1_, groupdata0_.group_footer as group_fo2_1_, groupdata0_.group_header as group_he3_1_, groupdata0_.group_name as group_na4_1_ from group_list groupdata0_ 
+9840 [main] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors 
+9857 [main] DEBUG org.hibernate.SQL - select groupdata0_.group_id as group_id1_1_, groupdata0_.group_footer as group_fo2_1_, groupdata0_.group_header as group_he3_1_, groupdata0_.group_name as group_na4_1_ from group_list groupdata0_ 
+9882 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0 
+9883 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#102] 
+9883 [main] DEBUG org.hibernate.loader.Loader - Result set row: 1 
+9883 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#103] 
+9883 [main] DEBUG org.hibernate.loader.Loader - Result set row: 2 
+9883 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#104] 
+9883 [main] DEBUG org.hibernate.loader.Loader - Result set row: 3 
+9883 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#105] 
+9883 [main] DEBUG org.hibernate.loader.Loader - Result set row: 4 
+9883 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#106] 
+9883 [main] DEBUG org.hibernate.loader.Loader - Result set row: 5 
+9883 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#107] 
+9883 [main] DEBUG org.hibernate.loader.Loader - Result set row: 6 
+9883 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#108] 
+9883 [main] DEBUG org.hibernate.loader.Loader - Result set row: 7 
+9883 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#109] 
+9883 [main] DEBUG org.hibernate.loader.Loader - Result set row: 8 
+9883 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#110] 
+9900 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#102] 
+9902 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer0 
+9902 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+9902 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header0 
+9902 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+9902 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0 
+9902 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+9904 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#102] 
+9904 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#103] 
+9904 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer1 
+9904 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+9904 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header1 
+9904 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+9904 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1 
+9904 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+9904 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#103] 
+9904 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#104] 
+9904 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer2 
+9904 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+9904 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header2 
+9904 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+9904 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2 
+9904 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+9905 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#104] 
+9905 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#105] 
+9905 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer0 
+9905 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+9905 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header0 
+9905 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+9905 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0 
+9905 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+9905 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#105] 
+9905 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#106] 
+9905 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer1 
+9905 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+9906 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header1 
+9906 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+9906 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1 
+9906 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+9906 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#106] 
+9906 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#107] 
+9906 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer2 
+9906 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+9906 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header2 
+9906 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+9906 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2 
+9906 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+9906 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#107] 
+9906 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#108] 
+9906 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer0 
+9906 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+9906 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header0 
+9906 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+9906 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0 
+9906 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+9906 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#108] 
+9906 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#109] 
+9906 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer1 
+9906 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+9906 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header1 
+9906 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+9906 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1 
+9906 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+9906 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#109] 
+9906 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#110] 
+9906 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer2 
+9909 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+9909 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header2 
+9909 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+9909 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2 
+9909 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+9909 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#110] 
+9910 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing 
+9910 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades 
+9910 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections 
+9923 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 9 objects 
+9923 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections 
+9924 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities: 
+9924 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer0, name=test0, header=Header0, id=105} 
+9924 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer1, name=test1, header=Header1, id=106} 
+9924 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer1, name=test1, header=Header1, id=103} 
+9924 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer2, name=test2, header=Header2, id=104} 
+9924 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer0, name=test0, header=Header0, id=102} 
+9924 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer1, name=test1, header=Header1, id=109} 
+9924 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer2, name=test2, header=Header2, id=110} 
+9924 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer2, name=test2, header=Header2, id=107} 
+9924 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer0, name=test0, header=Header0, id=108} 
+9924 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction 
+9927 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction 
+11614 [main] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false 
+11614 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin 
+11617 [main] DEBUG org.hibernate.SQL - select groupdata0_.group_id as group_id1_1_, groupdata0_.group_footer as group_fo2_1_, groupdata0_.group_header as group_he3_1_, groupdata0_.group_name as group_na4_1_ from group_list groupdata0_ 
+11619 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0 
+11619 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#102] 
+11619 [main] DEBUG org.hibernate.loader.Loader - Result set row: 1 
+11620 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#103] 
+11620 [main] DEBUG org.hibernate.loader.Loader - Result set row: 2 
+11620 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#104] 
+11620 [main] DEBUG org.hibernate.loader.Loader - Result set row: 3 
+11620 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#105] 
+11620 [main] DEBUG org.hibernate.loader.Loader - Result set row: 4 
+11620 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#106] 
+11621 [main] DEBUG org.hibernate.loader.Loader - Result set row: 5 
+11621 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#107] 
+11621 [main] DEBUG org.hibernate.loader.Loader - Result set row: 6 
+11621 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#108] 
+11622 [main] DEBUG org.hibernate.loader.Loader - Result set row: 7 
+11622 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#109] 
+11622 [main] DEBUG org.hibernate.loader.Loader - Result set row: 8 
+11623 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#110] 
+11623 [main] DEBUG org.hibernate.loader.Loader - Result set row: 9 
+11623 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#111] 
+11623 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#102] 
+11623 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer0 
+11623 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+11623 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header0 
+11623 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+11623 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0 
+11623 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+11624 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#102] 
+11624 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#103] 
+11624 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer1 
+11624 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+11624 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header1 
+11624 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+11624 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1 
+11624 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+11624 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#103] 
+11624 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#104] 
+11624 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer2 
+11624 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+11624 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header2 
+11624 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+11624 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2 
+11624 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+11624 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#104] 
+11624 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#105] 
+11625 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer0 
+11625 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+11625 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header0 
+11625 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+11625 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0 
+11625 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+11625 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#105] 
+11625 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#106] 
+11625 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer1 
+11625 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+11625 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header1 
+11625 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+11625 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1 
+11625 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+11625 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#106] 
+11625 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#107] 
+11625 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer2 
+11625 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+11625 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header2 
+11625 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+11625 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2 
+11625 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+11625 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#107] 
+11625 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#108] 
+11625 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer0 
+11625 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+11625 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header0 
+11625 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+11625 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0 
+11625 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+11625 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#108] 
+11626 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#109] 
+11626 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer1 
+11626 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+11626 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header1 
+11626 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+11626 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1 
+11626 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+11626 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#109] 
+11626 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#110] 
+11626 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer2 
+11626 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+11626 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header2 
+11627 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+11627 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2 
+11627 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+11627 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#110] 
+11627 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#111] 
+11627 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer0 
+11627 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+11627 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header0 
+11627 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+11627 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0 
+11627 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+11627 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#111] 
+11627 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing 
+11627 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades 
+11628 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections 
+11629 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 10 objects 
+11629 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections 
+11629 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities: 
+11629 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer0, name=test0, header=Header0, id=105} 
+11629 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer1, name=test1, header=Header1, id=106} 
+11630 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer1, name=test1, header=Header1, id=103} 
+11630 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer2, name=test2, header=Header2, id=104} 
+11630 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer0, name=test0, header=Header0, id=102} 
+11630 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer0, name=test0, header=Header0, id=111} 
+11630 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer1, name=test1, header=Header1, id=109} 
+11630 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer2, name=test2, header=Header2, id=110} 
+11630 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer2, name=test2, header=Header2, id=107} 
+11630 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer0, name=test0, header=Header0, id=108} 
+11630 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction 
+11631 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction 
+11632 [main] INFO  g.j.addressbook.TestBase - Stop test testGroupCreation with parameters [GroupData{name='test0'}] 
+11632 [main] INFO  g.j.addressbook.TestBase - Start test testGroupCreation with parameters [GroupData{name='test1'}] 
+11845 [main] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false 
+11845 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin 
+11847 [main] DEBUG org.hibernate.SQL - select groupdata0_.group_id as group_id1_1_, groupdata0_.group_footer as group_fo2_1_, groupdata0_.group_header as group_he3_1_, groupdata0_.group_name as group_na4_1_ from group_list groupdata0_ 
+11850 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0 
+11850 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#102] 
+11850 [main] DEBUG org.hibernate.loader.Loader - Result set row: 1 
+11850 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#103] 
+11851 [main] DEBUG org.hibernate.loader.Loader - Result set row: 2 
+11851 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#104] 
+11851 [main] DEBUG org.hibernate.loader.Loader - Result set row: 3 
+11851 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#105] 
+11851 [main] DEBUG org.hibernate.loader.Loader - Result set row: 4 
+11851 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#106] 
+11852 [main] DEBUG org.hibernate.loader.Loader - Result set row: 5 
+11852 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#107] 
+11852 [main] DEBUG org.hibernate.loader.Loader - Result set row: 6 
+11853 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#108] 
+11853 [main] DEBUG org.hibernate.loader.Loader - Result set row: 7 
+11853 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#109] 
+11853 [main] DEBUG org.hibernate.loader.Loader - Result set row: 8 
+11853 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#110] 
+11854 [main] DEBUG org.hibernate.loader.Loader - Result set row: 9 
+11854 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#111] 
+11854 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#102] 
+11854 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer0 
+11855 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+11855 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header0 
+11855 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+11855 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0 
+11855 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+11855 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#102] 
+11855 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#103] 
+11855 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer1 
+11855 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+11855 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header1 
+11855 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+11855 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1 
+11855 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+11855 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#103] 
+11856 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#104] 
+11856 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer2 
+11856 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+11856 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header2 
+11856 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+11856 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2 
+11856 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+11856 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#104] 
+11857 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#105] 
+11857 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer0 
+11857 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+11857 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header0 
+11857 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+11857 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0 
+11857 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+11857 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#105] 
+11857 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#106] 
+11857 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer1 
+11857 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+11857 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header1 
+11858 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+11858 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1 
+11858 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+11858 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#106] 
+11858 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#107] 
+11858 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer2 
+11858 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+11858 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header2 
+11858 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+11858 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2 
+11858 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+11858 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#107] 
+11858 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#108] 
+11858 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer0 
+11858 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+11858 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header0 
+11858 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+11859 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0 
+11859 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+11860 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#108] 
+11860 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#109] 
+11860 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer1 
+11860 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+11860 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header1 
+11860 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+11860 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1 
+11860 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+11860 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#109] 
+11860 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#110] 
+11860 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer2 
+11860 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+11860 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header2 
+11861 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+11861 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2 
+11861 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+11861 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#110] 
+11861 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#111] 
+11861 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer0 
+11861 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+11861 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header0 
+11861 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+11861 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0 
+11861 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+11862 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#111] 
+11862 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing 
+11862 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades 
+11862 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections 
+11863 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 10 objects 
+11864 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections 
+11864 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities: 
+11864 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer0, name=test0, header=Header0, id=105} 
+11864 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer1, name=test1, header=Header1, id=106} 
+11864 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer1, name=test1, header=Header1, id=103} 
+11864 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer2, name=test2, header=Header2, id=104} 
+11864 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer0, name=test0, header=Header0, id=102} 
+11864 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer0, name=test0, header=Header0, id=111} 
+11865 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer1, name=test1, header=Header1, id=109} 
+11865 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer2, name=test2, header=Header2, id=110} 
+11865 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer2, name=test2, header=Header2, id=107} 
+11865 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer0, name=test0, header=Header0, id=108} 
+11866 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction 
+11867 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction 
+13714 [main] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false 
+13714 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin 
+13716 [main] DEBUG org.hibernate.SQL - select groupdata0_.group_id as group_id1_1_, groupdata0_.group_footer as group_fo2_1_, groupdata0_.group_header as group_he3_1_, groupdata0_.group_name as group_na4_1_ from group_list groupdata0_ 
+13717 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0 
+13717 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#102] 
+13717 [main] DEBUG org.hibernate.loader.Loader - Result set row: 1 
+13718 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#103] 
+13718 [main] DEBUG org.hibernate.loader.Loader - Result set row: 2 
+13718 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#104] 
+13718 [main] DEBUG org.hibernate.loader.Loader - Result set row: 3 
+13719 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#105] 
+13719 [main] DEBUG org.hibernate.loader.Loader - Result set row: 4 
+13719 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#106] 
+13719 [main] DEBUG org.hibernate.loader.Loader - Result set row: 5 
+13720 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#107] 
+13721 [main] DEBUG org.hibernate.loader.Loader - Result set row: 6 
+13721 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#108] 
+13721 [main] DEBUG org.hibernate.loader.Loader - Result set row: 7 
+13721 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#109] 
+13721 [main] DEBUG org.hibernate.loader.Loader - Result set row: 8 
+13722 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#110] 
+13722 [main] DEBUG org.hibernate.loader.Loader - Result set row: 9 
+13722 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#111] 
+13722 [main] DEBUG org.hibernate.loader.Loader - Result set row: 10 
+13722 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#112] 
+13722 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#102] 
+13722 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer0 
+13722 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+13722 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header0 
+13722 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+13722 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0 
+13722 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+13723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#102] 
+13723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#103] 
+13723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer1 
+13723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+13723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header1 
+13723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+13723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1 
+13723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+13723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#103] 
+13723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#104] 
+13723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer2 
+13723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+13723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header2 
+13723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+13723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2 
+13723 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+13724 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#104] 
+13724 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#105] 
+13724 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer0 
+13724 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+13724 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header0 
+13724 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+13724 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0 
+13724 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+13724 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#105] 
+13724 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#106] 
+13724 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer1 
+13724 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+13724 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header1 
+13725 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+13725 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1 
+13725 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+13725 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#106] 
+13725 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#107] 
+13725 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer2 
+13725 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+13725 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header2 
+13725 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+13725 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2 
+13725 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+13726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#107] 
+13726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#108] 
+13726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer0 
+13726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+13726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header0 
+13726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+13726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0 
+13726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+13726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#108] 
+13726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#109] 
+13726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer1 
+13726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+13726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header1 
+13726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+13726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1 
+13726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+13726 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#109] 
+13728 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#110] 
+13728 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer2 
+13728 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+13728 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header2 
+13728 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+13728 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2 
+13728 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+13728 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#110] 
+13728 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#111] 
+13728 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer0 
+13728 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+13728 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header0 
+13728 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+13729 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0 
+13729 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+13729 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#111] 
+13729 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#112] 
+13729 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer1 
+13729 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+13729 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header1 
+13729 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+13729 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1 
+13729 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+13729 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#112] 
+13730 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing 
+13730 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades 
+13730 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections 
+13730 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 11 objects 
+13730 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections 
+13730 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities: 
+13730 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer0, name=test0, header=Header0, id=105} 
+13730 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer1, name=test1, header=Header1, id=106} 
+13730 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer1, name=test1, header=Header1, id=103} 
+13730 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer2, name=test2, header=Header2, id=104} 
+13730 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer0, name=test0, header=Header0, id=102} 
+13730 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer0, name=test0, header=Header0, id=111} 
+13730 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer1, name=test1, header=Header1, id=112} 
+13730 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer1, name=test1, header=Header1, id=109} 
+13730 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer2, name=test2, header=Header2, id=110} 
+13730 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer2, name=test2, header=Header2, id=107} 
+13730 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer0, name=test0, header=Header0, id=108} 
+13730 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction 
+13733 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction 
+13734 [main] INFO  g.j.addressbook.TestBase - Stop test testGroupCreation with parameters [GroupData{name='test1'}] 
+13735 [main] INFO  g.j.addressbook.TestBase - Start test testGroupCreation with parameters [GroupData{name='test2'}] 
+13959 [main] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false 
+13959 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin 
+13961 [main] DEBUG org.hibernate.SQL - select groupdata0_.group_id as group_id1_1_, groupdata0_.group_footer as group_fo2_1_, groupdata0_.group_header as group_he3_1_, groupdata0_.group_name as group_na4_1_ from group_list groupdata0_ 
+13963 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0 
+13964 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#102] 
+13964 [main] DEBUG org.hibernate.loader.Loader - Result set row: 1 
+13964 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#103] 
+13964 [main] DEBUG org.hibernate.loader.Loader - Result set row: 2 
+13964 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#104] 
+13965 [main] DEBUG org.hibernate.loader.Loader - Result set row: 3 
+13965 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#105] 
+13965 [main] DEBUG org.hibernate.loader.Loader - Result set row: 4 
+13965 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#106] 
+13965 [main] DEBUG org.hibernate.loader.Loader - Result set row: 5 
+13965 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#107] 
+13966 [main] DEBUG org.hibernate.loader.Loader - Result set row: 6 
+13966 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#108] 
+13966 [main] DEBUG org.hibernate.loader.Loader - Result set row: 7 
+13966 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#109] 
+13966 [main] DEBUG org.hibernate.loader.Loader - Result set row: 8 
+13967 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#110] 
+13967 [main] DEBUG org.hibernate.loader.Loader - Result set row: 9 
+13967 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#111] 
+13967 [main] DEBUG org.hibernate.loader.Loader - Result set row: 10 
+13967 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#112] 
+13968 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#102] 
+13968 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer0 
+13968 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+13968 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header0 
+13968 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+13968 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0 
+13968 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+13968 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#102] 
+13968 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#103] 
+13968 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer1 
+13968 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+13968 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header1 
+13968 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+13969 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1 
+13969 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+13969 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#103] 
+13969 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#104] 
+13969 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer2 
+13969 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+13969 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header2 
+13969 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+13969 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2 
+13969 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+13969 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#104] 
+13969 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#105] 
+13969 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer0 
+13969 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+13970 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header0 
+13970 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+13970 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0 
+13970 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+13970 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#105] 
+13970 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#106] 
+13970 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer1 
+13970 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+13970 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header1 
+13970 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+13970 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1 
+13970 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+13971 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#106] 
+13971 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#107] 
+13971 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer2 
+13971 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+13971 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header2 
+13971 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+13971 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2 
+13971 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+13971 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#107] 
+13971 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#108] 
+13971 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer0 
+13971 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+13971 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header0 
+13971 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+13971 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0 
+13972 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+13972 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#108] 
+13972 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#109] 
+13972 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer1 
+13972 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+13972 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header1 
+13972 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+13972 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1 
+13972 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+13972 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#109] 
+13972 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#110] 
+13972 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer2 
+13972 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+13972 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header2 
+13972 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+13972 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2 
+13973 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+13973 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#110] 
+13973 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#111] 
+13973 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer0 
+13973 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+13973 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header0 
+13973 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+13973 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0 
+13973 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+13973 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#111] 
+13973 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#112] 
+13973 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer1 
+13974 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+13974 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header1 
+13974 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+13974 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1 
+13974 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+13974 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#112] 
+13974 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing 
+13974 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades 
+13974 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections 
+13975 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 11 objects 
+13975 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections 
+13975 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities: 
+13975 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer0, name=test0, header=Header0, id=105} 
+13975 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer1, name=test1, header=Header1, id=106} 
+13975 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer1, name=test1, header=Header1, id=103} 
+13975 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer2, name=test2, header=Header2, id=104} 
+13976 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer0, name=test0, header=Header0, id=102} 
+13976 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer0, name=test0, header=Header0, id=111} 
+13976 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer1, name=test1, header=Header1, id=112} 
+13976 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer1, name=test1, header=Header1, id=109} 
+13976 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer2, name=test2, header=Header2, id=110} 
+13976 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer2, name=test2, header=Header2, id=107} 
+13976 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer0, name=test0, header=Header0, id=108} 
+13977 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction 
+13978 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction 
+15671 [main] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false 
+15671 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin 
+15672 [main] DEBUG org.hibernate.SQL - select groupdata0_.group_id as group_id1_1_, groupdata0_.group_footer as group_fo2_1_, groupdata0_.group_header as group_he3_1_, groupdata0_.group_name as group_na4_1_ from group_list groupdata0_ 
+15674 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0 
+15674 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#102] 
+15674 [main] DEBUG org.hibernate.loader.Loader - Result set row: 1 
+15674 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#103] 
+15674 [main] DEBUG org.hibernate.loader.Loader - Result set row: 2 
+15674 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#104] 
+15674 [main] DEBUG org.hibernate.loader.Loader - Result set row: 3 
+15675 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#105] 
+15675 [main] DEBUG org.hibernate.loader.Loader - Result set row: 4 
+15675 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#106] 
+15675 [main] DEBUG org.hibernate.loader.Loader - Result set row: 5 
+15675 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#107] 
+15675 [main] DEBUG org.hibernate.loader.Loader - Result set row: 6 
+15675 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#108] 
+15675 [main] DEBUG org.hibernate.loader.Loader - Result set row: 7 
+15675 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#109] 
+15675 [main] DEBUG org.hibernate.loader.Loader - Result set row: 8 
+15675 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#110] 
+15675 [main] DEBUG org.hibernate.loader.Loader - Result set row: 9 
+15675 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#111] 
+15675 [main] DEBUG org.hibernate.loader.Loader - Result set row: 10 
+15675 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#112] 
+15675 [main] DEBUG org.hibernate.loader.Loader - Result set row: 11 
+15675 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#113] 
+15677 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#102] 
+15677 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer0 
+15677 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+15677 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header0 
+15677 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+15677 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0 
+15677 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+15677 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#102] 
+15677 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#103] 
+15677 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer1 
+15677 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+15677 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header1 
+15677 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+15677 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1 
+15677 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+15677 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#103] 
+15677 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#104] 
+15677 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer2 
+15677 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+15677 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header2 
+15677 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+15677 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2 
+15677 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+15677 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#104] 
+15678 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#105] 
+15678 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer0 
+15678 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+15678 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header0 
+15678 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+15678 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0 
+15678 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+15678 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#105] 
+15678 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#106] 
+15678 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer1 
+15678 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+15678 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header1 
+15678 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+15678 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1 
+15678 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+15679 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#106] 
+15679 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#107] 
+15679 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer2 
+15679 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+15679 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header2 
+15679 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+15679 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2 
+15679 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+15679 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#107] 
+15679 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#108] 
+15679 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer0 
+15680 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+15680 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header0 
+15680 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+15680 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0 
+15680 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+15680 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#108] 
+15680 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#109] 
+15680 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer1 
+15680 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+15681 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header1 
+15681 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+15681 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1 
+15681 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+15681 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#109] 
+15681 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#110] 
+15681 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer2 
+15681 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+15681 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header2 
+15681 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+15681 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2 
+15681 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+15681 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#110] 
+15681 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#111] 
+15681 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer0 
+15681 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+15681 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header0 
+15681 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+15681 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test0 
+15681 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+15682 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#111] 
+15682 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#112] 
+15682 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer1 
+15682 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+15682 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header1 
+15682 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+15682 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test1 
+15682 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+15682 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#112] 
+15682 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#113] 
+15682 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value = Footer2 
+15682 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+15682 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value = Header2 
+15682 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+15682 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = test2 
+15682 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+15682 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#113] 
+15682 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing 
+15682 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades 
+15682 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections 
+15683 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 12 objects 
+15683 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections 
+15683 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities: 
+15683 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer0, name=test0, header=Header0, id=105} 
+15683 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer1, name=test1, header=Header1, id=106} 
+15683 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer1, name=test1, header=Header1, id=103} 
+15683 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer2, name=test2, header=Header2, id=104} 
+15683 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer0, name=test0, header=Header0, id=102} 
+15683 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer2, name=test2, header=Header2, id=113} 
+15684 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer0, name=test0, header=Header0, id=111} 
+15684 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer1, name=test1, header=Header1, id=112} 
+15684 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer1, name=test1, header=Header1, id=109} 
+15684 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer2, name=test2, header=Header2, id=110} 
+15684 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer2, name=test2, header=Header2, id=107} 
+15684 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=Footer0, name=test0, header=Header0, id=108} 
+15685 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction 
+15685 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction 
+15686 [main] INFO  g.j.addressbook.TestBase - Stop test testGroupCreation with parameters [GroupData{name='test2'}] 

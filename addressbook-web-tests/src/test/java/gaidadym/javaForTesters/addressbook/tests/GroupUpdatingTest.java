@@ -16,21 +16,21 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 public class GroupUpdatingTest extends TestBase {
     @BeforeMethod
-    public void ensurePreconditions(){
+    public void ensurePreconditions() {
         app.goTo().groupPage();
-        if (app.group().all().size()==0){
+        if (app.db().groups(false).size() == 0) {
             app.group().create(new GroupData().withName("new group").withFooter("new group").withHeader("new hroup"));
         }
     }
 
     @Test
     public void testGroupUpdating() throws Exception {
-        Groups before = app.group().all();
+        Groups before = app.db().groups(false);
         GroupData updatedGroup = before.iterator().next();
         GroupData group = new GroupData().withId(updatedGroup.getId()).withName("Updated");
         app.group().update(group);
         assertThat(app.group().count(),equalTo(before.size()));
-        Groups after = app.group().all();
+        Groups after = app.db().groups(false);
         assertThat(after, equalTo(before.without(group).withAdded(updatedGroup)));
     }
 

@@ -1,6 +1,0 @@
-5716 [main] INFO  g.j.addressbook.TestBase - Start test testGroupCreation with parameters [GroupData{name='test0'}] 
-10487 [main] INFO  g.j.addressbook.TestBase - Stop test testGroupCreation with parameters [GroupData{name='test0'}] 
-10487 [main] INFO  g.j.addressbook.TestBase - Start test testGroupCreation with parameters [GroupData{name='test1'}] 
-13301 [main] INFO  g.j.addressbook.TestBase - Stop test testGroupCreation with parameters [GroupData{name='test1'}] 
-13301 [main] INFO  g.j.addressbook.TestBase - Start test testGroupCreation with parameters [GroupData{name='test2'}] 
-16110 [main] INFO  g.j.addressbook.TestBase - Stop test testGroupCreation with parameters [GroupData{name='test2'}] 

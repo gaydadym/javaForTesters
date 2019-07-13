@@ -12,5 +12,6 @@
     <mobilePhone>89507778890</mobilePhone>
     <homePhone>12564230000</homePhone>
     <company>Company0</company>
+    <photo>src\test\resources\screen.jpg</photo>
   </contact>
- </list>
+</list>
