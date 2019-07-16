@@ -1,5 +1,7 @@
 package gaidadym.javaForTesters.addressbook.appmanager;
 
+import gaidadym.javaForTesters.addressbook.model.ContactData;
+import gaidadym.javaForTesters.addressbook.model.Groups;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
@@ -12,7 +14,9 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.HashSet;
 import java.util.Properties;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
@@ -90,5 +94,6 @@ public class ApplicationManager {
     public DbHelper db() {
         return dbHelper;
     }
+
 }
 

@@ -3,11 +3,12 @@ package gaidadym.javaForTesters.addressbook.model;
 import com.google.common.collect.ForwardingSet;
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-
 public class Groups extends ForwardingSet<GroupData> {
     @XStreamAlias("group")
 

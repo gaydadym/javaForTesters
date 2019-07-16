@@ -1,16 +1,14 @@
 package gaidadym.javaForTesters.addressbook.appmanager;
 
-import gaidadym.javaForTesters.addressbook.model.ContactData;
-import gaidadym.javaForTesters.addressbook.model.Contacts;
+import gaidadym.javaForTesters.addressbook.model.*;
 import gaidadym.javaForTesters.addressbook.tests.ContactPhoneTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+
+import java.util.*;
 import java.util.stream.Collectors;
 
 import static gaidadym.javaForTesters.addressbook.TestBase.app;
@@ -22,6 +20,7 @@ public class ContactHelper extends HelperBase {
     }
 
     public void fillContactForm(ContactData contactData, boolean creation) {
+        Groups groups = app.db().groups(false);
         type(By.name("firstname"), contactData.getFirstname());
         type(By.name("middlename"), contactData.getMiddlename());
         type(By.name("nickname"), contactData.getNickname());
@@ -38,13 +37,17 @@ public class ContactHelper extends HelperBase {
         type(By.name("email3"), contactData.getEmail3());
         type(By.name("homepage"), contactData.getHomePage());
 
+
         if (creation){
-            new Select(wd.findElement(By.name("new_group"))).selectByVisibleText(contactData.getGroup());
+            //if (contactData.getGroups().size()>0) {
+                //Assert.assertTrue(contactData.getGroups().size() == 1);
+                new Select(wd.findElement(By.name("new_group"))).selectByVisibleText(contactData.getGroupName());
+
         }else {
             Assert.assertFalse(isElementPresent(By.name("new_group")));
         }
 
-    }
+}
     public void create(ContactData contactData){
         clickAddContact();
         fillContactForm(contactData,true);
@@ -186,5 +189,57 @@ public class ContactHelper extends HelperBase {
                 .stream().filter((s)-> !s.equals(""))
                 .map(ContactPhoneTest::cleaned)
                 .collect(Collectors.joining("\n"));
+    }
+    public void addContactInGroup(ContactData contact){
+        Set<GroupData> freeGroups = new HashSet<>();
+        freeGroups = freeGroupsForContact(contact);
+        selectContactById(contact.getId());
+        selectGroupInDropList(freeGroups.iterator().next().getId());
+        clickAdd();
+
+    }
+
+    public void deleteContactFromGroup(ContactGroups contact){
+        clickDetails(contact.getId());
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        clickOnGroupLink();
+        selectContactById(contact.getId());
+        click(By.cssSelector("input[name = 'remove']"));
+    }
+
+    private void clickOnGroupLink() {
+        wd.findElement(By.cssSelector("i>a")).click();
+    }
+
+    private void clickDetails(int id) {
+        wd.findElement(By.cssSelector("tr>input[value = '" +id+ "'], img[alt = 'Details']")).click();
+    }
+
+    private void clickAdd() {
+        click(By.cssSelector("input[name = 'add']"));
+    }
+
+    private void selectGroupInDropList(int id) {
+        new Select(wd.findElement(By.name("to_group"))).selectByValue(String.valueOf(id));
+
+
+    }
+
+    public Set<GroupData> freeGroupsForContact(ContactData contact) {
+        Set<GroupData> groupsOfContact = new HashSet<GroupData>();
+        groupsOfContact = contact.getGroups();
+        Set<GroupData> allGroups = new HashSet<GroupData>();
+        allGroups = app.db().groups(false);
+        Set<GroupData> freeGroupsforContact = new HashSet<>();
+        for (GroupData group:allGroups){
+            if (!groupsOfContact.contains(group)){
+                freeGroupsforContact.add(group);
+            }
+        }
+        return freeGroupsforContact;
     }
 }

@@ -19,7 +19,7 @@ public class ContactUpdatingTest extends TestBase {
     @BeforeMethod
     private void ensurePrecondition() {
         if (app.db().contacts(false).size()==0){
-            app.contact().create((new ContactData().withFirstname("test1").withLastname("Testovich").withMiddlename("Testoviy").withGroup("test2").withAddress("Воронеж, возле котенка на Лизюкова")));
+            app.contact().create((new ContactData().withFirstname("test1").withLastname("Testovich").withMiddlename("Testoviy").withAddress("Воронеж, возле котенка на Лизюкова")));
             app.goTo().mainPage();
         }
     }

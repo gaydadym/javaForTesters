@@ -4,6 +4,7 @@ import com.thoughtworks.xstream.XStream;
 import gaidadym.javaForTesters.addressbook.TestBase;
 import gaidadym.javaForTesters.addressbook.model.ContactData;
 import gaidadym.javaForTesters.addressbook.model.Contacts;
+import gaidadym.javaForTesters.addressbook.model.Groups;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import java.io.BufferedReader;
@@ -18,6 +19,8 @@ import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 public class ContactCreation extends TestBase {
+
+
     @DataProvider
     public Iterator<Object[]> validContacts() throws IOException {
         try(BufferedReader reader = new BufferedReader(new FileReader(new File("src\\test\\resources\\contacts.xml")))){
@@ -39,6 +42,7 @@ public class ContactCreation extends TestBase {
     public void testContactCreation(ContactData contact) throws Exception {
 
         Contacts before = app.db().contacts(false);
+        Groups groups = app.db().groups(false);
         System.out.println(before);
         app.contact().create(contact);
         assertThat(app.contact().count(),equalTo(before.size()+1));

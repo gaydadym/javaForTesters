@@ -4,10 +4,12 @@ import gaidadym.javaForTesters.addressbook.TestBase;
 import gaidadym.javaForTesters.addressbook.model.ContactData;
 import gaidadym.javaForTesters.addressbook.model.Contacts;
 import gaidadym.javaForTesters.addressbook.model.GroupData;
+import gaidadym.javaForTesters.addressbook.model.Groups;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.io.File;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -18,9 +20,10 @@ import static org.hamcrest.MatcherAssert.assertThat;
 public class ContactDelitionTest extends TestBase {
     @BeforeMethod
     public void ensurePrecondition(){
+        Groups groups = app.db().groups(false);
         if (app.db().contacts(false).size()==0){
             app.contact().create((new ContactData().withFirstname("test1")
-                    .withLastname("Testovich").withMiddlename("Testoviy")));
+                    .withLastname("Testovich").withMiddlename("Testoviy").withPhoto(new File("src/test/resources/screen.jpg")).withGroupName(groups.iterator().next().getName())));
             app.goTo().mainPage();
         }
     }

@@ -37,6 +37,8 @@
         <!-- Names the annotated entity class -->
         <mapping class="gaidadym.javaForTesters.addressbook.model.GroupData"/>
         <mapping class="gaidadym.javaForTesters.addressbook.model.ContactData"/>
+        <mapping class="gaidadym.javaForTesters.addressbook.model.ContactGroups"/>
+
 
     </session-factory>
 
