@@ -7,7 +7,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.BrowserType;
+import org.openqa.selenium.remote.HttpSessionId;
 
+import javax.management.monitor.Monitor;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
@@ -19,6 +21,9 @@ public class ApplicationManager {
 
 
     public WebDriver wd;
+    public RegistrationHelper registration(){
+        return new RegistrationHelper(this);
+    }
 
     private String browser;
 
@@ -48,20 +53,19 @@ public class ApplicationManager {
 
 
     }
+    public HttpSession newSession(){
+        return new HttpSession(this);
+    }
+    public String getProperty(String key){
+        return properties.getProperty(key);
+    }
 
 
     public void stop() {
         wd.quit();
     }
 
-    public boolean isElementPresent(By by) {
-        try {
-            wd.findElement(by);
-            return true;
-        } catch (NoSuchElementException e) {
-            return false;
-        }
-    }
+
 
 
 
