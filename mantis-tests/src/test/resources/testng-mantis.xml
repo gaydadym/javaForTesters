@@ -3,9 +3,7 @@
 <suite name="Tests" verbose="1" >
     <test name="Groups" >
         <classes>
-            <class name="gaidadym.javaForTesters.addressbook.tests.GroupCreation" />
-            <class name="gaidadym.javaForTesters.addressbook.tests.GroupUpdatingTest" />
-            <class name="gaidadym.javaForTesters.addressbook.tests.GroupDelitionTests" />
+            <class name="gaidadym.javaForTesters.mantis.tests.RegistrationTest" />
         </classes>
     </test>
 </suite>
