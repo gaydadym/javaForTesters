@@ -2,19 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1587991b-a09b-4496-876c-2639089a3564" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules/mantis-tests_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/mantis-tests_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/mantis-tests_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/mantis-tests_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/gaidadym/javaForTesters/addressbook/appmanager/ContactHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/gaidadym/javaForTesters/addressbook/appmanager/ContactHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/gaidadym/javaForTesters/addressbook/appmanager/DbHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/gaidadym/javaForTesters/addressbook/model/Groups.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/gaidadym/javaForTesters/addressbook/model/Groups.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/gaidadym/javaForTesters/addressbook/tests/AddingContactInGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/gaidadym/javaForTesters/addressbook/tests/AddingContactInGroup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/gaidadym/javaForTesters/addressbook/tests/ContactCreation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/gaidadym/javaForTesters/addressbook/tests/ContactCreation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/gaidadym/javaForTesters/addressbook/tests/DelitionContactFromGroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/appmanager/ContactHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/appmanager/ContactHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/appmanager/DbHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/appmanager/DbHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/model/ContactGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/model/ContactGroups.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/model/Groups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/model/Groups.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/AddingContactInGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/AddingContactInGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/DelitionContactFromGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/DelitionContactFromGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mantis-tests/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../mantis-tests/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/appmanager/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/appmanager/HttpSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/appmanager/HttpSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/appmanager/RegistrationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/appmanager/RegistrationHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/tests/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/tests/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mantis-tests/src/test/resources/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mantis-tests/src/test/resources/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mantis-tests/src/test/resources/testng-mantis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mantis-tests/src/test/resources/testng-mantis.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -62,85 +60,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/AddingContactInGroup.java">
+        <entry file="file://$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/tests/RegistrationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/model/ContactGroups.java">
+        <entry file="file://$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/appmanager/FtpHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-              <folding>
-                <element signature="e#570#571#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
-                <element signature="e#1118#1119#0" expanded="true" />
-                <element signature="e#1167#1168#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="425">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/appmanager/DbHelper.java">
+        <entry file="file://$PROJECT_DIR$/../mantis-tests/src/test/resources/config_inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="54" column="35" lean-forward="true" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/appmanager/ContactHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="230" column="18" selection-start-line="230" selection-start-column="18" selection-end-line="230" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/ContactCreation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="755">
-              <caret line="55" column="1" lean-forward="true" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/model/ContactData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="176" column="27" selection-start-line="176" selection-start-column="27" selection-end-line="176" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4349#4360#0" expanded="true" />
-                <element signature="e#4388#4389#0" expanded="true" />
-                <element signature="e#4413#4414#0" expanded="true" />
-                <element signature="e#4449#4450#0" expanded="true" />
-                <element signature="e#4481#4482#0" expanded="true" />
-                <element signature="e#5561#5562#0" expanded="true" />
-                <element signature="e#5599#5600#0" expanded="true" />
-                <element signature="e#5632#5633#0" expanded="true" />
-                <element signature="e#5673#5674#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -608,9 +549,9 @@
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="2144738398" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2889983086" />
-        <entry key="$PROJECT_DIR$/../mantis-tests" value="4686270227510" />
+        <entry key="$PROJECT_DIR$/../mantis-tests" value="4686578147355" />
         <entry key="$PROJECT_DIR$/../mantis-tests/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/../mantis-tests/build.gradle" value="2058971979" />
+        <entry key="$PROJECT_DIR$/../mantis-tests/build.gradle" value="2350889505" />
         <entry key="$PROJECT_DIR$/../mantis-tests/gradle/wrapper/gradle-wrapper.properties" value="2889983086" />
       </map>
     </option>
@@ -1034,29 +975,33 @@
         <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/appmanager/ApplicationManager.java" />
         <option value="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/ContactCreation.java" />
-        <option value="$PROJECT_DIR$/../mantis-tests/src/test/resources/local.properties" />
         <option value="$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantisbt/tests/ContactPhoneTest.java" />
-        <option value="$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/tests/TestBase.java" />
-        <option value="$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/appmanager/HttpSession.java" />
         <option value="$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/tests/RegistrationTest.java" />
-        <option value="$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/appmanager/ApplicationManager.java" />
-        <option value="$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/appmanager/RegistrationHelper.java" />
-        <option value="$PROJECT_DIR$/../mantis-tests/build.gradle" />
         <option value="$PROJECT_DIR$/../mantis-tests/src/test/resources/testng-mantis.xml" />
         <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/model/Groups.java" />
         <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/appmanager/ContactHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/DelitionContactFromGroup.java" />
         <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/model/ContactGroups.java" />
         <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/appmanager/DbHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/DelitionContactFromGroup.java" />
         <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/AddingContactInGroup.java" />
+        <option value="$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/tests/LoginTests.java" />
+        <option value="$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/appmanager/HttpSession.java" />
+        <option value="$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/tests/RegistrationTests.java" />
+        <option value="$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/appmanager/RegistrationHelper.java" />
+        <option value="$PROJECT_DIR$/../mantis-tests/build.gradle" />
+        <option value="$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/appmanager/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/appmanager/FtpHelper.java" />
+        <option value="$PROJECT_DIR$/../mantis-tests/src/test/resources/local.properties" />
+        <option value="$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/tests/TestBase.java" />
+        <option value="$PROJECT_DIR$/../mantis-tests/src/test/resources/config_inc.php" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="2" />
-    <option name="width" value="1378" />
-    <option name="height" value="733" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-118" />
+    <option name="y" value="164" />
+    <option name="width" value="1002" />
+    <option name="height" value="543" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -1073,69 +1018,58 @@
           <expand>
             <path>
               <item name="addressbook-web-tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="addressbook-web-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="mantis-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="addressbook-web-tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="addressbook-web-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="mantis-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="addressbook-web-tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="addressbook-web-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="addressbook-web-tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="addressbook-web-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="mantis-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="addressbook-web-tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="addressbook-web-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="mantis-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="addressbook" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="addressbook-web-tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="addressbook-web-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="mantis-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="addressbook" type="462c0819:PsiDirectoryNode" />
+              <item name="mantis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="addressbook-web-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mantis-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mantis" type="462c0819:PsiDirectoryNode" />
               <item name="appmanager" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="addressbook-web-tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="addressbook-web-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="mantis-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="addressbook" type="462c0819:PsiDirectoryNode" />
-              <item name="generators" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="addressbook-web-tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="addressbook-web-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="addressbook" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="addressbook-web-tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="addressbook-web-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="addressbook" type="462c0819:PsiDirectoryNode" />
+              <item name="mantis" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="addressbook-web-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mantis-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1145,7 +1079,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ToolWindowRun.ShowToolbar" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563724818234" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563740396274" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last.edited.regexp" value="4556 64 654564  &#10;" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../mantis-tests/build.gradle" />
@@ -1185,23 +1119,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.AddingContactInGroup.testAddingContactInGroup">
-    <configuration name="AddingContactInGroup (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook-web-tests_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gaidadym.javaForTesters.addressbook.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="gaidadym.javaForTesters.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="gaidadym.javaForTesters.addressbook.tests.AddingContactInGroup" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.RegistrationTests">
     <configuration name="AddingContactInGroup" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook-web-tests_test" />
       <extension name="coverage">
@@ -1229,40 +1147,6 @@
       <option name="PACKAGE_NAME" value="gaidadym.javaForTesters.addressbook.tests" />
       <option name="MAIN_CLASS_NAME" value="gaidadym.javaForTesters.addressbook.tests.AddingContactInGroup" />
       <option name="METHOD_NAME" value="testAddingContactInGroup" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DelitionContactFromGroup" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook-web-tests_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gaidadym.javaForTesters.addressbook.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="gaidadym.javaForTesters.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="gaidadym.javaForTesters.addressbook.tests.DelitionContactFromGroup" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DelitionContactFromGroup.testDelitingContactFromGroup" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="addressbook-web-tests_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gaidadym.javaForTesters.addressbook.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="gaidadym.javaForTesters.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="gaidadym.javaForTesters.addressbook.tests.DelitionContactFromGroup" />
-      <option name="METHOD_NAME" value="testDelitingContactFromGroup" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -1308,22 +1192,72 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mantis-tests_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gaidadym.javaForTesters.mantis.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gaidadym.javaForTesters.mantis.tests" />
+      <option name="MAIN_CLASS_NAME" value="gaidadym.javaForTesters.mantis.tests.LoginTests" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mantis-tests_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gaidadym.javaForTesters.mantis.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gaidadym.javaForTesters.mantis.tests" />
+      <option name="MAIN_CLASS_NAME" value="gaidadym.javaForTesters.mantis.tests.RegistrationTests" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationTests.testRegistration" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mantis-tests_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gaidadym.javaForTesters.mantis.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gaidadym.javaForTesters.mantis.tests" />
+      <option name="MAIN_CLASS_NAME" value="gaidadym.javaForTesters.mantis.tests.RegistrationTests" />
+      <option name="METHOD_NAME" value="testRegistration" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="TestNG.GroupDelition" />
       <item itemvalue="TestNG.GroupCreation" />
       <item itemvalue="TestNG.AddingContactInGroup.testAddingContactInGroup" />
       <item itemvalue="TestNG.AddingContactInGroup" />
-      <item itemvalue="TestNG.DelitionContactFromGroup" />
-      <item itemvalue="TestNG.DelitionContactFromGroup.testDelitingContactFromGroup" />
-      <item itemvalue="TestNG.AddingContactInGroup (1)" />
+      <item itemvalue="TestNG.LoginTests" />
+      <item itemvalue="TestNG.RegistrationTests.testRegistration" />
+      <item itemvalue="TestNG.RegistrationTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.RegistrationTests" />
+        <item itemvalue="TestNG.LoginTests" />
+        <item itemvalue="TestNG.RegistrationTests.testRegistration" />
         <item itemvalue="TestNG.AddingContactInGroup.testAddingContactInGroup" />
         <item itemvalue="TestNG.AddingContactInGroup" />
-        <item itemvalue="TestNG.AddingContactInGroup (1)" />
-        <item itemvalue="TestNG.DelitionContactFromGroup" />
-        <item itemvalue="TestNG.DelitionContactFromGroup.testDelitingContactFromGroup" />
       </list>
     </recent_temporary>
   </component>
@@ -1341,35 +1275,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddingContactInGroup_testAddingContactInGroup - 2019.07.21 at 18h 26m 04s.xml">
-      <configuration name="AddingContactInGroup.testAddingContactInGroup" configurationId="TestNG" />
+    <history-entry file="LoginTests - 2019.07.21 at 22h 55m 51s.xml">
+      <configuration name="LoginTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddingContactInGroup_testAddingContactInGroup - 2019.07.21 at 18h 30m 12s.xml">
-      <configuration name="AddingContactInGroup.testAddingContactInGroup" configurationId="TestNG" />
+    <history-entry file="LoginTests - 2019.07.21 at 23h 01m 03s.xml">
+      <configuration name="LoginTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddingContactInGroup_testAddingContactInGroup - 2019.07.21 at 18h 36m 10s.xml">
-      <configuration name="AddingContactInGroup.testAddingContactInGroup" configurationId="TestNG" />
+    <history-entry file="LoginTests - 2019.07.21 at 23h 03m 26s.xml">
+      <configuration name="LoginTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddingContactInGroup_testAddingContactInGroup - 2019.07.21 at 18h 37m 46s.xml">
-      <configuration name="AddingContactInGroup.testAddingContactInGroup" configurationId="TestNG" />
+    <history-entry file="LoginTests - 2019.07.21 at 23h 03m 31s.xml">
+      <configuration name="LoginTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddingContactInGroup_testAddingContactInGroup - 2019.07.21 at 18h 40m 00s.xml">
-      <configuration name="AddingContactInGroup.testAddingContactInGroup" configurationId="TestNG" />
+    <history-entry file="LoginTests - 2019.07.21 at 23h 03m 45s.xml">
+      <configuration name="LoginTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddingContactInGroup_testAddingContactInGroup - 2019.07.21 at 18h 47m 51s.xml">
-      <configuration name="AddingContactInGroup.testAddingContactInGroup" configurationId="TestNG" />
+    <history-entry file="RegistrationTests - 2019.07.21 at 23h 03m 59s.xml">
+      <configuration name="RegistrationTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddingContactInGroup_testAddingContactInGroup - 2019.07.21 at 18h 49m 41s.xml">
-      <configuration name="AddingContactInGroup.testAddingContactInGroup" configurationId="TestNG" />
+    <history-entry file="RegistrationTests - 2019.07.21 at 23h 11m 44s.xml">
+      <configuration name="RegistrationTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddingContactInGroup_testAddingContactInGroup - 2019.07.21 at 18h 53m 09s.xml">
-      <configuration name="AddingContactInGroup.testAddingContactInGroup" configurationId="TestNG" />
+    <history-entry file="RegistrationTests - 2019.07.21 at 23h 12m 46s.xml">
+      <configuration name="RegistrationTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddingContactInGroup_testAddingContactInGroup - 2019.07.21 at 18h 53m 40s.xml">
-      <configuration name="AddingContactInGroup.testAddingContactInGroup" configurationId="TestNG" />
+    <history-entry file="RegistrationTests - 2019.07.21 at 23h 13m 39s.xml">
+      <configuration name="RegistrationTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AddingContactInGroup_testAddingContactInGroup - 2019.07.21 at 18h 53m 52s.xml">
-      <configuration name="AddingContactInGroup.testAddingContactInGroup" configurationId="TestNG" />
+    <history-entry file="RegistrationTests - 2019.07.21 at 23h 17m 32s.xml">
+      <configuration name="RegistrationTests" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1401,17 +1335,17 @@
       <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" weight="0.32814237" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32925472" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.4749467" weight="0.32814237" />
-      <window_info anchor="bottom" x="0" y="0" width="1920" height="1040" id="Run" order="9" sideWeight="0.50852877" side_tool="true" weight="0.39933258" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.4738806" weight="0.32814237" />
+      <window_info anchor="bottom" x="0" y="0" width="1920" height="1040" id="Run" order="9" sideWeight="0.50959486" side_tool="true" visible="true" weight="0.39933258" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" weight="0.32925472" />
       <window_info anchor="bottom" id="Regex Tester" order="11" weight="0.32925472" />
-      <window_info anchor="bottom" id="Debug" order="12" sideWeight="0.4914712" visible="true" weight="0.39933258" />
+      <window_info anchor="bottom" id="Debug" order="12" sideWeight="0.4904051" visible="true" weight="0.39933258" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.32995737" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
@@ -1430,6 +1364,24 @@
           <properties />
           <option name="timeStamp" value="37" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/appmanager/FtpHelper.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/appmanager/FtpHelper.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/tests/RegistrationTests.java</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -1438,273 +1390,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/appmanager/HelperBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#988#989#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/27.1-jre/5dfa313690a903560bf27478345780a607bf1e9b/guava-27.1-jre-sources.jar!/com/google/common/collect/AbstractMapEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/27.1-jre/5dfa313690a903560bf27478345780a607bf1e9b/guava-27.1-jre-sources.jar!/com/google/common/collect/ImmutableEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/4.0.0-alpha-1/e1245ab2be182ef8762d680da5861a5b13d9efd5/selenium-remote-driver-4.0.0-alpha-1-sources.jar!/org/openqa/selenium/remote/SessionId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/4.0.0-alpha-1/e1245ab2be182ef8762d680da5861a5b13d9efd5/selenium-remote-driver-4.0.0-alpha-1-sources.jar!/org/openqa/selenium/remote/service/DriverCommandExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/4.0.0-alpha-1/e1245ab2be182ef8762d680da5861a5b13d9efd5/selenium-remote-driver-4.0.0-alpha-1-sources.jar!/org/openqa/selenium/remote/HttpCommandExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="154" selection-start-line="154" selection-end-line="154" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/4.0.0-alpha-1/e1245ab2be182ef8762d680da5861a5b13d9efd5/selenium-remote-driver-4.0.0-alpha-1-sources.jar!/org/openqa/selenium/remote/CommandPayload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/4.0.0-alpha-1/e1245ab2be182ef8762d680da5861a5b13d9efd5/selenium-remote-driver-4.0.0-alpha-1-sources.jar!/org/openqa/selenium/remote/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/4.0.0-alpha-1/e1245ab2be182ef8762d680da5861a5b13d9efd5/selenium-remote-driver-4.0.0-alpha-1-sources.jar!/org/openqa/selenium/remote/codec/AbstractHttpCommandCodec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="223" selection-start-line="223" selection-end-line="223" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/4.0.0-alpha-1/396b93f050e477d9ea154465581856239855a797/selenium-api-4.0.0-alpha-1-sources.jar!/org/openqa/selenium/By.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="430" selection-start-line="430" selection-end-line="430" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/4.0.0-alpha-1/e1245ab2be182ef8762d680da5861a5b13d9efd5/selenium-remote-driver-4.0.0-alpha-1-sources.jar!/org/openqa/selenium/remote/RemoteWebDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="327" selection-start-line="327" selection-end-line="327" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/4.0.0-alpha-1/e1245ab2be182ef8762d680da5861a5b13d9efd5/selenium-remote-driver-4.0.0-alpha-1-sources.jar!/org/openqa/selenium/remote/DriverCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/27.1-jre/5dfa313690a903560bf27478345780a607bf1e9b/guava-27.1-jre-sources.jar!/com/google/common/collect/ImmutableMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="131" selection-start-line="131" selection-end-line="131" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/27.1-jre/5dfa313690a903560bf27478345780a607bf1e9b/guava-27.1-jre-sources.jar!/com/google/common/base/Preconditions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="1369" selection-start-line="1369" selection-end-line="1369" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/27.1-jre/5dfa313690a903560bf27478345780a607bf1e9b/guava-27.1-jre-sources.jar!/com/google/common/collect/Hashing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/27.1-jre/5dfa313690a903560bf27478345780a607bf1e9b/guava-27.1-jre-sources.jar!/com/google/common/collect/ImmutableMapEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/27.1-jre/5dfa313690a903560bf27478345780a607bf1e9b/guava-27.1-jre-sources.jar!/com/google/common/collect/RegularImmutableMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="98" selection-start-line="98" selection-end-line="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/27.1-jre/5dfa313690a903560bf27478345780a607bf1e9b/guava-27.1-jre-sources.jar!/com/google/common/collect/CollectPreconditions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/27.1-jre/5dfa313690a903560bf27478345780a607bf1e9b/guava-27.1-jre-sources.jar!/com/google/common/collect/ForwardingCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/27.1-jre/5dfa313690a903560bf27478345780a607bf1e9b/guava-27.1-jre-sources.jar!/com/google/common/collect/ForwardingSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/appmanager/ApplicationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
-          <folding>
-            <element signature="e#2528#2529#0" expanded="true" />
-            <element signature="e#2564#2565#0" expanded="true" />
-            <element signature="e#2700#2701#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.4.3.Final/b79a6517b561b8ff6feeb28389ee43f9d2fc2d1/hibernate-core-5.4.3.Final-sources.jar!/org/hibernate/boot/internal/SessionFactoryOptionsBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="1039" selection-start-line="1039" selection-end-line="1039" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.4.3.Final/b79a6517b561b8ff6feeb28389ee43f9d2fc2d1/hibernate-core-5.4.3.Final-sources.jar!/org/hibernate/jpa/internal/JpaComplianceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.4.3.Final/b79a6517b561b8ff6feeb28389ee43f9d2fc2d1/hibernate-core-5.4.3.Final-sources.jar!/org/hibernate/internal/SessionFactoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="966" selection-start-line="966" selection-end-line="966" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.4.3.Final/b79a6517b561b8ff6feeb28389ee43f9d2fc2d1/hibernate-core-5.4.3.Final-sources.jar!/org/hibernate/internal/AbstractSharedSessionContract.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="408" selection-start-line="408" selection-end-line="408" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.4.3.Final/b79a6517b561b8ff6feeb28389ee43f9d2fc2d1/hibernate-core-5.4.3.Final-sources.jar!/org/hibernate/resource/jdbc/internal/AbstractLogicalConnectionImplementor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="139" selection-start-line="139" selection-end-line="139" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.4.3.Final/b79a6517b561b8ff6feeb28389ee43f9d2fc2d1/hibernate-core-5.4.3.Final-sources.jar!/org/hibernate/resource/transaction/backend/jdbc/internal/JdbcResourceLocalTransactionCoordinatorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="306" selection-start-line="306" selection-end-line="306" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.4.3.Final/b79a6517b561b8ff6feeb28389ee43f9d2fc2d1/hibernate-core-5.4.3.Final-sources.jar!/org/hibernate/resource/transaction/spi/TransactionCoordinator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="138" selection-start-line="138" selection-end-line="138" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.4.3.Final/b79a6517b561b8ff6feeb28389ee43f9d2fc2d1/hibernate-core-5.4.3.Final-sources.jar!/org/hibernate/engine/transaction/internal/TransactionImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.2.Final/a44f0f22bbd9ccb96952806e73f6cc16ef7d2f67/jboss-logging-3.3.2.Final-sources.jar!/org/jboss/logging/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="530" selection-start-line="530" selection-end-line="530" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.2.Final/a44f0f22bbd9ccb96952806e73f6cc16ef7d2f67/jboss-logging-3.3.2.Final-sources.jar!/org/jboss/logging/Slf4jLocationAwareLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/cfd5385e0c5ed1c8a5dce57d86e79cf357153a64/logback-classic-1.2.3-sources.jar!/ch/qos/logback/classic/Level.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="265" selection-start-line="265" selection-end-line="265" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/cfd5385e0c5ed1c8a5dce57d86e79cf357153a64/logback-classic-1.2.3-sources.jar!/ch/qos/logback/classic/LoggerContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="197" selection-start-line="197" selection-end-line="197" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/cfd5385e0c5ed1c8a5dce57d86e79cf357153a64/logback-classic-1.2.3-sources.jar!/ch/qos/logback/classic/spi/EventArgUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/cfd5385e0c5ed1c8a5dce57d86e79cf357153a64/logback-classic-1.2.3-sources.jar!/ch/qos/logback/classic/spi/LoggingEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="126" selection-start-line="126" selection-end-line="126" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/cfd5385e0c5ed1c8a5dce57d86e79cf357153a64/logback-classic-1.2.3-sources.jar!/ch/qos/logback/classic/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="268" selection-start-line="268" selection-end-line="268" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/model/GroupData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/27.1-jre/5dfa313690a903560bf27478345780a607bf1e9b/guava-27.1-jre-sources.jar!/com/google/common/collect/ForwardingObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
@@ -1750,17 +1435,10 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/ContactCreation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="755">
-          <caret line="55" column="1" lean-forward="true" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+          <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/DelitionContactFromGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
@@ -1806,7 +1484,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/appmanager/DbHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="436">
-          <caret line="54" column="35" lean-forward="true" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
+          <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1823,13 +1501,347 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/DelitionContactFromGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" column="65" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/AddingContactInGroup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        <state relative-caret-position="56">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/tests/LoginTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mantis-tests/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-net/commons-net/3.4/8439b8f20d7bdec502423732798a639501732c8/commons-net-3.4-sources.jar!/org/apache/commons/net/ftp/FTPClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="965" selection-start-line="965" selection-end-line="965" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-net/commons-net/3.4/8439b8f20d7bdec502423732798a639501732c8/commons-net-3.4-sources.jar!/org/apache/commons/net/SocketClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="160" selection-start-line="160" selection-end-line="160" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-net/commons-net/3.4/8439b8f20d7bdec502423732798a639501732c8/commons-net-3.4-sources.jar!/org/apache/commons/net/io/CRLFLineReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#1447#1448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-net/commons-net/3.4/8439b8f20d7bdec502423732798a639501732c8/commons-net-3.4-sources.jar!/org/apache/commons/net/ftp/FTP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="398" selection-start-line="398" selection-end-line="398" />
+          <folding>
+            <element signature="e#17213#17214#0" expanded="true" />
+            <element signature="e#17252#17253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mantis-tests/src/test/resources/testng-mantis.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mantis-tests/src/test/resources/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/appmanager/HttpSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="29" column="82" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/tests/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.9.10/11af8613a6b909307c7f2f554249c7b176cb50e6/testng-6.9.10-sources.jar!/org/testng/internal/MethodInvocationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.9.10/11af8613a6b909307c7f2f554249c7b176cb50e6/testng-6.9.10-sources.jar!/org/testng/internal/Invoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="218" selection-start-line="218" selection-end-line="218" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/appmanager/RegistrationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/4.0.0-alpha-1/e1245ab2be182ef8762d680da5861a5b13d9efd5/selenium-remote-driver-4.0.0-alpha-1-sources.jar!/org/openqa/selenium/remote/AbstractDriverOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/4.0.0-alpha-1/396b93f050e477d9ea154465581856239855a797/selenium-api-4.0.0-alpha-1-sources.jar!/org/openqa/selenium/AbstractCapabilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/4.0.0-alpha-1/396b93f050e477d9ea154465581856239855a797/selenium-api-4.0.0-alpha-1-sources.jar!/org/openqa/selenium/MutableCapabilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+          <folding>
+            <element signature="e#2627#2628#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/27.1-jre/5dfa313690a903560bf27478345780a607bf1e9b/guava-27.1-jre-sources.jar!/com/google/common/collect/Platform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/27.1-jre/5dfa313690a903560bf27478345780a607bf1e9b/guava-27.1-jre-sources.jar!/com/google/common/collect/ObjectArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#1930#1931#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/27.1-jre/5dfa313690a903560bf27478345780a607bf1e9b/guava-27.1-jre-sources.jar!/com/google/common/base/Preconditions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="1324" selection-start-line="1324" selection-end-line="1324" />
+          <folding>
+            <element signature="e#47249#47250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/27.1-jre/5dfa313690a903560bf27478345780a607bf1e9b/guava-27.1-jre-sources.jar!/com/google/common/collect/SingletonImmutableList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#1229#1230#0" expanded="true" />
+            <element signature="e#1275#1276#0" expanded="true" />
+            <element signature="e#1648#1649#0" expanded="true" />
+            <element signature="e#1666#1667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/27.1-jre/5dfa313690a903560bf27478345780a607bf1e9b/guava-27.1-jre-sources.jar!/com/google/common/collect/ImmutableList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="582" selection-start-line="582" selection-end-line="582" />
+          <folding>
+            <element signature="e#3549#3550#0" expanded="true" />
+            <element signature="e#3604#3605#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/27.1-jre/5dfa313690a903560bf27478345780a607bf1e9b/guava-27.1-jre-sources.jar!/com/google/common/collect/ImmutableCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="186" selection-start-line="186" selection-end-line="186" />
+          <folding>
+            <element signature="e#8787#8788#0" expanded="true" />
+            <element signature="e#9429#9430#0" expanded="true" />
+            <element signature="e#9450#9451#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-chrome-driver/4.0.0-alpha-1/68ed52a36053b31c50c3646b8ab9dbe99084f122/selenium-chrome-driver-4.0.0-alpha-1-sources.jar!/org/openqa/selenium/chrome/ChromeOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+          <folding>
+            <element signature="e#2695#2696#0" expanded="true" />
+            <element signature="e#2767#2768#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/4.0.0-alpha-1/e1245ab2be182ef8762d680da5861a5b13d9efd5/selenium-remote-driver-4.0.0-alpha-1-sources.jar!/org/openqa/selenium/remote/RemoteWebDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/appmanager/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="e#1385#1386#0" expanded="true" />
+            <element signature="e#1435#1436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-chrome-driver/4.0.0-alpha-1/68ed52a36053b31c50c3646b8ab9dbe99084f122/selenium-chrome-driver-4.0.0-alpha-1-sources.jar!/org/openqa/selenium/chrome/ChromeDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="164" selection-start-line="164" selection-end-line="164" />
+          <folding>
+            <element signature="e#6187#6188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/27.1-jre/5dfa313690a903560bf27478345780a607bf1e9b/guava-27.1-jre-sources.jar!/com/google/common/collect/ImmutableMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+          <folding>
+            <element signature="e#4774#4775#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/4.0.0-alpha-1/e1245ab2be182ef8762d680da5861a5b13d9efd5/selenium-remote-driver-4.0.0-alpha-1-sources.jar!/org/openqa/selenium/net/FixedIANAPortRange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1037#1038#0" expanded="true" />
+            <element signature="e#1059#1060#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/4.0.0-alpha-1/e1245ab2be182ef8762d680da5861a5b13d9efd5/selenium-remote-driver-4.0.0-alpha-1-sources.jar!/org/openqa/selenium/net/PortProber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-chrome-driver/4.0.0-alpha-1/68ed52a36053b31c50c3646b8ab9dbe99084f122/selenium-chrome-driver-4.0.0-alpha-1-sources.jar!/org/openqa/selenium/chrome/ChromeDriverService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="158" selection-start-line="158" selection-end-line="158" />
+          <folding>
+            <element signature="e#3604#3605#0" expanded="true" />
+            <element signature="e#3642#3643#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/4.0.0-alpha-1/e1245ab2be182ef8762d680da5861a5b13d9efd5/selenium-remote-driver-4.0.0-alpha-1-sources.jar!/org/openqa/selenium/remote/service/DriverService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/4.0.0-alpha-1/396b93f050e477d9ea154465581856239855a797/selenium-api-4.0.0-alpha-1-sources.jar!/org/openqa/selenium/Platform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="370" selection-start-line="370" selection-end-line="370" />
+          <folding>
+            <element signature="e#2457#2458#0" expanded="true" />
+            <element signature="e#2485#2486#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/4.0.0-alpha-1/e1245ab2be182ef8762d680da5861a5b13d9efd5/selenium-remote-driver-4.0.0-alpha-1-sources.jar!/org/openqa/selenium/os/ExecutableFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/27.1-jre/5dfa313690a903560bf27478345780a607bf1e9b/guava-27.1-jre-sources.jar!/com/google/common/collect/ImmutableSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="537" selection-start-line="537" selection-end-line="537" />
+          <folding>
+            <element signature="e#4735#4736#0" expanded="true" />
+            <element signature="e#4784#4785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/appmanager/FtpHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mantis-tests/src/test/resources/config_inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/tests/RegistrationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>

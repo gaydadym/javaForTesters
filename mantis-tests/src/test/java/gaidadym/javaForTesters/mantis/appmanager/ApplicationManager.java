@@ -18,9 +18,10 @@ import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
     private final Properties properties;
+    private WebDriver wd;
+    private RegistrationHelper registrationHelper;
+    private FtpHelper ftp;
 
-
-    public WebDriver wd;
     public RegistrationHelper registration(){
         return new RegistrationHelper(this);
     }
@@ -38,18 +39,7 @@ public class ApplicationManager {
     public void init() throws IOException {
         String target = System.getProperty("target", "local");
         properties.load(new FileReader(new File(String.format("src/test/resources/%s.properties",target))));
-        if (browser.equals(BrowserType.CHROME)){
-            ChromeOptions options = new ChromeOptions();
-            options.addArguments("--kiosk");
-            wd = new ChromeDriver(options);
-        }
-        else {
-            wd = new FirefoxDriver();
-        }
 
-        wd.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
-
-        wd.get(properties.getProperty("web.baseUrl"));
 
 
     }
@@ -62,14 +52,42 @@ public class ApplicationManager {
 
 
     public void stop() {
-        wd.quit();
+        if (wd != null){
+            wd.quit();
+        }
     }
 
 
+    public RegistrationHelper registartion() {
+        if (registrationHelper==null){
+            registrationHelper = new RegistrationHelper(this);
+        }
+        return registrationHelper;
+    }
 
+    public FtpHelper ftp(){
+        if (ftp == null){
+            ftp = new FtpHelper(this);
+        }
+        return ftp;
+    }
 
+    public WebDriver getDriver(){
+        if(wd==null){
+            if (browser.equals(BrowserType.CHROME)){
+                ChromeOptions options = new ChromeOptions();
+                options.addArguments("--kiosk");
+                wd = new ChromeDriver(options);
+            }
+            else {
+                wd = new FirefoxDriver();
+            }
 
+            wd.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
 
-
+            wd.get(properties.getProperty("web.baseUrl"));
+        }
+        return wd;
+    }
 }
 
