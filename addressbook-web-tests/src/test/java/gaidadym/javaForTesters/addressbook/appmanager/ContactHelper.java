@@ -39,10 +39,10 @@ public class ContactHelper extends HelperBase {
 
 
         if (creation){
-            //if (contactData.getGroups().size()>0) {
-                //Assert.assertTrue(contactData.getGroups().size() == 1);
-                new Select(wd.findElement(By.name("new_group"))).selectByVisibleText(contactData.getGroupName());
-
+            if (contactData.getGroups().size()>0) {
+                Assert.assertTrue(contactData.getGroups().size() == 1);
+                new Select(wd.findElement(By.name("new_group"))).selectByVisibleText(app.db().groups(false).iterator().next().getName());
+            }
         }else {
             Assert.assertFalse(isElementPresent(By.name("new_group")));
         }
@@ -190,16 +190,15 @@ public class ContactHelper extends HelperBase {
                 .map(ContactPhoneTest::cleaned)
                 .collect(Collectors.joining("\n"));
     }
-    public void addContactInGroup(ContactData contact){
+    public void addContactInGroup(ContactData contact, GroupData group){
         Set<GroupData> freeGroups = new HashSet<>();
-        freeGroups = freeGroupsForContact(contact);
         selectContactById(contact.getId());
-        selectGroupInDropList(freeGroups.iterator().next().getId());
+        selectGroupInDropList(group.getId());
         clickAdd();
 
     }
 
-    public void deleteContactFromGroup(ContactGroups contact){
+    public void deleteContactFromGroup(ContactData contact){
         clickDetails(contact.getId());
         try {
             Thread.sleep(5000);
@@ -229,17 +228,32 @@ public class ContactHelper extends HelperBase {
 
     }
 
-    public Set<GroupData> freeGroupsForContact(ContactData contact) {
+    public Groups freeGroupsForContact(ContactData contact) {
         Set<GroupData> groupsOfContact = new HashSet<GroupData>();
         groupsOfContact = contact.getGroups();
         Set<GroupData> allGroups = new HashSet<GroupData>();
         allGroups = app.db().groups(false);
-        Set<GroupData> freeGroupsforContact = new HashSet<>();
-        for (GroupData group:allGroups){
-            if (!groupsOfContact.contains(group)){
-                freeGroupsforContact.add(group);
+        Groups freeGroupsforContact = new Groups();
+        for (GroupData group : allGroups) {
+            if (!groupsOfContact.contains(group)) {
+                    freeGroupsforContact.add(group);
+                }
             }
-        }
+
+            if(freeGroupsforContact.size()>0){
+                GroupData createdGroup = new GroupData().withName("Created_group");
+                app.goTo().groupPage();
+                app.group().create(createdGroup);
+                app.goTo().mainPage();
+                allGroups = app.db().groups(false);
+                for (GroupData group : allGroups) {
+                    if (!groupsOfContact.contains(group)) {
+                        freeGroupsforContact.add(group);
+                    }
+                }
+
+            }
+
         return freeGroupsforContact;
     }
 }

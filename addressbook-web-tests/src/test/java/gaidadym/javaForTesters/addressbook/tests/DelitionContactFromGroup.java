@@ -1,14 +1,13 @@
 package gaidadym.javaForTesters.addressbook.tests;
 
 import gaidadym.javaForTesters.addressbook.TestBase;
-import gaidadym.javaForTesters.addressbook.model.ContactData;
-import gaidadym.javaForTesters.addressbook.model.ContactGroups;
-import gaidadym.javaForTesters.addressbook.model.GroupData;
-import gaidadym.javaForTesters.addressbook.model.Groups;
+import gaidadym.javaForTesters.addressbook.model.*;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.io.File;
+import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 public class DelitionContactFromGroup extends TestBase {
@@ -27,12 +26,10 @@ public class DelitionContactFromGroup extends TestBase {
 
     @Test
     public void testDelitingContactFromGroup() throws Exception {
-        ContactGroups contact = app.db().groupsForAllContacts().iterator().next();
-        ContactGroups beforeGroups;
-        ContactGroups afterGroups;
-        beforeGroups = app.db().groupsForContact(false,contact.getId());
+        ContactData contact = app.db().contacts(false).iterator().next();
+        Groups beforeGroups = ((ContactData) contact).getGroups();
         app.contact().deleteContactFromGroup(contact);
-        afterGroups = app.db().groupsForContact(false,contact.getId());
-        assert !(beforeGroups.equals(afterGroups));
+        Groups afterGroups = ((ContactData) contact).getGroups();
+        assert (beforeGroups.size()-afterGroups.size()==1);
         }
     }

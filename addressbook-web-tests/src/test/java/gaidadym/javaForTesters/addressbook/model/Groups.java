@@ -5,10 +5,8 @@ import com.thoughtworks.xstream.annotations.XStreamAlias;
 
 import javax.persistence.Entity;
 import javax.persistence.Table;
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
+
 public class Groups extends ForwardingSet<GroupData> {
     @XStreamAlias("group")
 
@@ -42,4 +40,5 @@ public class Groups extends ForwardingSet<GroupData> {
         groups.remove(group);
         return groups;
     }
+
 }

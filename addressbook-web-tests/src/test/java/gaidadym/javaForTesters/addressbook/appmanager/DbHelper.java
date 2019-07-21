@@ -7,8 +7,7 @@ import org.hibernate.boot.MetadataSources;
 import org.hibernate.boot.registry.StandardServiceRegistry;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 
-import java.util.HashSet;
-import java.util.List;
+import java.util.*;
 
 public class DbHelper {
     private final SessionFactory sessionFactory;
@@ -35,10 +34,12 @@ public class DbHelper {
         return new Groups(result);
     }
 
-    public ContactGroups groupsForContact(boolean withDeleted, int id){
+    public List<ContactGroups> groupsForContact(boolean withDeleted, int id){
         Session session = sessionFactory.openSession();
         session.beginTransaction();
         List<ContactGroups> result;
+        List<GroupData> result1 = new ArrayList<>();
+        HashSet<ContactGroups> groups = null;
         if (withDeleted){
             result = session.createQuery( "from ContactGroups where id = "+id+"" ).list();
         }else{
@@ -46,7 +47,7 @@ public class DbHelper {
         }
         session.getTransaction().commit();
         session.close();
-        return new ContactGroups(result);
+        return result;
     }
 
     public HashSet<ContactGroups> groupsForAllContacts(){
