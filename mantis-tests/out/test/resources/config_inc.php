@@ -6,3 +6,5 @@ $_g_username = 'root';
 $_g_password = '';
 $g_signup_use_captcha	= OFF;
 $g_crypto_master_salt = '00000000000000000';
+$g_phpMailer_method	= PHPMAILER_METHOD_SMTP;
+$g_smtp_host = 'localhost';
