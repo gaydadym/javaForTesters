@@ -34,20 +34,16 @@ public class DbHelper {
         return new Groups(result);
     }
 
-    public List<ContactGroups> groupsForContact(boolean withDeleted, int id){
+    public List<ContactGroups> groupsForContact(int id){
         Session session = sessionFactory.openSession();
         session.beginTransaction();
         List<ContactGroups> result;
-        List<GroupData> result1 = new ArrayList<>();
-        HashSet<ContactGroups> groups = null;
-        if (withDeleted){
-            result = session.createQuery( "from ContactGroups where id = "+id+"" ).list();
-        }else{
-            result = session.createQuery( "from ContactGroups where deprecated = 0000-00-00 and id = "+id).list();
-        }
+        result = session.createQuery( "from ContactGroups where deprecated = 0000-00-00 and id = "+id).list();
         session.getTransaction().commit();
         session.close();
-        return result;
+        List <ContactGroups>groups = null;
+        groups = result;
+        return groups;
     }
 
     public HashSet<ContactGroups> groupsForAllContacts(){
@@ -73,5 +69,15 @@ public class DbHelper {
         session.getTransaction().commit();
         session.close();
         return new Contacts(result);
+    }
+
+    public List <ContactGroups> groupDataToContGroups(int groupId, int contactId){
+        Session session = sessionFactory.openSession();
+        session.beginTransaction();
+        List<ContactGroups> result;
+        result = session.createQuery(String.format("from ContactGroups where id = %s and group_id = %s",contactId,groupId)).list();
+        session.getTransaction().commit();
+        session.close();
+        return result;
     }
 }
