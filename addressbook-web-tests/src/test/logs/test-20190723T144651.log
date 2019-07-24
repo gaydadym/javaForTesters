@@ -1,0 +1,1206 @@
+326  [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+379  [main] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator]. 
+383  [main] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator]. 
+391  [main] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator]. 
+522  [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.3.Final} 
+522  [main] DEBUG org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found 
+754  [main] DEBUG o.h.b.j.i.s.LocalXmlResourceResolver - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD 3.0//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd] 
+754  [main] DEBUG o.h.b.j.i.s.LocalXmlResourceResolver - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/ 
+760  [main] DEBUG o.h.b.c.internal.JaxbCfgProcessor - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information 
+999  [main] DEBUG o.h.service.spi.ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService] 
+1017 [main] DEBUG o.h.c.i.RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered 
+1018 [main] DEBUG o.h.c.i.RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory 
+1030 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+1071 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@64040287 
+1071 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@64040287 
+1071 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@64040287 
+1071 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@3a43d133 
+1071 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@28782602 
+1071 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@38b972d7 
+1071 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@470a9030 
+1071 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@470a9030 
+1071 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@470a9030 
+1071 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@7fcff1b9 
+1071 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@7fcff1b9 
+1071 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@7fcff1b9 
+1071 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@6a9287b1 
+1071 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@6a9287b1 
+1071 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@6a9287b1 
+1071 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@7f9e1534 
+1071 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@7f9e1534 
+1071 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@7f9e1534 
+1071 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@3088660d 
+1071 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@3088660d 
+1071 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@3088660d 
+1071 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@111610e6 
+1071 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@111610e6 
+1071 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@111610e6 
+1071 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@1b812421 
+1087 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@1b812421 
+1087 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@1b812421 
+1087 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@78dc4696 
+1087 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@78dc4696 
+1087 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@779dfe55 
+1087 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@779dfe55 
+1087 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@3cc20577 
+1087 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@3cc20577 
+1087 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@7b22ec89 
+1087 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@241a0c3a 
+1087 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@4bf324f9 
+1087 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@4bf324f9 
+1087 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@705202d1 
+1087 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@705202d1 
+1103 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@54534abf 
+1103 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@54534abf 
+1103 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@1c6e0a08 
+1103 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@1c6e0a08 
+1103 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@37d00a23 
+1103 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@37d00a23 
+1103 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@3c5a54b7 
+1103 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@3c5a54b7 
+1103 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@6f8d7714 
+1103 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@6f8d7714 
+1103 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@601cbd8c 
+1103 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@601cbd8c 
+1119 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@5b6e8f77 
+1119 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@5b6e8f77 
+1119 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@35e478f 
+1119 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@35e478f 
+1119 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@213deac2 
+1119 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@213deac2 
+1119 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@23cd4ff2 
+1119 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@23cd4ff2 
+1119 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@23cd4ff2 
+1119 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@9f6e406 
+1119 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@4a31c2ee 
+1119 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@4a31c2ee 
+1119 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@4a31c2ee 
+1119 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@781a9412 
+1119 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@5a101b1c 
+1119 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@5a101b1c 
+1119 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@57bd2029 
+1119 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@57bd2029 
+1119 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@26a94fa5 
+1119 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@26a94fa5 
+1119 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@779de014 
+1119 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@779de014 
+1119 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@69c6161d 
+1119 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@69c6161d 
+1119 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@3eb631b8 
+1119 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@64e1dd11 
+1119 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@64e1dd11 
+1119 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@64e1dd11 
+1135 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@2bc12da 
+1135 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@2bc12da 
+1135 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@2bc12da 
+1135 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@61e45f87 
+1135 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@5491f68b 
+1135 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@54dcbb9f 
+1135 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@54dcbb9f 
+1135 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@54dcbb9f 
+1135 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@5f78de22 
+1135 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@5f78de22 
+1135 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@5f78de22 
+1135 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@272a179c 
+1135 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@7c2a69b4 
+1135 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@378bd86d 
+1135 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@378bd86d 
+1135 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@a10c1b5 
+1135 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@585c13de 
+1135 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@585c13de 
+1135 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@69ce2f62 
+1135 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@69ce2f62 
+1135 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@d02f8d 
+1135 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@720653c2 
+1135 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@4565a70a 
+1135 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@3e134896 
+1135 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@3e134896 
+1135 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@6ac97b84 
+1135 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@4917d36b 
+1135 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@35c09b94 
+1135 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@2d0bfb24 
+1135 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@c3fa05a 
+1135 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@7b44b63d 
+1135 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@4a699efa 
+1135 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@38499e48 
+1170 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator] 
+1170 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator] 
+1170 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator] 
+1170 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator] 
+1170 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned] 
+1170 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator] 
+1170 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator] 
+1170 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator] 
+1170 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator] 
+1170 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator] 
+1170 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator] 
+1170 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator] 
+1170 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator] 
+1170 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator] 
+1186 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+1186 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/addressbook?serverTimezone=UTC] 
+1186 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=} 
+1186 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false 
+1202 [main] DEBUG o.h.e.j.c.i.DriverManagerConnectionProviderImpl - Initializing Connection pool with 1 Connections 
+1202 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1) 
+1429 [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - Database ->
+       name : MySQL
+    version : 5.5.5-10.1.38-MariaDB
+      major : 5
+      minor : 5 
+1429 [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-java-8.0.16 (Revision: 34cbc6bc61f72836e26327537a432d6db7c77de6)
+      major : 8
+      minor : 0 
+1429 [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - JDBC version : 4.2 
+1443 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect 
+1464 [main] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in more than one case 
+1468 [main] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers 
+1511 [main] DEBUG o.h.boot.model.relational.Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}] 
+1515 [main] DEBUG o.h.t.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@6a48a7f3] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@3f985a86] 
+1568 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: gaidadym.javaForTesters.addressbook.model.GroupData 
+1590 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'} 
+1596 [main] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name GroupData 
+1599 [main] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity gaidadym.javaForTesters.addressbook.model.GroupData on table group_list 
+1625 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_id, insertable=true, updatable=true, unique=false} 
+1629 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false 
+1631 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.GroupData:id] 
+1633 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for id 
+1635 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property id 
+1638 [main] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(group_id)]), id, assigned, , ...) 
+1640 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=null, insertable=true, updatable=true, unique=false} 
+1651 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=element, insertable=true, updatable=true, unique=false} 
+1652 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=contacts_KEY, insertable=true, updatable=true, unique=false} 
+1653 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='contacts_KEY', referencedColumn='null', mappedBy='null'} 
+1654 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='groups'} 
+1654 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='groups'} 
+1655 [main] DEBUG o.h.c.annotations.CollectionBinder - Collection role: gaidadym.javaForTesters.addressbook.model.GroupData.contacts 
+1657 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property contacts 
+1657 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_footer, insertable=true, updatable=true, unique=false} 
+1657 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property footer with lazy=false 
+1657 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.GroupData:footer] 
+1657 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for footer 
+1657 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property footer 
+1658 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_header, insertable=true, updatable=true, unique=false} 
+1658 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property header with lazy=false 
+1658 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.GroupData:header] 
+1658 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for header 
+1658 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property header 
+1658 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_name, insertable=true, updatable=true, unique=false} 
+1658 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property name with lazy=false 
+1658 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.GroupData:name] 
+1658 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for name 
+1658 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property name 
+1662 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: gaidadym.javaForTesters.addressbook.model.ContactData 
+1662 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'} 
+1662 [main] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name ContactData 
+1662 [main] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity gaidadym.javaForTesters.addressbook.model.ContactData on table addressbook 
+1670 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=id, insertable=true, updatable=true, unique=false} 
+1670 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false 
+1670 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:id] 
+1670 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for id 
+1670 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property id 
+1670 [main] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, assigned, , ...) 
+1670 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=address, insertable=true, updatable=true, unique=false} 
+1670 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property address with lazy=false 
+1670 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:address] 
+1670 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for address 
+1670 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property address 
+1670 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=company, insertable=true, updatable=true, unique=false} 
+1670 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property company with lazy=false 
+1671 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:company] 
+1671 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for company 
+1671 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property company 
+1671 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=email, insertable=true, updatable=true, unique=false} 
+1671 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property email with lazy=false 
+1671 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:email] 
+1671 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for email 
+1671 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property email 
+1671 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=email2, insertable=true, updatable=true, unique=false} 
+1671 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property email2 with lazy=false 
+1671 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:email2] 
+1671 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for email2 
+1671 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property email2 
+1671 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=email3, insertable=true, updatable=true, unique=false} 
+1672 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property email3 with lazy=false 
+1672 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:email3] 
+1672 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for email3 
+1672 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property email3 
+1672 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=fax, insertable=true, updatable=true, unique=false} 
+1672 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property faxPhone with lazy=false 
+1672 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:faxPhone] 
+1672 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for faxPhone 
+1672 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property faxPhone 
+1672 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=firstname, insertable=true, updatable=true, unique=false} 
+1672 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property firstname with lazy=false 
+1672 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:firstname] 
+1672 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for firstname 
+1673 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property firstname 
+1674 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=null, insertable=true, updatable=true, unique=false} 
+1674 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=element, insertable=true, updatable=true, unique=false} 
+1674 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=groups_KEY, insertable=true, updatable=true, unique=false} 
+1674 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='groups_KEY', referencedColumn='null', mappedBy='null'} 
+1674 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='id', referencedColumn='', mappedBy=''} 
+1674 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='group_id', referencedColumn='', mappedBy=''} 
+1675 [main] DEBUG o.h.c.annotations.CollectionBinder - Collection role: gaidadym.javaForTesters.addressbook.model.ContactData.groups 
+1675 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property groups 
+1675 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=homepage, insertable=true, updatable=true, unique=false} 
+1675 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property homePage with lazy=false 
+1675 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:homePage] 
+1675 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for homePage 
+1675 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property homePage 
+1675 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=home, insertable=true, updatable=true, unique=false} 
+1676 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property homePhone with lazy=false 
+1676 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:homePhone] 
+1676 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for homePhone 
+1676 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property homePhone 
+1676 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=lastname, insertable=true, updatable=true, unique=false} 
+1676 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property lastname with lazy=false 
+1676 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:lastname] 
+1676 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for lastname 
+1676 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property lastname 
+1676 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=middlename, insertable=true, updatable=true, unique=false} 
+1676 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property middlename with lazy=false 
+1677 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:middlename] 
+1677 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for middlename 
+1677 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property middlename 
+1677 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=mobile, insertable=true, updatable=true, unique=false} 
+1677 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property mobilePhone with lazy=false 
+1677 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:mobilePhone] 
+1677 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for mobilePhone 
+1677 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property mobilePhone 
+1677 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=nickname, insertable=true, updatable=true, unique=false} 
+1678 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property nickname with lazy=false 
+1678 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:nickname] 
+1678 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for nickname 
+1678 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property nickname 
+1678 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=photo, insertable=true, updatable=true, unique=false} 
+1678 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property photo with lazy=false 
+1678 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:photo] 
+1678 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for photo 
+1678 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property photo 
+1678 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=title, insertable=true, updatable=true, unique=false} 
+1679 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property title with lazy=false 
+1679 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:title] 
+1679 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for title 
+1679 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property title 
+1679 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=work, insertable=true, updatable=true, unique=false} 
+1679 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property workPhone with lazy=false 
+1679 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:workPhone] 
+1679 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for workPhone 
+1679 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property workPhone 
+1679 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: gaidadym.javaForTesters.addressbook.model.ContactGroups 
+1680 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'} 
+1680 [main] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name ContactGroups 
+1680 [main] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity gaidadym.javaForTesters.addressbook.model.ContactGroups on table address_in_groups 
+1681 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(address_in_groups), mappingColumn=id, insertable=true, updatable=true, unique=false} 
+1681 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false 
+1681 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactGroups:id] 
+1681 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for id 
+1681 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property id 
+1681 [main] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, assigned, , ...) 
+1681 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(address_in_groups), mappingColumn=group_id, insertable=true, updatable=true, unique=false} 
+1681 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property group_id with lazy=false 
+1681 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactGroups:group_id] 
+1681 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for group_id 
+1681 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property group_id 
+1682 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for id 
+1682 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for footer 
+1682 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for header 
+1682 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for name 
+1682 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for id 
+1682 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for address 
+1682 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for company 
+1682 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for email 
+1682 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for email2 
+1682 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for email3 
+1683 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for faxPhone 
+1683 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for firstname 
+1683 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for homePage 
+1683 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for homePhone 
+1683 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for lastname 
+1683 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for middlename 
+1683 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for mobilePhone 
+1683 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for nickname 
+1683 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for photo 
+1683 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for title 
+1683 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for workPhone 
+1683 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for id 
+1684 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for group_id 
+1685 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [group_id] to be non-null as it is part of the primary key for table [group_list] 
+1685 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [addressbook] 
+1685 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [address_in_groups] 
+1685 [main] DEBUG o.h.cfg.CollectionSecondPass - Second pass for collection: gaidadym.javaForTesters.addressbook.model.ContactData.groups 
+1685 [main] DEBUG o.h.c.annotations.CollectionBinder - Binding as ManyToMany: gaidadym.javaForTesters.addressbook.model.ContactData.groups 
+1692 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [address_in_groups] 
+1692 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [group_id] to be non-null as it is part of the primary key for table [address_in_groups] 
+1692 [main] DEBUG o.h.cfg.CollectionSecondPass - Mapped collection key: id, element: group_id 
+1692 [main] DEBUG o.h.cfg.CollectionSecondPass - Second pass for collection: gaidadym.javaForTesters.addressbook.model.GroupData.contacts 
+1693 [main] DEBUG o.h.c.annotations.CollectionBinder - Binding as ManyToMany: gaidadym.javaForTesters.addressbook.model.GroupData.contacts 
+1693 [main] DEBUG o.h.cfg.annotations.TableBinder - Retrieving property gaidadym.javaForTesters.addressbook.model.ContactData.groups 
+1693 [main] DEBUG o.h.cfg.CollectionSecondPass - Mapped collection key: group_id, element: id 
+1693 [main] DEBUG o.h.b.i.InFlightMetadataCollectorImpl - Resolving reference to class: gaidadym.javaForTesters.addressbook.model.GroupData 
+1696 [main] DEBUG o.h.b.i.InFlightMetadataCollectorImpl - Resolving reference to class: gaidadym.javaForTesters.addressbook.model.ContactData 
+1697 [main] DEBUG o.h.b.i.InFlightMetadataCollectorImpl - Resolving reference to class: gaidadym.javaForTesters.addressbook.model.GroupData 
+1697 [main] DEBUG o.h.b.i.InFlightMetadataCollectorImpl - Resolving reference to class: gaidadym.javaForTesters.addressbook.model.ContactData 
+1733 [main] DEBUG o.h.internal.SessionFactoryImpl - Building session factory 
+1734 [main] DEBUG org.hibernate.cfg.Settings - SessionFactory name : null 
+1734 [main] DEBUG org.hibernate.cfg.Settings - Automatic flush during beforeCompletion(): enabled 
+1735 [main] DEBUG org.hibernate.cfg.Settings - Automatic session close at end of transaction: disabled 
+1735 [main] DEBUG org.hibernate.cfg.Settings - Statistics: disabled 
+1735 [main] DEBUG org.hibernate.cfg.Settings - Deleted entity synthetic identifier rollback: disabled 
+1735 [main] DEBUG org.hibernate.cfg.Settings - Default entity-mode: pojo 
+1735 [main] DEBUG org.hibernate.cfg.Settings - Check Nullability in Core (should be disabled when Bean Validation is on): enabled 
+1735 [main] DEBUG org.hibernate.cfg.Settings - Allow initialization of lazy state outside session : disabled 
+1735 [main] DEBUG org.hibernate.cfg.Settings - Using BatchFetchStyle : LEGACY 
+1735 [main] DEBUG org.hibernate.cfg.Settings - Default batch fetch size: -1 
+1735 [main] DEBUG org.hibernate.cfg.Settings - Maximum outer join fetch depth: 2 
+1735 [main] DEBUG org.hibernate.cfg.Settings - Default null ordering: NONE 
+1735 [main] DEBUG org.hibernate.cfg.Settings - Order SQL updates by primary key: disabled 
+1735 [main] DEBUG org.hibernate.cfg.Settings - Order SQL inserts for batching: disabled 
+1735 [main] DEBUG org.hibernate.cfg.Settings - multi-tenancy strategy : NONE 
+1735 [main] DEBUG org.hibernate.cfg.Settings - JTA Track by Thread: enabled 
+1735 [main] DEBUG org.hibernate.cfg.Settings - Query language substitutions: {} 
+1735 [main] DEBUG org.hibernate.cfg.Settings - Named query checking : enabled 
+1735 [main] DEBUG org.hibernate.cfg.Settings - Second-level cache: disabled 
+1735 [main] DEBUG org.hibernate.cfg.Settings - Second-level query cache: disabled 
+1735 [main] DEBUG org.hibernate.cfg.Settings - Second-level query cache factory: null 
+1735 [main] DEBUG org.hibernate.cfg.Settings - Second-level cache region prefix: null 
+1735 [main] DEBUG org.hibernate.cfg.Settings - Optimize second-level cache for minimal puts: disabled 
+1735 [main] DEBUG org.hibernate.cfg.Settings - Structured second-level cache entries: disabled 
+1735 [main] DEBUG org.hibernate.cfg.Settings - Second-level cache direct-reference entries: disabled 
+1735 [main] DEBUG org.hibernate.cfg.Settings - Automatic eviction of collection cache: disabled 
+1736 [main] DEBUG org.hibernate.cfg.Settings - JDBC batch size: 15 
+1736 [main] DEBUG org.hibernate.cfg.Settings - JDBC batch updates for versioned data: enabled 
+1736 [main] DEBUG org.hibernate.cfg.Settings - Scrollable result sets: enabled 
+1736 [main] DEBUG org.hibernate.cfg.Settings - Wrap result sets: disabled 
+1736 [main] DEBUG org.hibernate.cfg.Settings - JDBC3 getGeneratedKeys(): enabled 
+1736 [main] DEBUG org.hibernate.cfg.Settings - JDBC result set fetch size: null 
+1736 [main] DEBUG org.hibernate.cfg.Settings - Connection release mode: AFTER_TRANSACTION 
+1736 [main] DEBUG org.hibernate.cfg.Settings - Generate SQL with comments: disabled 
+1736 [main] DEBUG org.hibernate.cfg.Settings - JPA compliance - query :  
+1736 [main] DEBUG org.hibernate.cfg.Settings - JPA compliance - closed-handling :  
+1736 [main] DEBUG org.hibernate.cfg.Settings - JPA compliance - lists :  
+1736 [main] DEBUG org.hibernate.cfg.Settings - JPA compliance - transactions :  
+1831 [main] DEBUG o.h.internal.SessionFactoryImpl - Session factory constructed with filter configurations : {} 
+1831 [main] DEBUG o.h.internal.SessionFactoryImpl - Instantiating session factory with properties: {sun.desktop=windows, awt.toolkit=sun.awt.windows.WToolkit, dialect=org.hibernate.dialect.MySQLDialect, file.encoding.pkg=sun.io, java.specification.version=1.8, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1251, hibernate.dialect=org.hibernate.dialect.MySQLDialect, java.class.path=D:\IntelliJ IDEA Community Edition 2018.2.2\lib\idea_rt.jar;D:\IntelliJ IDEA Community Edition 2018.2.2\plugins\testng\lib\testng-plugin.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;D:\javaForTesters\addressbook-web-tests\out\test\classes;D:\javaForTesters\addressbook-web-tests\out\test\resources;D:\javaForTesters\addressbook-web-tests\out\production\resources;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.testng\testng\6.9.10\6feb3e964aeb7097aff30c372aac3ec0f8d87ede\testng-6.9.10.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-java\4.0.0-alpha-1\df2f51ab0723d8ec017a73c6ef8f6983f573229c\selenium-java-4.0.0-alpha-1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.hamcrest\java-hamcrest\2.0.0.0\f1c8853ade0ecf707f5a261c830e98893983813\java-hamcrest-2.0.0.0.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\de.weltraumschaf.commons\jcommander\2.2.0\cbf85fe3c4b1b73b71c52c1095f4db7d10c73f25\jcommander-2.2.0.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.5\f645ed69d595b24d4cf8b3fbb64cc505bede8829\gson-2.8.5.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.thoughtworks.xstream\xstream\1.4.11.1\6c120c45a8c480bb2fea5b56502e3993ddd74fd2\xstream-1.4.11.1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-classic\1.2.3\7c4f3c474fb2c041d8028740440937705ebb473a\logback-classic-1.2.3.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\mysql\mysql-connector-java\8.0.16\6088b7a25188ab4b3ab865422a8ec77ade29236\mysql-connector-java-8.0.16.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.hibernate\hibernate-core\5.4.3.Final\76352d4bbd8d9a3d68fe028e732efe26fdd65def\hibernate-core-5.4.3.Final.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.beust\jcommander\1.48\bfcb96281ea3b59d626704f74bc6d625ff51cbce\jcommander-1.48.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.beanshell\bsh\2.0b4\a05f0a0feefa8d8467ac80e16e7de071489f0d9c\bsh-2.0b4.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-chrome-driver\4.0.0-alpha-1\64f25b878c1c02e293abac973a2cc18fdc44492a\selenium-chrome-driver-4.0.0-alpha-1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-edge-driver\4.0.0-alpha-1\619e3c72fcb4881d8f805302ee661b2e0cad9099\selenium-edge-driver-4.0.0-alpha-1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-firefox-xpi-driver\4.0.0-alpha-1\9bdccb7dc1eb7d31e68ac3c3c8a60f89affeafca\selenium-firefox-xpi-driver-4.0.0-alpha-1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-ie-driver\4.0.0-alpha-1\5b754e046a63cbc25ea2788e91959cb95a5285d\selenium-ie-driver-4.0.0-alpha-1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-opera-driver\4.0.0-alpha-1\2dd553e50b9d0f447bc046a09a84f3d914a3840d\selenium-opera-driver-4.0.0-alpha-1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-safari-driver\4.0.0-alpha-1\c7a9fb35453dbe48d9202da826b3575475a02950\selenium-safari-driver-4.0.0-alpha-1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-support\4.0.0-alpha-1\91dd6fe9c4c424fe01a5aa4db7bae9c20bca07e7\selenium-support-4.0.0-alpha-1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\de.weltraumschaf.commons\validate\2.2.0\34f98a2e44bb42f5a08982ef5111db470b18da31\validate-2.2.0.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\net.sourceforge.findbugs\annotations\1.3.2\d77bc83e0408680034a29481a89de0dba9802a97\annotations-1.3.2.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.github.stephenc.jcip\jcip-annotations\1.0-1\ef31541dd28ae2cefdd17c7ebf352d93e9058c63\jcip-annotations-1.0-1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\xmlpull\xmlpull\1.1.3.1\2b8e230d2ab644e4ecaa94db7cdedbc40c805dfa\xmlpull-1.1.3.1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\xpp3\xpp3_min\1.1.4c\19d4e90b43059058f6e056f794f0ea4030d60b86\xpp3_min-1.1.4c.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-core\1.2.3\864344400c3d4d92dfeb0a305dc87d953677c03c\logback-core-1.2.3.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.25\da76ca59f6a57ee3102f8f9bd9cee742973efa8a\slf4j-api-1.7.25.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.google.protobuf\protobuf-java\3.6.1\d06d46ecfd92ec6d0f3b423b4cd81cb38d8b924\protobuf-java-3.6.1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.hibernate.common\hibernate-commons-annotations\5.1.0.Final\700aeedc4a2089816621948f0379e17cbd17d5db\hibernate-commons-annotations-5.1.0.Final.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.jboss.logging\jboss-logging\3.3.2.Final\3789d00e859632e6c6206adc0c71625559e6e3b0\jboss-logging-3.3.2.Final.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\javax.persistence\javax.persistence-api\2.2\25665ac8c0b62f50e6488173233239120fc52c96\javax.persistence-api-2.2.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.javassist\javassist\3.24.0-GA\d7466fc2e3af7c023e95c510f06448ad29b225b3\javassist-3.24.0-GA.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-firefox-driver\4.0.0-alpha-1\3562376492b1949b2c61b25e659088656c62185\selenium-firefox-driver-4.0.0-alpha-1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-remote-driver\4.0.0-alpha-1\22b29396340cb549e665d685d981dfa8670d01e6\selenium-remote-driver-4.0.0-alpha-1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy\1.9.12\39050dbbd36862ea87eb9a64158854b04619ccd6\byte-buddy-1.9.12.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\antlr\antlr\2.7.7\83cd2cd674a217ade95a4bb83a8a14f351f48bd0\antlr-2.7.7.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.jboss.spec.javax.transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\a8485cab9484dda36e9a8c319e76b5cc18797b58\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.jboss\jandex\2.0.5.Final\7060f67764565b9ee9d467e3ed0cb8a9c601b23a\jandex-2.0.5.Final.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.fasterxml\classmate\1.3.4\3d5f48f10bbe4eb7bd862f10c0583be2e0053c6\classmate-1.3.4.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.glassfish.jaxb\jaxb-runtime\2.3.1\dd6dda9da676a54c5b36ca2806ff95ee017d8738\jaxb-runtime-2.3.1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\javax.xml.bind\jaxb-api\2.3.1\8531ad5ac454cc2deb9d4d32c40c4d7451939b5d\jaxb-api-2.3.1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\javax.activation\javax.activation-api\1.2.0\85262acf3ca9816f9537ca47d5adeabaead7cb16\javax.activation-api-1.2.0.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.dom4j\dom4j\2.1.1\3dce5dbb3571aa820c677fadd8349bfa8f00c199\dom4j-2.1.1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.glassfish.jaxb\txw2\2.3.1\a09d2c48d3285f206fafbffe0e50619284e92126\txw2-2.3.1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.sun.istack\istack-commons-runtime\3.0.7\c197c86ceec7318b1284bffb49b54226ca774003\istack-commons-runtime-3.0.7.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.jvnet.staxex\stax-ex\1.8\8cc35f73da321c29973191f2cf143d29d26a1df7\stax-ex-1.8.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.sun.xml.fastinfoset\FastInfoset\1.2.15\bb7b7ec0379982b97c62cd17465cb6d9155f68e8\FastInfoset-1.2.15.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.seleniumhq.selenium\selenium-api\4.0.0-alpha-1\9cb387573b8dd4673b7991066b7afd9e1cabd930\selenium-api-4.0.0-alpha-1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-exec\1.3\8dfb9facd0830a27b1b5f29f84593f0aeee7773b\commons-exec-1.3.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\27.1-jre\e47b59c893079b87743cdcfb6f17ca95c08c592c\guava-27.1-jre.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.14.0\c3a9efd10f26a802da2c47dbe54a8d4c44a6019f\okhttp-3.14.0.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\2.5.2\cea74543d5904a30861a61b4643a5f2bb372efc4\checker-qual-2.5.2.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.2.0\88e3c593e9b3586e1c6177f89267da6fc6986f0c\error_prone_annotations-2.2.0.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.1\ed28ded51a8b1c6b112568def5f4b455e6809019\j2objc-annotations-1.1.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.codehaus.mojo\animal-sniffer-annotations\1.17\f97ce6decaea32b36101e37979f8b647f00681fb\animal-sniffer-annotations-1.17.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.17.2\78c7820b205002da4d2d137f6f312bd64b3d6049\okio-1.17.2.jar;D:\IntelliJ IDEA Community Edition 2018.2.2\plugins\testng\lib\jcommander.jar;C:\Users\Admin\.IdeaIC2018.2\system\groovyHotSwap\gragent.jar;C:\Users\Admin\.IdeaIC2018.2\system\captureAgent\debugger-agent.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, idea.test.cyclic.buffer.size=1048576, hbm2ddl.auto=validate, user.variant=, java.vendor.url=http://java.oracle.com/, user.timezone=Europe/Moscow, os.name=Windows 10, java.vm.specification.version=1.8, sun.java.launcher=SUN_STANDARD, user.country=RU, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_181\jre\bin, sun.java.command=org.testng.RemoteTestNGStarter -usedefaultlisteners false -socket1358 @w@C:\Users\Admin\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\Admin\AppData\Local\Temp\idea_testng.tmp, sun.cpu.endian=little, user.home=C:\Users\Admin, user.language=ru, java.specification.vendor=Oracle Corporation, hibernate.cache.provider_class=org.hibernate.cache.internal.NoCacheProvide, java.home=C:\Program Files\Java\jdk1.8.0_181\jre, file.separator=\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, intellij.debug.agent=true, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, cache.provider_class=org.hibernate.cache.internal.NoCacheProvide, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes;C:\Users\Admin\.IdeaIC2018.2\system\captureAgent\debugger-agent-storage.jar, hibernate.hbm2ddl.auto=validate, user.script=, connection.password=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=1.8.0_181-b13, user.name=Admin, path.separator=;, hibernate.connection.username=****, os.version=10.0, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.url=jdbc:mysql://localhost:3306/addressbook?serverTimezone=UTC, connection.pool_size=1, file.encoding=UTF-8, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=true, show_sql=true, hibernate.connection.driver_class=com.mysql.jdbc.Driver, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.io.tmpdir=C:\Users\Admin\AppData\Local\Temp\, jboss.modules.system.pkgs=com.intellij.rt, java.version=1.8.0_181, user.dir=D:\javaForTesters\addressbook-web-tests, os.arch=amd64, connection.username=root, java.vm.specification.name=Java Virtual Machine Specification, hibernate.connection.password=****, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.os.patch.level=, connection.driver_class=com.mysql.jdbc.Driver, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@1f03fba0, java.library.path=C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\javaForTesters\addressbook-web-tests;D:\Python37-32\;C:\Windows\system32\WBEM;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;D:\Program Files\TortoiseHg\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\maven\bin;d:\Program Files\Git\cmd;D:\Selenium;c:\automation\Selenium\node_modules\;C:\Program Files\TortoiseGit\bin;D:\Program Files (x86)\Yarn\bin\;D:\Program Files\nodejs\;D:\Gradle\bin;D:\Selenium;C:\Users\Admin\AppData\Local\Yarn\bin;D:\Python37-32;C:\Users\Admin\AppData\Roaming\npm;D:\Gradle\bin;;., java.vendor=Oracle Corporation, java.vm.info=mixed mode, java.vm.version=25.181-b13, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, hibernate.connection.pool_size=1, connection.url=jdbc:mysql://localhost:3306/addressbook?serverTimezone=UTC, java.class.version=52.0} 
+1846 [main] DEBUG o.h.secure.spi.JaccIntegrator - Skipping JACC integration as it was not enabled 
+1847 [main] DEBUG o.h.internal.SessionFactoryImpl - Instantiated session factory 
+1847 [main] DEBUG o.h.t.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@6a48a7f3] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@3c3820bb] 
+1902 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [gaidadym.javaForTesters.addressbook.model.ContactGroups] is safe 
+1902 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : gaidadym.javaForTesters.addressbook.model.ContactGroups 
+2025 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [gaidadym.javaForTesters.addressbook.model.ContactGroups] is safe 
+2025 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : gaidadym.javaForTesters.addressbook.model.ContactGroups 
+2290 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [gaidadym.javaForTesters.addressbook.model.GroupData] is safe 
+2290 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : gaidadym.javaForTesters.addressbook.model.GroupData 
+2290 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [gaidadym.javaForTesters.addressbook.model.GroupData] is safe 
+2290 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : gaidadym.javaForTesters.addressbook.model.GroupData 
+2310 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [gaidadym.javaForTesters.addressbook.model.ContactData] is safe 
+2310 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : gaidadym.javaForTesters.addressbook.model.ContactData 
+2310 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [gaidadym.javaForTesters.addressbook.model.ContactData] is safe 
+2310 [main] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : gaidadym.javaForTesters.addressbook.model.ContactData 
+2349 [main] DEBUG o.h.p.c.AbstractCollectionPersister - Static SQL for collection: gaidadym.javaForTesters.addressbook.model.GroupData.contacts 
+2349 [main] DEBUG o.h.p.c.AbstractCollectionPersister -  Row insert: insert into address_in_groups (group_id, id) values (?, ?) 
+2349 [main] DEBUG o.h.p.c.AbstractCollectionPersister -  Row update: update address_in_groups set id=? where group_id=? and id=? 
+2349 [main] DEBUG o.h.p.c.AbstractCollectionPersister -  Row delete: delete from address_in_groups where group_id=? and id=? 
+2349 [main] DEBUG o.h.p.c.AbstractCollectionPersister -  One-shot delete: delete from address_in_groups where group_id=? 
+2349 [main] DEBUG o.h.p.c.AbstractCollectionPersister - Static SQL for collection: gaidadym.javaForTesters.addressbook.model.ContactData.groups 
+2349 [main] DEBUG o.h.p.c.AbstractCollectionPersister -  Row insert: insert into address_in_groups (id, group_id) values (?, ?) 
+2349 [main] DEBUG o.h.p.c.AbstractCollectionPersister -  Row update: update address_in_groups set group_id=? where id=? and group_id=? 
+2349 [main] DEBUG o.h.p.c.AbstractCollectionPersister -  Row delete: delete from address_in_groups where id=? and group_id=? 
+2349 [main] DEBUG o.h.p.c.AbstractCollectionPersister -  One-shot delete: delete from address_in_groups where id=? 
+2353 [main] DEBUG o.h.p.e.AbstractEntityPersister - Static SQL for entity: gaidadym.javaForTesters.addressbook.model.ContactGroups 
+2353 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Version select: select id from address_in_groups where id =? 
+2353 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Snapshot select: select contactgro_.id, contactgro_.group_id as group_id2_0_ from address_in_groups contactgro_ where contactgro_.id=? 
+2353 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Insert 0: insert into address_in_groups (group_id, id) values (?, ?) 
+2353 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Update 0: update address_in_groups set group_id=? where id=? 
+2353 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Delete 0: delete from address_in_groups where id=? 
+2370 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6ad179b4] 
+2370 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : group_id 
+2370 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan... 
+2381 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0> 
+2391 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=gaidadym.javaForTesters.addressbook.model.ContactGroups)
+    - Returns
+       - EntityReturnImpl(entity=gaidadym.javaForTesters.addressbook.model.ContactGroups, querySpaceUid=<gen:0>, path=gaidadym.javaForTesters.addressbook.model.ContactGroups)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=gaidadym.javaForTesters.addressbook.model.ContactGroups)
+          - SQL table alias mapping - contactgro0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+ 
+2391 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity gaidadym.javaForTesters.addressbook.model.ContactGroups [NONE]: select contactgro0_.id as id1_0_0_, contactgro0_.group_id as group_id2_0_0_ from address_in_groups contactgro0_ where contactgro0_.id=? 
+2391 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@733fb462] 
+2391 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : group_id 
+2391 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan... 
+2391 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0> 
+2391 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=gaidadym.javaForTesters.addressbook.model.ContactGroups)
+    - Returns
+       - EntityReturnImpl(entity=gaidadym.javaForTesters.addressbook.model.ContactGroups, querySpaceUid=<gen:0>, path=gaidadym.javaForTesters.addressbook.model.ContactGroups)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=gaidadym.javaForTesters.addressbook.model.ContactGroups)
+          - SQL table alias mapping - contactgro0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+ 
+2391 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity gaidadym.javaForTesters.addressbook.model.ContactGroups [READ]: select contactgro0_.id as id1_0_0_, contactgro0_.group_id as group_id2_0_0_ from address_in_groups contactgro0_ where contactgro0_.id=? 
+2401 [main] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_MERGE on entity gaidadym.javaForTesters.addressbook.model.ContactGroups: select contactgro0_.id as id1_0_0_, contactgro0_.group_id as group_id2_0_0_ from address_in_groups contactgro0_ where contactgro0_.id=? 
+2401 [main] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_REFRESH on entity gaidadym.javaForTesters.addressbook.model.ContactGroups: select contactgro0_.id as id1_0_0_, contactgro0_.group_id as group_id2_0_0_ from address_in_groups contactgro0_ where contactgro0_.id=? 
+2401 [main] DEBUG o.h.p.e.AbstractEntityPersister - Static SQL for entity: gaidadym.javaForTesters.addressbook.model.GroupData 
+2401 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Version select: select group_id from group_list where group_id =? 
+2401 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Snapshot select: select groupdata_.group_id, groupdata_.group_footer as group_fo2_2_, groupdata_.group_header as group_he3_2_, groupdata_.group_name as group_na4_2_ from group_list groupdata_ where groupdata_.group_id=? 
+2401 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Insert 0: insert into group_list (group_footer, group_header, group_name, group_id) values (?, ?, ?, ?) 
+2401 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Update 0: update group_list set group_footer=?, group_header=?, group_name=? where group_id=? 
+2401 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Delete 0: delete from group_list where group_id=? 
+2401 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@51d0ec6f] 
+2401 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts 
+2411 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@2d258eff] 
+2411 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@108e9837] 
+2411 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : footer 
+2411 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : header 
+2411 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name 
+2411 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan... 
+2411 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0> 
+2411 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=gaidadym.javaForTesters.addressbook.model.GroupData)
+    - Returns
+       - EntityReturnImpl(entity=gaidadym.javaForTesters.addressbook.model.GroupData, querySpaceUid=<gen:0>, path=gaidadym.javaForTesters.addressbook.model.GroupData)
+          - CollectionAttributeFetchImpl(collection=gaidadym.javaForTesters.addressbook.model.GroupData.contacts, querySpaceUid=<gen:1>, path=gaidadym.javaForTesters.addressbook.model.GroupData.contacts)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=gaidadym.javaForTesters.addressbook.model.ContactData, querySpaceUid=<gen:2>, path=gaidadym.javaForTesters.addressbook.model.GroupData.contacts.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=gaidadym.javaForTesters.addressbook.model.GroupData)
+          - SQL table alias mapping - groupdata0_
+          - alias suffix - 0_
+          - suffixed key columns - {group_id1_2_0_}
+ 
+2411 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity gaidadym.javaForTesters.addressbook.model.GroupData [NONE]: select groupdata0_.group_id as group_id1_2_0_, groupdata0_.group_footer as group_fo2_2_0_, groupdata0_.group_header as group_he3_2_0_, groupdata0_.group_name as group_na4_2_0_ from group_list groupdata0_ where groupdata0_.group_id=? 
+2411 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@30c19bff] 
+2411 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts 
+2411 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@ab2e6d2] 
+2411 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@71664560] 
+2411 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : footer 
+2411 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : header 
+2411 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name 
+2411 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan... 
+2411 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0> 
+2411 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=gaidadym.javaForTesters.addressbook.model.GroupData)
+    - Returns
+       - EntityReturnImpl(entity=gaidadym.javaForTesters.addressbook.model.GroupData, querySpaceUid=<gen:0>, path=gaidadym.javaForTesters.addressbook.model.GroupData)
+          - CollectionAttributeFetchImpl(collection=gaidadym.javaForTesters.addressbook.model.GroupData.contacts, querySpaceUid=<gen:1>, path=gaidadym.javaForTesters.addressbook.model.GroupData.contacts)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=gaidadym.javaForTesters.addressbook.model.ContactData, querySpaceUid=<gen:2>, path=gaidadym.javaForTesters.addressbook.model.GroupData.contacts.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=gaidadym.javaForTesters.addressbook.model.GroupData)
+          - SQL table alias mapping - groupdata0_
+          - alias suffix - 0_
+          - suffixed key columns - {group_id1_2_0_}
+ 
+2411 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity gaidadym.javaForTesters.addressbook.model.GroupData [READ]: select groupdata0_.group_id as group_id1_2_0_, groupdata0_.group_footer as group_fo2_2_0_, groupdata0_.group_header as group_he3_2_0_, groupdata0_.group_name as group_na4_2_0_ from group_list groupdata0_ where groupdata0_.group_id=? 
+2411 [main] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_MERGE on entity gaidadym.javaForTesters.addressbook.model.GroupData: select groupdata0_.group_id as group_id1_2_0_, groupdata0_.group_footer as group_fo2_2_0_, groupdata0_.group_header as group_he3_2_0_, groupdata0_.group_name as group_na4_2_0_ from group_list groupdata0_ where groupdata0_.group_id=? 
+2411 [main] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_REFRESH on entity gaidadym.javaForTesters.addressbook.model.GroupData: select groupdata0_.group_id as group_id1_2_0_, groupdata0_.group_footer as group_fo2_2_0_, groupdata0_.group_header as group_he3_2_0_, groupdata0_.group_name as group_na4_2_0_ from group_list groupdata0_ where groupdata0_.group_id=? 
+2411 [main] DEBUG o.h.p.e.AbstractEntityPersister - Static SQL for entity: gaidadym.javaForTesters.addressbook.model.ContactData 
+2411 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Version select: select id from addressbook where id =? 
+2411 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Snapshot select: select contactdat_.id, contactdat_.address as address2_1_, contactdat_.company as company3_1_, contactdat_.email as email4_1_, contactdat_.email2 as email5_1_, contactdat_.email3 as email6_1_, contactdat_.fax as fax7_1_, contactdat_.firstname as firstnam8_1_, contactdat_.homepage as homepage9_1_, contactdat_.home as home10_1_, contactdat_.lastname as lastnam11_1_, contactdat_.middlename as middlen12_1_, contactdat_.mobile as mobile13_1_, contactdat_.nickname as nicknam14_1_, contactdat_.photo as photo15_1_, contactdat_.title as title16_1_, contactdat_.work as work17_1_ from addressbook contactdat_ where contactdat_.id=? 
+2411 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Insert 0: insert into addressbook (address, company, email, email2, email3, fax, firstname, homepage, home, lastname, middlename, mobile, nickname, photo, title, work, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2411 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Update 0: update addressbook set address=?, company=?, email=?, email2=?, email3=?, fax=?, firstname=?, homepage=?, home=?, lastname=?, middlename=?, mobile=?, nickname=?, photo=?, title=?, work=? where id=? 
+2411 [main] DEBUG o.h.p.e.AbstractEntityPersister -  Delete 0: delete from addressbook where id=? 
+2411 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4d4436d0] 
+2411 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : address 
+2411 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : company 
+2411 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : email 
+2411 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : email2 
+2411 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : email3 
+2411 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : faxPhone 
+2411 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : firstname 
+2411 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : groups 
+2411 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@bd3eff4] 
+2411 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5b1efaaf] 
+2411 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : groups.contacts 
+2411 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Property path deemed to be circular : groups.contacts 
+2411 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : groups.footer 
+2411 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : groups.header 
+2411 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : groups.name 
+2411 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : homePage 
+2411 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : homePhone 
+2411 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : lastname 
+2411 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : middlename 
+2411 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : mobilePhone 
+2411 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : nickname 
+2411 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : photo 
+2419 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : title 
+2419 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : workPhone 
+2419 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan... 
+2419 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0> 
+2421 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=gaidadym.javaForTesters.addressbook.model.ContactData)
+    - Returns
+       - EntityReturnImpl(entity=gaidadym.javaForTesters.addressbook.model.ContactData, querySpaceUid=<gen:0>, path=gaidadym.javaForTesters.addressbook.model.ContactData)
+          - CollectionAttributeFetchImpl(collection=gaidadym.javaForTesters.addressbook.model.ContactData.groups, querySpaceUid=<gen:1>, path=gaidadym.javaForTesters.addressbook.model.ContactData.groups)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=gaidadym.javaForTesters.addressbook.model.GroupData, querySpaceUid=<gen:2>, path=gaidadym.javaForTesters.addressbook.model.ContactData.groups.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=gaidadym.javaForTesters.addressbook.model.ContactData)
+          - SQL table alias mapping - contactdat0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+          - JOIN (JoinDefinedByMetadata(groups)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=gaidadym.javaForTesters.addressbook.model.ContactData.groups)
+                - SQL table alias mapping - groups1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_0_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - group_id1_2_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=gaidadym.javaForTesters.addressbook.model.GroupData)
+                      - SQL table alias mapping - groupdata2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {group_id1_2_2_}
+ 
+2421 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity gaidadym.javaForTesters.addressbook.model.ContactData [NONE]: select contactdat0_.id as id1_1_0_, contactdat0_.address as address2_1_0_, contactdat0_.company as company3_1_0_, contactdat0_.email as email4_1_0_, contactdat0_.email2 as email5_1_0_, contactdat0_.email3 as email6_1_0_, contactdat0_.fax as fax7_1_0_, contactdat0_.firstname as firstnam8_1_0_, contactdat0_.homepage as homepage9_1_0_, contactdat0_.home as home10_1_0_, contactdat0_.lastname as lastnam11_1_0_, contactdat0_.middlename as middlen12_1_0_, contactdat0_.mobile as mobile13_1_0_, contactdat0_.nickname as nicknam14_1_0_, contactdat0_.photo as photo15_1_0_, contactdat0_.title as title16_1_0_, contactdat0_.work as work17_1_0_, groups1_.id as id1_0_1_, groupdata2_.group_id as group_id2_0_1_, groupdata2_.group_id as group_id1_2_2_, groupdata2_.group_footer as group_fo2_2_2_, groupdata2_.group_header as group_he3_2_2_, groupdata2_.group_name as group_na4_2_2_ from addressbook contactdat0_ left outer join address_in_groups groups1_ on contactdat0_.id=groups1_.id left outer join group_list groupdata2_ on groups1_.group_id=groupdata2_.group_id where contactdat0_.id=? 
+2421 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@52bd9a27] 
+2421 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : address 
+2421 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : company 
+2421 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : email 
+2421 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : email2 
+2421 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : email3 
+2421 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : faxPhone 
+2421 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : firstname 
+2421 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : groups 
+2421 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@681c0ae6] 
+2421 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@73ca34e7] 
+2421 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : groups.contacts 
+2421 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Property path deemed to be circular : groups.contacts 
+2421 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : groups.footer 
+2421 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : groups.header 
+2421 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : groups.name 
+2421 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : homePage 
+2421 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : homePhone 
+2421 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : lastname 
+2421 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : middlename 
+2421 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : mobilePhone 
+2421 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : nickname 
+2421 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : photo 
+2421 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : title 
+2421 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : workPhone 
+2421 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan... 
+2421 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0> 
+2421 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(entity=gaidadym.javaForTesters.addressbook.model.ContactData)
+    - Returns
+       - EntityReturnImpl(entity=gaidadym.javaForTesters.addressbook.model.ContactData, querySpaceUid=<gen:0>, path=gaidadym.javaForTesters.addressbook.model.ContactData)
+          - CollectionAttributeFetchImpl(collection=gaidadym.javaForTesters.addressbook.model.ContactData.groups, querySpaceUid=<gen:1>, path=gaidadym.javaForTesters.addressbook.model.ContactData.groups)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=gaidadym.javaForTesters.addressbook.model.GroupData, querySpaceUid=<gen:2>, path=gaidadym.javaForTesters.addressbook.model.ContactData.groups.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=gaidadym.javaForTesters.addressbook.model.ContactData)
+          - SQL table alias mapping - contactdat0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+          - JOIN (JoinDefinedByMetadata(groups)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=gaidadym.javaForTesters.addressbook.model.ContactData.groups)
+                - SQL table alias mapping - groups1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_0_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - group_id1_2_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=gaidadym.javaForTesters.addressbook.model.GroupData)
+                      - SQL table alias mapping - groupdata2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {group_id1_2_2_}
+ 
+2421 [main] DEBUG o.h.loader.entity.plan.EntityLoader - Static select for entity gaidadym.javaForTesters.addressbook.model.ContactData [READ]: select contactdat0_.id as id1_1_0_, contactdat0_.address as address2_1_0_, contactdat0_.company as company3_1_0_, contactdat0_.email as email4_1_0_, contactdat0_.email2 as email5_1_0_, contactdat0_.email3 as email6_1_0_, contactdat0_.fax as fax7_1_0_, contactdat0_.firstname as firstnam8_1_0_, contactdat0_.homepage as homepage9_1_0_, contactdat0_.home as home10_1_0_, contactdat0_.lastname as lastnam11_1_0_, contactdat0_.middlename as middlen12_1_0_, contactdat0_.mobile as mobile13_1_0_, contactdat0_.nickname as nicknam14_1_0_, contactdat0_.photo as photo15_1_0_, contactdat0_.title as title16_1_0_, contactdat0_.work as work17_1_0_, groups1_.id as id1_0_1_, groupdata2_.group_id as group_id2_0_1_, groupdata2_.group_id as group_id1_2_2_, groupdata2_.group_footer as group_fo2_2_2_, groupdata2_.group_header as group_he3_2_2_, groupdata2_.group_name as group_na4_2_2_ from addressbook contactdat0_ left outer join address_in_groups groups1_ on contactdat0_.id=groups1_.id left outer join group_list groupdata2_ on groups1_.group_id=groupdata2_.group_id where contactdat0_.id=? 
+2421 [main] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_MERGE on entity gaidadym.javaForTesters.addressbook.model.ContactData: select contactdat0_.id as id1_1_0_, contactdat0_.address as address2_1_0_, contactdat0_.company as company3_1_0_, contactdat0_.email as email4_1_0_, contactdat0_.email2 as email5_1_0_, contactdat0_.email3 as email6_1_0_, contactdat0_.fax as fax7_1_0_, contactdat0_.firstname as firstnam8_1_0_, contactdat0_.homepage as homepage9_1_0_, contactdat0_.home as home10_1_0_, contactdat0_.lastname as lastnam11_1_0_, contactdat0_.middlename as middlen12_1_0_, contactdat0_.mobile as mobile13_1_0_, contactdat0_.nickname as nicknam14_1_0_, contactdat0_.photo as photo15_1_0_, contactdat0_.title as title16_1_0_, contactdat0_.work as work17_1_0_ from addressbook contactdat0_ where contactdat0_.id=? 
+2421 [main] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_REFRESH on entity gaidadym.javaForTesters.addressbook.model.ContactData: select contactdat0_.id as id1_1_0_, contactdat0_.address as address2_1_0_, contactdat0_.company as company3_1_0_, contactdat0_.email as email4_1_0_, contactdat0_.email2 as email5_1_0_, contactdat0_.email3 as email6_1_0_, contactdat0_.fax as fax7_1_0_, contactdat0_.firstname as firstnam8_1_0_, contactdat0_.homepage as homepage9_1_0_, contactdat0_.home as home10_1_0_, contactdat0_.lastname as lastnam11_1_0_, contactdat0_.middlename as middlen12_1_0_, contactdat0_.mobile as mobile13_1_0_, contactdat0_.nickname as nicknam14_1_0_, contactdat0_.photo as photo15_1_0_, contactdat0_.title as title16_1_0_, contactdat0_.work as work17_1_0_ from addressbook contactdat0_ where contactdat0_.id=? 
+2429 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@310a7859] 
+2429 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1cbc1dde] 
+2429 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : address 
+2429 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : company 
+2429 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : email 
+2429 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : email2 
+2429 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : email3 
+2429 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : faxPhone 
+2429 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : firstname 
+2429 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : groups 
+2429 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Property path deemed to be circular : groups 
+2429 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : homePage 
+2429 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : homePhone 
+2429 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : lastname 
+2429 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : middlename 
+2429 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : mobilePhone 
+2429 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : nickname 
+2429 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : photo 
+2429 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : title 
+2429 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : workPhone 
+2429 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan... 
+2431 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0> 
+2431 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(collection=gaidadym.javaForTesters.addressbook.model.GroupData.contacts)
+    - Returns
+       - CollectionReturnImpl(collection=gaidadym.javaForTesters.addressbook.model.GroupData.contacts, querySpaceUid=<gen:0>, path=[gaidadym.javaForTesters.addressbook.model.GroupData.contacts])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=gaidadym.javaForTesters.addressbook.model.ContactData, querySpaceUid=<gen:1>, path=[gaidadym.javaForTesters.addressbook.model.GroupData.contacts].<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=gaidadym.javaForTesters.addressbook.model.GroupData.contacts)
+          - SQL table alias mapping - contacts0_
+          - alias suffix - 0_
+          - suffixed key columns - {group_id2_0_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_1_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=gaidadym.javaForTesters.addressbook.model.ContactData)
+                - SQL table alias mapping - contactdat1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_1_1_}
+ 
+2431 [main] DEBUG o.h.l.c.plan.CollectionLoader - Static select for collection gaidadym.javaForTesters.addressbook.model.GroupData.contacts: select contacts0_.group_id as group_id2_0_0_, contacts0_.id as id1_0_0_, contactdat1_.id as id1_1_1_, contactdat1_.address as address2_1_1_, contactdat1_.company as company3_1_1_, contactdat1_.email as email4_1_1_, contactdat1_.email2 as email5_1_1_, contactdat1_.email3 as email6_1_1_, contactdat1_.fax as fax7_1_1_, contactdat1_.firstname as firstnam8_1_1_, contactdat1_.homepage as homepage9_1_1_, contactdat1_.home as home10_1_1_, contactdat1_.lastname as lastnam11_1_1_, contactdat1_.middlename as middlen12_1_1_, contactdat1_.mobile as mobile13_1_1_, contactdat1_.nickname as nicknam14_1_1_, contactdat1_.photo as photo15_1_1_, contactdat1_.title as title16_1_1_, contactdat1_.work as work17_1_1_ from address_in_groups contacts0_ inner join addressbook contactdat1_ on contacts0_.id=contactdat1_.id where contacts0_.group_id=? 
+2431 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@93501be] 
+2431 [main] DEBUG o.h.l.p.b.i.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@11d4d979] 
+2431 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : contacts 
+2431 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Property path deemed to be circular : contacts 
+2431 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : footer 
+2431 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : header 
+2431 [main] DEBUG o.h.p.w.spi.MetamodelGraphWalker - Visiting attribute path : name 
+2431 [main] DEBUG o.h.l.p.b.i.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan... 
+2431 [main] DEBUG o.h.l.p.e.i.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0> 
+2431 [main] DEBUG o.h.l.p.b.spi.LoadPlanTreePrinter - LoadPlan(collection=gaidadym.javaForTesters.addressbook.model.ContactData.groups)
+    - Returns
+       - CollectionReturnImpl(collection=gaidadym.javaForTesters.addressbook.model.ContactData.groups, querySpaceUid=<gen:0>, path=[gaidadym.javaForTesters.addressbook.model.ContactData.groups])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=gaidadym.javaForTesters.addressbook.model.GroupData, querySpaceUid=<gen:1>, path=[gaidadym.javaForTesters.addressbook.model.ContactData.groups].<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=gaidadym.javaForTesters.addressbook.model.ContactData.groups)
+          - SQL table alias mapping - groups0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - group_id1_2_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=gaidadym.javaForTesters.addressbook.model.GroupData)
+                - SQL table alias mapping - groupdata1_
+                - alias suffix - 1_
+                - suffixed key columns - {group_id1_2_1_}
+ 
+2431 [main] DEBUG o.h.l.c.plan.CollectionLoader - Static select for collection gaidadym.javaForTesters.addressbook.model.ContactData.groups: select groups0_.id as id1_0_0_, groups0_.group_id as group_id2_0_0_, groupdata1_.group_id as group_id1_2_1_, groupdata1_.group_footer as group_fo2_2_1_, groupdata1_.group_header as group_he3_2_1_, groupdata1_.group_name as group_na4_2_1_ from address_in_groups groups0_ inner join group_list groupdata1_ on groups0_.group_id=groupdata1_.group_id where groups0_.id=? 
+2482 [main] INFO  o.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@51cab489] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode. 
+2614 [main] DEBUG o.h.e.t.j.p.i.JtaPlatformInitiator - No JtaPlatform was specified, checking resolver 
+2614 [main] DEBUG o.h.e.t.j.p.i.JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver] 
+2624 [main] DEBUG o.h.e.t.j.p.i.StandardJtaPlatformResolver - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2624 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2624 [main] DEBUG o.h.query.spi.NamedQueryRepository - Checking 0 named HQL queries 
+2624 [main] DEBUG o.h.query.spi.NamedQueryRepository - Checking 0 named SQL queries 
+2624 [main] DEBUG o.h.internal.SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@243bf087 
+2624 [main] DEBUG o.h.internal.SessionFactoryRegistry - Registering SessionFactory: dfe55d63-b0ce-4ea3-a01c-7b602b3e97cf (<unnamed>) 
+2624 [main] DEBUG o.h.internal.SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured 
+7067 [main] INFO  g.j.addressbook.TestBase - Start test testDelitingContactFromGroup with parameters [] 
+7139 [main] DEBUG o.h.s.internal.StatisticsInitiator - Statistics initialized [enabled=false] 
+7148 [main] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false 
+7148 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin 
+7162 [main] DEBUG o.h.h.i.QueryTranslatorFactoryInitiator - QueryTranslatorFactory: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@69d2e517 
+7189 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - parse() - HQL: from gaidadym.javaForTesters.addressbook.model.GroupData where deprecated = 0000-00-00 
+7194 [main] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors 
+7200 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  \-[FROM] Node: 'from'
+    |     \-[RANGE] Node: 'RANGE'
+    |        \-[DOT] Node: '.'
+    |           +-[DOT] Node: '.'
+    |           |  +-[DOT] Node: '.'
+    |           |  |  +-[DOT] Node: '.'
+    |           |  |  |  +-[IDENT] Node: 'gaidadym'
+    |           |  |  |  \-[IDENT] Node: 'javaForTesters'
+    |           |  |  \-[IDENT] Node: 'addressbook'
+    |           |  \-[IDENT] Node: 'model'
+    |           \-[IDENT] Node: 'GroupData'
+    \-[WHERE] Node: 'where'
+       \-[EQ] Node: '='
+          +-[IDENT] Node: 'deprecated'
+          \-[MINUS] Node: '-'
+             +-[MINUS] Node: '-'
+             |  +-[NUM_INT] Node: '0000'
+             |  \-[NUM_INT] Node: '00'
+             \-[NUM_INT] Node: '00'
+ 
+7219 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select << begin [level=1, statement=select] 
+7232 [main] DEBUG o.h.h.internal.ast.tree.FromElement - FromClause{level=1} : gaidadym.javaForTesters.addressbook.model.GroupData (<no alias>) -> groupdata0_ 
+7237 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select : finishing up [level=1, statement=select] 
+7237 [main] DEBUG o.h.hql.internal.ast.HqlSqlWalker - processQuery() :  ( SELECT ( FromClause{level=1} group_list groupdata0_ ) ( where ( = deprecated ( - ( - 0 0 ) 0 ) ) ) ) 
+7241 [main] DEBUG o.h.hql.internal.ast.HqlSqlWalker - Derived SELECT clause created. 
+7246 [main] DEBUG o.h.h.i.ast.util.JoinProcessor - Using FROM fragment [group_list groupdata0_] 
+7246 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select >> end [level=1, statement=select] 
+7246 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (group_list)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'groupdata0_.group_id as group_id1_2_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=group_list,tableAlias=groupdata0_,origin=null,columns={,className=gaidadym.javaForTesters.addressbook.model.GroupData}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'groupdata0_.group_footer as group_fo2_2_, groupdata0_.group_header as group_he3_2_, groupdata0_.group_name as group_na4_2_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[groupdata0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'group_list groupdata0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=group_list,tableAlias=groupdata0_,origin=null,columns={,className=gaidadym.javaForTesters.addressbook.model.GroupData}}
+    \-[WHERE] SqlNode: 'where'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[IDENT] IdentNode: 'deprecated' {originalText=deprecated}
+          \-[MINUS] BinaryArithmeticOperatorNode: '-' {dataType=org.hibernate.type.IntegerType@7f9e1534}
+             +-[MINUS] BinaryArithmeticOperatorNode: '-' {dataType=org.hibernate.type.IntegerType@7f9e1534}
+             |  +-[NUM_INT] LiteralNode: '0'
+             |  \-[NUM_INT] LiteralNode: '0'
+             \-[NUM_INT] LiteralNode: '0'
+ 
+7246 [main] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors 
+7252 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - HQL: from gaidadym.javaForTesters.addressbook.model.GroupData where deprecated = 0000-00-00 
+7252 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - SQL: select groupdata0_.group_id as group_id1_2_, groupdata0_.group_footer as group_fo2_2_, groupdata0_.group_header as group_he3_2_, groupdata0_.group_name as group_na4_2_ from group_list groupdata0_ where deprecated=0-0-0 
+7253 [main] DEBUG o.h.hql.internal.ast.ErrorTracker - throwQueryException() : no errors 
+7264 [main] DEBUG org.hibernate.SQL - select groupdata0_.group_id as group_id1_2_, groupdata0_.group_footer as group_fo2_2_, groupdata0_.group_header as group_he3_2_, groupdata0_.group_name as group_na4_2_ from group_list groupdata0_ where deprecated=0-0-0 
+7277 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0 
+7281 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#209] 
+7287 [main] DEBUG org.hibernate.loader.Loader - Result set row: 1 
+7287 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#210] 
+7288 [main] DEBUG org.hibernate.loader.Loader - Result set row: 2 
+7288 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#211] 
+7288 [main] DEBUG org.hibernate.loader.Loader - Result set row: 3 
+7288 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#212] 
+7288 [main] DEBUG org.hibernate.loader.Loader - Result set row: 4 
+7288 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#213] 
+7288 [main] DEBUG org.hibernate.loader.Loader - Result set row: 5 
+7288 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#214] 
+7288 [main] DEBUG org.hibernate.loader.Loader - Result set row: 6 
+7288 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#215] 
+7288 [main] DEBUG org.hibernate.loader.Loader - Result set row: 7 
+7288 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#216] 
+7289 [main] DEBUG org.hibernate.loader.Loader - Result set row: 8 
+7289 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#217] 
+7289 [main] DEBUG org.hibernate.loader.Loader - Result set row: 9 
+7289 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#218] 
+7289 [main] DEBUG org.hibernate.loader.Loader - Result set row: 10 
+7289 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#219] 
+7289 [main] DEBUG org.hibernate.loader.Loader - Result set row: 11 
+7289 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#220] 
+7289 [main] DEBUG org.hibernate.loader.Loader - Result set row: 12 
+7289 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#221] 
+7289 [main] DEBUG org.hibernate.loader.Loader - Result set row: 13 
+7289 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#222] 
+7289 [main] DEBUG org.hibernate.loader.Loader - Result set row: 14 
+7289 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#223] 
+7290 [main] DEBUG org.hibernate.loader.Loader - Result set row: 15 
+7290 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#224] 
+7290 [main] DEBUG org.hibernate.loader.Loader - Result set row: 16 
+7290 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#225] 
+7290 [main] DEBUG org.hibernate.loader.Loader - Result set row: 17 
+7290 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#226] 
+7290 [main] DEBUG org.hibernate.loader.Loader - Result set row: 18 
+7290 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#227] 
+7291 [main] DEBUG org.hibernate.loader.Loader - Result set row: 19 
+7291 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#228] 
+7291 [main] DEBUG org.hibernate.loader.Loader - Result set row: 20 
+7291 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#229] 
+7291 [main] DEBUG org.hibernate.loader.Loader - Result set row: 21 
+7291 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#230] 
+7291 [main] DEBUG org.hibernate.loader.Loader - Result set row: 22 
+7291 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#231] 
+7291 [main] DEBUG org.hibernate.loader.Loader - Result set row: 23 
+7291 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#232] 
+7291 [main] DEBUG org.hibernate.loader.Loader - Result set row: 24 
+7291 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#233] 
+7291 [main] DEBUG org.hibernate.loader.Loader - Result set row: 25 
+7291 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#234] 
+7291 [main] DEBUG org.hibernate.loader.Loader - Result set row: 26 
+7291 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#235] 
+7291 [main] DEBUG org.hibernate.loader.Loader - Result set row: 27 
+7291 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#236] 
+7292 [main] DEBUG org.hibernate.loader.Loader - Result set row: 28 
+7292 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#237] 
+7292 [main] DEBUG org.hibernate.loader.Loader - Result set row: 29 
+7292 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#238] 
+7292 [main] DEBUG org.hibernate.loader.Loader - Result set row: 30 
+7292 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#239] 
+7292 [main] DEBUG org.hibernate.loader.Loader - Result set row: 31 
+7292 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#240] 
+7292 [main] DEBUG org.hibernate.loader.Loader - Result set row: 32 
+7292 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[gaidadym.javaForTesters.addressbook.model.GroupData#241] 
+7293 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#209] 
+7294 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `contacts` : value = NOT NULL COLLECTION 
+7294 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`contacts`)  - enhanced for lazy-loading? - false 
+7301 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value =  
+7301 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+7301 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value =  
+7301 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+7301 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = Created_group 
+7301 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+7302 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#209] 
+7302 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#210] 
+7302 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `contacts` : value = NOT NULL COLLECTION 
+7302 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`contacts`)  - enhanced for lazy-loading? - false 
+7302 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value =  
+7302 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+7302 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value =  
+7302 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+7302 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = Created_group 
+7302 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+7302 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#210] 
+7302 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#211] 
+7302 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `contacts` : value = NOT NULL COLLECTION 
+7302 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`contacts`)  - enhanced for lazy-loading? - false 
+7302 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value =  
+7302 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+7302 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value =  
+7302 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+7302 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = Created_group 
+7302 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+7302 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#211] 
+7302 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#212] 
+7302 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `contacts` : value = NOT NULL COLLECTION 
+7302 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`contacts`)  - enhanced for lazy-loading? - false 
+7302 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value =  
+7302 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+7302 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value =  
+7302 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+7302 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = Created_group 
+7302 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+7302 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#212] 
+7302 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#213] 
+7302 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `contacts` : value = NOT NULL COLLECTION 
+7302 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`contacts`)  - enhanced for lazy-loading? - false 
+7303 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value =  
+7303 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+7303 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value =  
+7303 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+7303 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = Created_group 
+7303 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+7303 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#213] 
+7303 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#214] 
+7303 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `contacts` : value = NOT NULL COLLECTION 
+7303 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`contacts`)  - enhanced for lazy-loading? - false 
+7303 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value =  
+7303 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+7303 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value =  
+7303 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+7303 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = Created_group 
+7303 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+7303 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#214] 
+7303 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#215] 
+7303 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `contacts` : value = NOT NULL COLLECTION 
+7303 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`contacts`)  - enhanced for lazy-loading? - false 
+7303 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value =  
+7303 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+7303 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value =  
+7303 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+7303 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = Created_group 
+7303 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+7303 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#215] 
+7303 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#216] 
+7303 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `contacts` : value = NOT NULL COLLECTION 
+7303 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`contacts`)  - enhanced for lazy-loading? - false 
+7303 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value =  
+7303 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+7303 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value =  
+7303 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = Created_group 
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#216] 
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#217] 
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `contacts` : value = NOT NULL COLLECTION 
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`contacts`)  - enhanced for lazy-loading? - false 
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value =  
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value =  
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = Created_group 
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#217] 
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#218] 
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `contacts` : value = NOT NULL COLLECTION 
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`contacts`)  - enhanced for lazy-loading? - false 
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value =  
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value =  
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = Created_group 
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#218] 
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#219] 
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `contacts` : value = NOT NULL COLLECTION 
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`contacts`)  - enhanced for lazy-loading? - false 
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value =  
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value =  
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = Created_group 
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#219] 
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#220] 
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `contacts` : value = NOT NULL COLLECTION 
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`contacts`)  - enhanced for lazy-loading? - false 
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value =  
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value =  
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+7304 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = Created_group 
+7305 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+7305 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#220] 
+7305 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#221] 
+7305 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `contacts` : value = NOT NULL COLLECTION 
+7305 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`contacts`)  - enhanced for lazy-loading? - false 
+7305 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value =  
+7305 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+7305 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value =  
+7305 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+7305 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = Created_group 
+7305 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+7305 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#221] 
+7305 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#222] 
+7305 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `contacts` : value = NOT NULL COLLECTION 
+7305 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`contacts`)  - enhanced for lazy-loading? - false 
+7305 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value =  
+7305 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+7305 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value =  
+7305 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+7305 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = Created_group 
+7305 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+7305 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#222] 
+7305 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#223] 
+7305 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `contacts` : value = NOT NULL COLLECTION 
+7305 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`contacts`)  - enhanced for lazy-loading? - false 
+7305 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value =  
+7305 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+7305 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value =  
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = Created_group 
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#223] 
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#224] 
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `contacts` : value = NOT NULL COLLECTION 
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`contacts`)  - enhanced for lazy-loading? - false 
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value =  
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value =  
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = Created_group 
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#224] 
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#225] 
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `contacts` : value = NOT NULL COLLECTION 
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`contacts`)  - enhanced for lazy-loading? - false 
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value =  
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value =  
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = Created_group 
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#225] 
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#226] 
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `contacts` : value = NOT NULL COLLECTION 
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`contacts`)  - enhanced for lazy-loading? - false 
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value =  
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value =  
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = Created_group 
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#226] 
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#227] 
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `contacts` : value = NOT NULL COLLECTION 
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`contacts`)  - enhanced for lazy-loading? - false 
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value =  
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+7306 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value =  
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = Created_group 
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#227] 
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#228] 
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `contacts` : value = NOT NULL COLLECTION 
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`contacts`)  - enhanced for lazy-loading? - false 
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value =  
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value =  
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = Created_group 
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#228] 
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#229] 
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `contacts` : value = NOT NULL COLLECTION 
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`contacts`)  - enhanced for lazy-loading? - false 
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value =  
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value =  
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = Created_group 
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#229] 
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#230] 
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `contacts` : value = NOT NULL COLLECTION 
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`contacts`)  - enhanced for lazy-loading? - false 
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value =  
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value =  
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = Created_group 
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#230] 
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#231] 
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `contacts` : value = NOT NULL COLLECTION 
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`contacts`)  - enhanced for lazy-loading? - false 
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value =  
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value =  
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+7307 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = Created_group 
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#231] 
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#232] 
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `contacts` : value = NOT NULL COLLECTION 
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`contacts`)  - enhanced for lazy-loading? - false 
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value =  
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value =  
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = Created_group 
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#232] 
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#233] 
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `contacts` : value = NOT NULL COLLECTION 
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`contacts`)  - enhanced for lazy-loading? - false 
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value =  
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value =  
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = Created_group 
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#233] 
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#234] 
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `contacts` : value = NOT NULL COLLECTION 
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`contacts`)  - enhanced for lazy-loading? - false 
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value =  
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value =  
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = Created_group 
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#234] 
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#235] 
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `contacts` : value = NOT NULL COLLECTION 
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`contacts`)  - enhanced for lazy-loading? - false 
+7308 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value =  
+7309 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+7309 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value =  
+7309 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+7309 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = Created_group 
+7309 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+7309 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#235] 
+7309 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#236] 
+7309 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `contacts` : value = NOT NULL COLLECTION 
+7309 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`contacts`)  - enhanced for lazy-loading? - false 
+7309 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value =  
+7309 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+7309 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value =  
+7309 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+7309 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = Created_group 
+7309 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+7309 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#236] 
+7309 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#237] 
+7309 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `contacts` : value = NOT NULL COLLECTION 
+7309 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`contacts`)  - enhanced for lazy-loading? - false 
+7309 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value =  
+7309 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+7309 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value =  
+7309 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+7309 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = Created_group 
+7309 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+7309 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#237] 
+7309 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#238] 
+7309 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `contacts` : value = NOT NULL COLLECTION 
+7309 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`contacts`)  - enhanced for lazy-loading? - false 
+7309 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value =  
+7309 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+7309 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value =  
+7310 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+7310 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = Created_group 
+7310 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+7310 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#238] 
+7310 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#239] 
+7310 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `contacts` : value = NOT NULL COLLECTION 
+7310 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`contacts`)  - enhanced for lazy-loading? - false 
+7310 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value =  
+7310 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+7310 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value =  
+7310 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+7310 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = Created_group 
+7310 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+7310 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#239] 
+7310 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#240] 
+7310 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `contacts` : value = NOT NULL COLLECTION 
+7310 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`contacts`)  - enhanced for lazy-loading? - false 
+7310 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value =  
+7310 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+7310 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value =  
+7310 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+7310 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = Created_group 
+7310 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+7311 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#240] 
+7311 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving attributes for [gaidadym.javaForTesters.addressbook.model.GroupData#241] 
+7311 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `contacts` : value = NOT NULL COLLECTION 
+7311 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`contacts`)  - enhanced for lazy-loading? - false 
+7311 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `footer` : value =  
+7311 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`footer`)  - enhanced for lazy-loading? - false 
+7311 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `header` : value =  
+7311 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`header`)  - enhanced for lazy-loading? - false 
+7311 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Processing attribute `name` : value = Created_group 
+7311 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false 
+7311 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [gaidadym.javaForTesters.addressbook.model.GroupData#241] 
+7313 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing 
+7314 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades 
+7316 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections 
+7322 [main] DEBUG o.h.engine.internal.Collections - Collection found: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#209], was: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#209] (uninitialized) 
+7322 [main] DEBUG o.h.engine.internal.Collections - Collection found: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#210], was: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#210] (uninitialized) 
+7322 [main] DEBUG o.h.engine.internal.Collections - Collection found: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#211], was: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#211] (uninitialized) 
+7322 [main] DEBUG o.h.engine.internal.Collections - Collection found: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#212], was: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#212] (uninitialized) 
+7322 [main] DEBUG o.h.engine.internal.Collections - Collection found: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#213], was: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#213] (uninitialized) 
+7322 [main] DEBUG o.h.engine.internal.Collections - Collection found: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#214], was: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#214] (uninitialized) 
+7322 [main] DEBUG o.h.engine.internal.Collections - Collection found: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#215], was: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#215] (uninitialized) 
+7322 [main] DEBUG o.h.engine.internal.Collections - Collection found: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#216], was: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#216] (uninitialized) 
+7322 [main] DEBUG o.h.engine.internal.Collections - Collection found: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#217], was: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#217] (uninitialized) 
+7322 [main] DEBUG o.h.engine.internal.Collections - Collection found: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#218], was: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#218] (uninitialized) 
+7322 [main] DEBUG o.h.engine.internal.Collections - Collection found: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#219], was: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#219] (uninitialized) 
+7322 [main] DEBUG o.h.engine.internal.Collections - Collection found: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#220], was: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#220] (uninitialized) 
+7323 [main] DEBUG o.h.engine.internal.Collections - Collection found: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#221], was: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#221] (uninitialized) 
+7323 [main] DEBUG o.h.engine.internal.Collections - Collection found: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#222], was: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#222] (uninitialized) 
+7323 [main] DEBUG o.h.engine.internal.Collections - Collection found: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#223], was: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#223] (uninitialized) 
+7323 [main] DEBUG o.h.engine.internal.Collections - Collection found: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#224], was: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#224] (uninitialized) 
+7323 [main] DEBUG o.h.engine.internal.Collections - Collection found: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#225], was: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#225] (uninitialized) 
+7323 [main] DEBUG o.h.engine.internal.Collections - Collection found: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#226], was: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#226] (uninitialized) 
+7323 [main] DEBUG o.h.engine.internal.Collections - Collection found: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#227], was: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#227] (uninitialized) 
+7323 [main] DEBUG o.h.engine.internal.Collections - Collection found: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#228], was: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#228] (uninitialized) 
+7323 [main] DEBUG o.h.engine.internal.Collections - Collection found: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#229], was: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#229] (uninitialized) 
+7323 [main] DEBUG o.h.engine.internal.Collections - Collection found: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#230], was: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#230] (uninitialized) 
+7323 [main] DEBUG o.h.engine.internal.Collections - Collection found: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#231], was: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#231] (uninitialized) 
+7323 [main] DEBUG o.h.engine.internal.Collections - Collection found: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#232], was: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#232] (uninitialized) 
+7323 [main] DEBUG o.h.engine.internal.Collections - Collection found: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#233], was: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#233] (uninitialized) 
+7324 [main] DEBUG o.h.engine.internal.Collections - Collection found: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#234], was: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#234] (uninitialized) 
+7324 [main] DEBUG o.h.engine.internal.Collections - Collection found: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#235], was: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#235] (uninitialized) 
+7324 [main] DEBUG o.h.engine.internal.Collections - Collection found: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#236], was: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#236] (uninitialized) 
+7324 [main] DEBUG o.h.engine.internal.Collections - Collection found: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#237], was: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#237] (uninitialized) 
+7324 [main] DEBUG o.h.engine.internal.Collections - Collection found: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#238], was: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#238] (uninitialized) 
+7324 [main] DEBUG o.h.engine.internal.Collections - Collection found: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#239], was: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#239] (uninitialized) 
+7324 [main] DEBUG o.h.engine.internal.Collections - Collection found: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#240], was: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#240] (uninitialized) 
+7324 [main] DEBUG o.h.engine.internal.Collections - Collection found: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#241], was: [gaidadym.javaForTesters.addressbook.model.GroupData.contacts#241] (uninitialized) 
+7324 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 33 objects 
+7324 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 33 collections 
+7326 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities: 
+7326 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=, name=Created_group, header=, id=233, contacts=<uninitialized>} 
+7326 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=, name=Created_group, header=, id=234, contacts=<uninitialized>} 
+7326 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=, name=Created_group, header=, id=231, contacts=<uninitialized>} 
+7326 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=, name=Created_group, header=, id=232, contacts=<uninitialized>} 
+7326 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=, name=Created_group, header=, id=229, contacts=<uninitialized>} 
+7326 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=, name=Created_group, header=, id=230, contacts=<uninitialized>} 
+7326 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=, name=Created_group, header=, id=227, contacts=<uninitialized>} 
+7326 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=, name=Created_group, header=, id=228, contacts=<uninitialized>} 
+7326 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=, name=Created_group, header=, id=241, contacts=<uninitialized>} 
+7326 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=, name=Created_group, header=, id=239, contacts=<uninitialized>} 
+7326 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=, name=Created_group, header=, id=240, contacts=<uninitialized>} 
+7326 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=, name=Created_group, header=, id=237, contacts=<uninitialized>} 
+7327 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=, name=Created_group, header=, id=238, contacts=<uninitialized>} 
+7327 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=, name=Created_group, header=, id=235, contacts=<uninitialized>} 
+7327 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=, name=Created_group, header=, id=236, contacts=<uninitialized>} 
+7327 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=, name=Created_group, header=, id=217, contacts=<uninitialized>} 
+7327 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=, name=Created_group, header=, id=218, contacts=<uninitialized>} 
+7327 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=, name=Created_group, header=, id=215, contacts=<uninitialized>} 
+7327 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=, name=Created_group, header=, id=216, contacts=<uninitialized>} 
+7327 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=, name=Created_group, header=, id=213, contacts=<uninitialized>} 
+7327 [main] DEBUG o.h.internal.util.EntityPrinter - gaidadym.javaForTesters.addressbook.model.GroupData{footer=, name=Created_group, header=, id=214, contacts=<uninitialized>} 
+7327 [main] DEBUG o.h.internal.util.EntityPrinter - More...... 
+7329 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction 
+7329 [main] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction 
+1866448 [Hibernate Connection Pool Validation Thread] DEBUG o.h.e.j.c.i.DriverManagerConnectionProviderImpl - Connection pool now considered primed; min-size will be maintained 
+1866452 [main] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false 
+1866452 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin 

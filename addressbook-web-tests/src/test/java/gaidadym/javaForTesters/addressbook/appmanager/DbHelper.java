@@ -27,7 +27,7 @@ public class DbHelper {
         if (withDeleted){
             result = session.createQuery( "from GroupData" ).list();
         }else{
-            result = session.createQuery( "from GroupData where deprecated = 0000-00-00" ).list();
+            result = session.createQuery( "from GroupData where deprecated = '0000-00-00 00:00:00'" ).list();
         }
         session.getTransaction().commit();
         session.close();
@@ -38,12 +38,11 @@ public class DbHelper {
         Session session = sessionFactory.openSession();
         session.beginTransaction();
         List<ContactGroups> result;
-        result = session.createQuery( "from ContactGroups where deprecated = 0000-00-00 and id = "+id).list();
+        result = session.createQuery( "from ContactGroups where deprecated = '0000-00-00 00:00:00' and id = "+id).list();
         session.getTransaction().commit();
         session.close();
         List <ContactGroups>groups = null;
-        groups = result;
-        return groups;
+        return result;
     }
 
     public HashSet<ContactGroups> groupsForAllContacts(){
@@ -70,6 +69,18 @@ public class DbHelper {
         session.close();
         return new Contacts(result);
     }
+    public ContactData refreshContact(int id){
+        Session session = sessionFactory.openSession();
+        session.beginTransaction();
+        List<ContactData> result;
+        result = session.createQuery( "from ContactData where deprecated = '0000-00-00 00:00:00' and id = "+id).list();
+        session.getTransaction().commit();
+        session.close();
+        ContactData refreshedContact = new ContactData();
+        refreshedContact = result.get(0);
+        return refreshedContact;
+    }
+
 
     public List <ContactGroups> groupDataToContGroups(int groupId, int contactId){
         Session session = sessionFactory.openSession();

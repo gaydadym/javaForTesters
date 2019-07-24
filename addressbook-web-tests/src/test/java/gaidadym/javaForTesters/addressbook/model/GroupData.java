@@ -27,6 +27,15 @@ public class GroupData {
     private int id = Integer.MAX_VALUE;
     @Column(name = "group_name")
     private String name;
+
+    @Override
+    public String toString() {
+        return "GroupData{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
+    }
+
     @Column(name = "group_header")
     @Type(type = "text")
     private String header;
@@ -34,8 +43,8 @@ public class GroupData {
     @Type(type = "text")
     private String footer;
 
-    public Contacts getContacts() {
-        return new Contacts(contacts);
+    public Set<ContactData> getContacts() {
+        return new HashSet<>(contacts);
     }
 
     @ManyToMany(mappedBy = "groups")
@@ -82,13 +91,6 @@ public class GroupData {
 
     public String getFooter() {
         return footer;
-    }
-
-    @Override
-    public String toString() {
-        return "GroupData{" +
-                "name='" + name + '\'' +
-                '}';
     }
 
 }

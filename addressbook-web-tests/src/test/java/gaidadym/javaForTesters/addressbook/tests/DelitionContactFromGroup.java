@@ -10,6 +10,9 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.MatcherAssert.assertThat;
+
 public class DelitionContactFromGroup extends TestBase {
     @BeforeMethod
     public void ensurePrecondition(){
@@ -22,14 +25,32 @@ public class DelitionContactFromGroup extends TestBase {
             app.contact().create(new ContactData().withLastname("Ivanov").withFirstname("Ivan").withGroupName(group.getName()).withPhoto(new File("src/test/resources/screen.jpg")));
             app.goTo().mainPage();
         }
+        Contacts contacts = app.db().contacts(false);
+        ContactData deletedContact = null;
+        for(ContactData contact: contacts){
+            if(contact.getGroups().size()>0){
+                deletedContact = contact;
+            }
+        }
+        if(deletedContact == null){
+            deletedContact = contacts.iterator().next();
+            app.contact().addContactInGroup(deletedContact,app.db().groups(false).iterator().next());
+        }
     }
 
     @Test
     public void testDelitingContactFromGroup() throws Exception {
-        ContactData contact = app.db().contacts(false).iterator().next();
-        Groups beforeGroups = ((ContactData) contact).getGroups();
-        app.contact().deleteContactFromGroup(contact);
-        Groups afterGroups = ((ContactData) contact).getGroups();
-        assert (beforeGroups.size()-afterGroups.size()==1);
+        Contacts contacts = app.db().contacts(false);
+        ContactData deletedContact = null;
+        for(ContactData contact: contacts){
+            if(contact.getGroups().size()>0){
+                deletedContact = contact;
+            }
+        }
+        GroupData deletedGroup = deletedContact.getGroups().iterator().next();
+        Groups beforeGroups = deletedContact.getGroups();
+        app.contact().deleteContactFromGroup(deletedContact,deletedGroup);
+        Groups afterGroups = app.db().refreshContact(deletedContact.getId()).getGroups();
+        assertThat(afterGroups, equalTo(beforeGroups.without(deletedGroup)));
         }
     }

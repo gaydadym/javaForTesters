@@ -191,31 +191,25 @@ public class ContactHelper extends HelperBase {
                 .collect(Collectors.joining("\n"));
     }
     public void addContactInGroup(ContactData contact, GroupData group){
-        Set<GroupData> freeGroups = new HashSet<>();
         selectContactById(contact.getId());
         selectGroupInDropList(group.getId());
         clickAdd();
 
     }
 
-    public void deleteContactFromGroup(ContactData contact){
+    public void deleteContactFromGroup(ContactData contact, GroupData group){
         clickDetails(contact.getId());
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        clickOnGroupLink();
+        clickOnGroupLink(group.getId());
         selectContactById(contact.getId());
         click(By.cssSelector("input[name = 'remove']"));
     }
 
-    private void clickOnGroupLink() {
-        wd.findElement(By.cssSelector("i>a")).click();
+    private void clickOnGroupLink(int id) {
+        click(By.cssSelector(String.format("a[href = './index.php?group=%s']",id)));
     }
 
     private void clickDetails(int id) {
-        wd.findElement(By.cssSelector("tr>input[value = '" +id+ "'], img[alt = 'Details']")).click();
+        click(By.cssSelector(String.format("a[href = 'view.php?id=%s']",id)));
     }
 
     private void clickAdd() {

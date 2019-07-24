@@ -38,19 +38,12 @@ public class AddingContactInGroup extends TestBase {
 
         Set<ContactData> before = app.db().contacts(false);
         ContactData addedContact = before.iterator().next();
-        GroupData freegroupForContact = new GroupData();
-        freegroupForContact = app.contact().freeGroupsForContact(addedContact).iterator().next();
-        List<ContactGroups> beforeGroups = app.db().groupsForContact(addedContact.getId());
+        GroupData freegroupForContact = app.contact().freeGroupsForContact(addedContact).iterator().next();
+        Groups beforeGroups = addedContact.getGroups();
         app.contact().addContactInGroup(addedContact,freegroupForContact);
-        ContactGroups addedGroup = app.db().groupDataToContGroups(freegroupForContact.getId(),addedContact.getId()).get(0);
-        List<ContactGroups> afterGroups = app.db().groupsForContact(addedContact.getId());
-        System.out.println(beforeGroups);
-        System.out.println();
-        System.out.println("Добавленная группа "+ addedGroup);
-        System.out.println(afterGroups);
-        assertTrue (afterGroups.size()-beforeGroups.size()==1);
-        Thread.sleep(1000);
-        assertTrue (afterGroups.contains(addedGroup));
+        Groups  afterGroups = app.db().refreshContact(addedContact.getId()).getGroups();
+        assertThat(afterGroups, equalTo(beforeGroups.withAdded(freegroupForContact)));
+
 
 
     }

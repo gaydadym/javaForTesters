@@ -1,0 +1,359 @@
+318  [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+344  [main] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator]. 
+345  [main] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator]. 
+349  [main] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator]. 
+507  [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.3.Final} 
+510  [main] DEBUG org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found 
+765  [main] DEBUG o.h.b.j.i.s.LocalXmlResourceResolver - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD 3.0//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd] 
+765  [main] DEBUG o.h.b.j.i.s.LocalXmlResourceResolver - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/ 
+770  [main] DEBUG o.h.b.c.internal.JaxbCfgProcessor - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information 
+1040 [main] DEBUG o.h.service.spi.ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService] 
+1058 [main] DEBUG o.h.c.i.RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered 
+1059 [main] DEBUG o.h.c.i.RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory 
+1081 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final} 
+1113 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@1ad926d3 
+1114 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@1ad926d3 
+1115 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@1ad926d3 
+1116 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@60c16548 
+1117 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@5339bbad 
+1117 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@452c8a40 
+1119 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@53b98ff6 
+1119 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@53b98ff6 
+1119 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@53b98ff6 
+1120 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@7dcc91fd 
+1120 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@7dcc91fd 
+1120 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@7dcc91fd 
+1121 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@5f8890c2 
+1122 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@5f8890c2 
+1122 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@5f8890c2 
+1123 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@7e31ce0f 
+1123 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@7e31ce0f 
+1124 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@7e31ce0f 
+1125 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@39ab59f8 
+1125 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@39ab59f8 
+1125 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@39ab59f8 
+1126 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@4beddc56 
+1126 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@4beddc56 
+1126 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@4beddc56 
+1127 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@3887cf88 
+1128 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@3887cf88 
+1128 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@3887cf88 
+1129 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@794b435f 
+1129 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@794b435f 
+1130 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@265c5d69 
+1130 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@265c5d69 
+1131 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@790132f7 
+1131 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@790132f7 
+1131 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@547c04c4 
+1132 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@3f4f9acd 
+1133 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@602c4656 
+1133 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@602c4656 
+1134 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@7e0b9178 
+1134 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@7e0b9178 
+1147 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@1a1ed4e5 
+1147 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@1a1ed4e5 
+1149 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@4351171a 
+1149 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@4351171a 
+1150 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@988246e 
+1150 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@988246e 
+1151 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@58f174d9 
+1151 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@58f174d9 
+1152 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@4cee7fa0 
+1152 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@4cee7fa0 
+1154 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@73eb8672 
+1154 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@73eb8672 
+1157 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@19f040ba 
+1157 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@19f040ba 
+1158 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@49096b06 
+1160 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@49096b06 
+1160 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@40226788 
+1161 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@40226788 
+1162 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@7a94b64e 
+1163 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@7a94b64e 
+1163 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@7a94b64e 
+1165 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@73d69c0f 
+1166 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@781a9412 
+1166 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@781a9412 
+1166 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@781a9412 
+1167 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@1f12e153 
+1167 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@469d003c 
+1168 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@469d003c 
+1169 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@1d3e6d34 
+1169 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@1d3e6d34 
+1171 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@4303b7f0 
+1171 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@4303b7f0 
+1172 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@1450078a 
+1172 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@1450078a 
+1174 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@796d3c9f 
+1174 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@796d3c9f 
+1174 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@5eccd3b9 
+1175 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@66908383 
+1176 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@66908383 
+1176 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@66908383 
+1177 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@6fe46b62 
+1177 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@6fe46b62 
+1177 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@6fe46b62 
+1178 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@736ac09a 
+1178 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@3b0ca5e1 
+1179 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@5bb8f9e2 
+1179 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@5bb8f9e2 
+1179 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@5bb8f9e2 
+1180 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@30feffc 
+1180 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@30feffc 
+1180 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@30feffc 
+1181 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@a619c2 
+1181 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@28cb9120 
+1183 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@644abb8f 
+1183 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@644abb8f 
+1183 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@4d847d32 
+1184 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@3ff57625 
+1184 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@3ff57625 
+1186 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@60baef24 
+1186 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@60baef24 
+1187 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@45f24169 
+1187 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@5395ea39 
+1188 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@7b60c3e 
+1191 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@4917d36b 
+1191 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@4917d36b 
+1192 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@7b44b63d 
+1192 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@4a699efa 
+1192 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@38499e48 
+1192 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@4905c46b 
+1192 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@17ae7628 
+1192 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@1136b469 
+1192 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@6579c3d9 
+1192 [main] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@2b87581 
+1219 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator] 
+1220 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator] 
+1220 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator] 
+1221 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator] 
+1221 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned] 
+1222 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator] 
+1222 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator] 
+1224 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator] 
+1224 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator] 
+1225 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator] 
+1225 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator] 
+1226 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator] 
+1226 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator] 
+1227 [main] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator] 
+1232 [main] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!) 
+1241 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/addressbook?serverTimezone=UTC] 
+1242 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=} 
+1242 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false 
+1246 [main] DEBUG o.h.e.j.c.i.DriverManagerConnectionProviderImpl - Initializing Connection pool with 1 Connections 
+1246 [main] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1) 
+1482 [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - Database ->
+       name : MySQL
+    version : 5.5.5-10.1.38-MariaDB
+      major : 5
+      minor : 5 
+1482 [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-java-8.0.16 (Revision: 34cbc6bc61f72836e26327537a432d6db7c77de6)
+      major : 8
+      minor : 0 
+1482 [main] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - JDBC version : 4.2 
+1496 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect 
+1520 [main] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in more than one case 
+1523 [main] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers 
+1562 [main] DEBUG o.h.boot.model.relational.Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}] 
+1565 [main] DEBUG o.h.t.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@4096aa05] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@9d3c67] 
+1618 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: gaidadym.javaForTesters.addressbook.model.GroupData 
+1642 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'} 
+1647 [main] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name GroupData 
+1650 [main] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity gaidadym.javaForTesters.addressbook.model.GroupData on table group_list 
+1680 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_id, insertable=true, updatable=true, unique=false} 
+1684 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false 
+1685 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.GroupData:id] 
+1687 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for id 
+1689 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property id 
+1693 [main] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(group_id)]), id, assigned, , ...) 
+1695 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=null, insertable=true, updatable=true, unique=false} 
+1705 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=element, insertable=true, updatable=true, unique=false} 
+1706 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=contacts_KEY, insertable=true, updatable=true, unique=false} 
+1707 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='contacts_KEY', referencedColumn='null', mappedBy='null'} 
+1708 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='groups'} 
+1708 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='groups'} 
+1709 [main] DEBUG o.h.c.annotations.CollectionBinder - Collection role: gaidadym.javaForTesters.addressbook.model.GroupData.contacts 
+1711 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property contacts 
+1712 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_footer, insertable=true, updatable=true, unique=false} 
+1712 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property footer with lazy=false 
+1712 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.GroupData:footer] 
+1712 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for footer 
+1712 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property footer 
+1712 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_header, insertable=true, updatable=true, unique=false} 
+1712 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property header with lazy=false 
+1712 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.GroupData:header] 
+1713 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for header 
+1713 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property header 
+1713 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_name, insertable=true, updatable=true, unique=false} 
+1713 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property name with lazy=false 
+1713 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.GroupData:name] 
+1713 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for name 
+1713 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property name 
+1716 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: gaidadym.javaForTesters.addressbook.model.ContactData 
+1716 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'} 
+1717 [main] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name ContactData 
+1717 [main] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity gaidadym.javaForTesters.addressbook.model.ContactData on table addressbook 
+1724 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=id, insertable=true, updatable=true, unique=false} 
+1724 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false 
+1724 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:id] 
+1724 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for id 
+1724 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property id 
+1724 [main] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, assigned, , ...) 
+1724 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=address, insertable=true, updatable=true, unique=false} 
+1725 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property address with lazy=false 
+1725 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:address] 
+1725 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for address 
+1725 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property address 
+1725 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=company, insertable=true, updatable=true, unique=false} 
+1725 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property company with lazy=false 
+1725 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:company] 
+1725 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for company 
+1725 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property company 
+1725 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=email, insertable=true, updatable=true, unique=false} 
+1725 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property email with lazy=false 
+1725 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:email] 
+1725 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for email 
+1725 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property email 
+1725 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=email2, insertable=true, updatable=true, unique=false} 
+1726 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property email2 with lazy=false 
+1726 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:email2] 
+1726 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for email2 
+1726 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property email2 
+1726 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=email3, insertable=true, updatable=true, unique=false} 
+1726 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property email3 with lazy=false 
+1726 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:email3] 
+1726 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for email3 
+1726 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property email3 
+1726 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=fax, insertable=true, updatable=true, unique=false} 
+1726 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property faxPhone with lazy=false 
+1726 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:faxPhone] 
+1726 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for faxPhone 
+1726 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property faxPhone 
+1727 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=firstname, insertable=true, updatable=true, unique=false} 
+1727 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property firstname with lazy=false 
+1727 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:firstname] 
+1727 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for firstname 
+1727 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property firstname 
+1727 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=null, insertable=true, updatable=true, unique=false} 
+1727 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=element, insertable=true, updatable=true, unique=false} 
+1728 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=groups_KEY, insertable=true, updatable=true, unique=false} 
+1728 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='groups_KEY', referencedColumn='null', mappedBy='null'} 
+1728 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='id', referencedColumn='', mappedBy=''} 
+1728 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='group_id', referencedColumn='', mappedBy=''} 
+1728 [main] DEBUG o.h.c.annotations.CollectionBinder - Collection role: gaidadym.javaForTesters.addressbook.model.ContactData.groups 
+1728 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property groups 
+1728 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=homepage, insertable=true, updatable=true, unique=false} 
+1728 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property homePage with lazy=false 
+1728 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:homePage] 
+1728 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for homePage 
+1729 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property homePage 
+1729 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=home, insertable=true, updatable=true, unique=false} 
+1729 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property homePhone with lazy=false 
+1729 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:homePhone] 
+1729 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for homePhone 
+1729 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property homePhone 
+1729 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=lastname, insertable=true, updatable=true, unique=false} 
+1729 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property lastname with lazy=false 
+1729 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:lastname] 
+1730 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for lastname 
+1730 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property lastname 
+1730 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=middlename, insertable=true, updatable=true, unique=false} 
+1730 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property middlename with lazy=false 
+1730 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:middlename] 
+1730 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for middlename 
+1730 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property middlename 
+1730 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=mobile, insertable=true, updatable=true, unique=false} 
+1730 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property mobilePhone with lazy=false 
+1731 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:mobilePhone] 
+1731 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for mobilePhone 
+1731 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property mobilePhone 
+1731 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=nickname, insertable=true, updatable=true, unique=false} 
+1731 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property nickname with lazy=false 
+1731 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:nickname] 
+1731 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for nickname 
+1731 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property nickname 
+1731 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=photo, insertable=true, updatable=true, unique=false} 
+1731 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property photo with lazy=false 
+1731 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:photo] 
+1731 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for photo 
+1731 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property photo 
+1731 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=title, insertable=true, updatable=true, unique=false} 
+1731 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property title with lazy=false 
+1732 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:title] 
+1732 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for title 
+1732 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property title 
+1732 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(addressbook), mappingColumn=work, insertable=true, updatable=true, unique=false} 
+1732 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property workPhone with lazy=false 
+1732 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactData:workPhone] 
+1732 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for workPhone 
+1732 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property workPhone 
+1732 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: gaidadym.javaForTesters.addressbook.model.ContactGroups 
+1732 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'} 
+1732 [main] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name ContactGroups 
+1732 [main] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity gaidadym.javaForTesters.addressbook.model.ContactGroups on table address_in_groups 
+1733 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(address_in_groups), mappingColumn=id, insertable=true, updatable=true, unique=false} 
+1733 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false 
+1733 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactGroups:id] 
+1733 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for id 
+1733 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property id 
+1734 [main] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, assigned, , ...) 
+1734 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(address_in_groups), mappingColumn=null, insertable=true, updatable=true, unique=false} 
+1734 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(address_in_groups), mappingColumn=element, insertable=true, updatable=true, unique=false} 
+1734 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(address_in_groups), mappingColumn=contacts_KEY, insertable=true, updatable=true, unique=false} 
+1734 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='contacts_KEY', referencedColumn='null', mappedBy='null'} 
+1734 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='group_id', referencedColumn='', mappedBy=''} 
+1734 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='id', referencedColumn='', mappedBy=''} 
+1734 [main] DEBUG o.h.c.annotations.CollectionBinder - Collection role: gaidadym.javaForTesters.addressbook.model.ContactGroups.contacts 
+1734 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property contacts 
+1734 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(address_in_groups), mappingColumn=group_id, insertable=true, updatable=true, unique=false} 
+1734 [main] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property group_id with lazy=false 
+1734 [main] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [gaidadym.javaForTesters.addressbook.model.ContactGroups:group_id] 
+1734 [main] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for group_id 
+1735 [main] DEBUG o.h.cfg.annotations.PropertyBinder - Building property group_id 
+1735 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for id 
+1735 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for footer 
+1735 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for header 
+1735 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for name 
+1736 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for id 
+1736 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for address 
+1736 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for company 
+1736 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for email 
+1736 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for email2 
+1736 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for email3 
+1736 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for faxPhone 
+1736 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for firstname 
+1736 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for homePage 
+1736 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for homePhone 
+1736 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for lastname 
+1736 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for middlename 
+1736 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for mobilePhone 
+1736 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for nickname 
+1736 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for photo 
+1736 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for title 
+1736 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for workPhone 
+1736 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for id 
+1736 [main] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for group_id 
+1738 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [group_id] to be non-null as it is part of the primary key for table [group_list] 
+1738 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [addressbook] 
+1738 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [address_in_groups] 
+1738 [main] DEBUG o.h.cfg.CollectionSecondPass - Second pass for collection: gaidadym.javaForTesters.addressbook.model.ContactGroups.contacts 
+1738 [main] DEBUG o.h.c.annotations.CollectionBinder - Binding as ManyToMany: gaidadym.javaForTesters.addressbook.model.ContactGroups.contacts 
+1745 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [group_id] to be non-null as it is part of the primary key for table [addressbook] 
+1745 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [addressbook] 
+1745 [main] DEBUG o.h.cfg.CollectionSecondPass - Mapped collection key: group_id, element: id 
+1745 [main] DEBUG o.h.cfg.CollectionSecondPass - Second pass for collection: gaidadym.javaForTesters.addressbook.model.ContactData.groups 
+1745 [main] DEBUG o.h.c.annotations.CollectionBinder - Binding as ManyToMany: gaidadym.javaForTesters.addressbook.model.ContactData.groups 
+1745 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [address_in_groups] 
+1745 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [group_id] to be non-null as it is part of the primary key for table [address_in_groups] 
+1746 [main] DEBUG o.h.cfg.CollectionSecondPass - Mapped collection key: id, element: group_id 
+1746 [main] DEBUG o.h.cfg.CollectionSecondPass - Second pass for collection: gaidadym.javaForTesters.addressbook.model.GroupData.contacts 
+1746 [main] DEBUG o.h.c.annotations.CollectionBinder - Binding as ManyToMany: gaidadym.javaForTesters.addressbook.model.GroupData.contacts 
+1746 [main] DEBUG o.h.cfg.annotations.TableBinder - Retrieving property gaidadym.javaForTesters.addressbook.model.ContactData.groups 
+1747 [main] DEBUG o.h.cfg.CollectionSecondPass - Mapped collection key: group_id, element: id 
+1747 [main] DEBUG o.h.b.i.InFlightMetadataCollectorImpl - Resolving reference to class: gaidadym.javaForTesters.addressbook.model.GroupData 
+1749 [main] DEBUG o.h.b.i.InFlightMetadataCollectorImpl - Resolving reference to class: gaidadym.javaForTesters.addressbook.model.ContactData 
+1763 [main] INFO  g.j.addressbook.TestBase - Start test testAddingContactInGroup with parameters [] 
+1764 [main] INFO  g.j.addressbook.TestBase - Stop test testAddingContactInGroup with parameters [] 
