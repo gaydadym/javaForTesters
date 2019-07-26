@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gaidadym.javaForTesters.addressbook.tests.ContactCreation" tests="1" skipped="1" failures="0" errors="0" timestamp="2019-07-13T16:57:27" hostname="W10NotActivated" time="0.0">
+  <properties/>
+  <testcase name="testContactCreation" classname="gaidadym.javaForTesters.addressbook.tests.ContactCreation" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

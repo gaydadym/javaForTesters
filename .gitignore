@@ -1,5 +1,4 @@
 .gradle
-build
 .idea/workspace.xml
 .idea/misc.xml
 addressbook-web-tests/*.log

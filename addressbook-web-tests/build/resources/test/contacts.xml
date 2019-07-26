@@ -1,0 +1,17 @@
+<list>
+  <contact>
+    <group>test2</group>
+    <firstname>Firstname0</firstname>
+    <middlename>MiddleName0</middlename>
+    <lastname>Lastname0</lastname>
+    <email>Email@ya.ru0</email>
+    <email2>Email2@ya.ru0</email2>
+    <email3>Email3@ya.ru0</email3>
+    <address>Address0</address>
+    <workPhone>1111110</workPhone>
+    <mobilePhone>89507778890</mobilePhone>
+    <homePhone>12564230000</homePhone>
+    <company>Company0</company>
+    <photo>src\test\resources\screen.jpg</photo>
+  </contact>
+</list>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gaidadym.javaForTesters.addressbook.tests.ContactCreation" tests="3" skipped="3" failures="0" errors="0" timestamp="2019-07-10T21:01:09" hostname="W10NotActivated" time="0.001">
+  <properties/>
+  <testcase name="testContactCreation[0](ContactData{group='test2', firstname='Firstname0', middlename='MiddleName0', lastname='Lastname0', nickname='null', email='Email@ya.ru0', address='Address0', allPhones='null'})" classname="gaidadym.javaForTesters.addressbook.tests.ContactCreation" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="testContactCreation[1](ContactData{group='test2', firstname='Firstname1', middlename='MiddleName1', lastname='Lastname1', nickname='null', email='Email@ya.ru1', address='Address1', allPhones='null'})" classname="gaidadym.javaForTesters.addressbook.tests.ContactCreation" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testContactCreation[2](ContactData{group='test2', firstname='Firstname2', middlename='MiddleName2', lastname='Lastname2', nickname='null', email='Email@ya.ru2', address='Address2', allPhones='null'})" classname="gaidadym.javaForTesters.addressbook.tests.ContactCreation" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
