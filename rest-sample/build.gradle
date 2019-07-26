@@ -12,3 +12,6 @@ dependencies {
     compile("org.apache.httpcomponents:fluent-hc:4.5.9")
 
 }
+test {
+    useTestNG()
+}

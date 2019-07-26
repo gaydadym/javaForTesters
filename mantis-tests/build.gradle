@@ -33,4 +33,8 @@ test {
     if (project.hasProperty("verifyUI")) {
         systemProperty "verifyUI", "${verifyUI}"
     }
+
+    test {
+        useTestNG()
+    }
 }
