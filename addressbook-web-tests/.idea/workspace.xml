@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1587991b-a09b-4496-876c-2639089a3564" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/gaidadym/javaForTesters/addressbook/tests/DelitionContactFromGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/gaidadym/javaForTesters/addressbook/tests/DelitionContactFromGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rest-sample/src/test/java/gaidadym/javaForTesters/rest/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest-sample/src/test/java/gaidadym/javaForTesters/rest/tests/TestBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -62,40 +64,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/tests/TestBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="26" column="19" selection-end-line="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../rest-sample/src/test/java/gaidadym/javaForTesters/rest/tests/RestTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="41" column="5" selection-start-line="39" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../rest-sample/src/test/java/gaidadym/javaForTesters/rest/model/Issue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../rest-sample/src/test/java/gaidadym/javaForTesters/rest/tests/TestBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="664">
-              <caret line="49" column="75" selection-start-line="49" selection-start-column="75" selection-end-line="49" selection-end-column="75" />
+            <state relative-caret-position="390">
+              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,10 +76,89 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../rest-sample/src/test/java/gaidadym/javaForTesters/rest/tests/RestSample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="37" selection-end-column="36" />
+              <folding>
+                <element signature="e#1403#1404#0" expanded="true" />
+                <element signature="e#1492#1493#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../rest-sample/src/test/java/gaidadym/javaForTesters/rest/tests/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="24" column="78" selection-start-line="24" selection-start-column="78" selection-end-line="24" selection-end-column="78" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="46" />
+            <state relative-caret-position="288">
+              <caret line="44" column="46" lean-forward="true" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../mantis-tests/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../rest-sample/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../soap-sample/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/ContactDelitionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/DelitionContactFromGroup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/appmanager/ContactHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="201" selection-start-line="201" selection-end-line="201" />
             </state>
           </provider>
         </entry>
@@ -163,7 +214,7 @@
       <map>
         <entry key="$PROJECT_DIR$" value="C:\Users\Admin\.gradle\wrapper\dists\gradle-5.4.1-all\3221gyojl5jsh0helicew7rwx\gradle-5.4.1" />
         <entry key="$PROJECT_DIR$/../mantis-tests" value="C:\Users\Admin\.gradle\wrapper\dists\gradle-5.4.1-all\3221gyojl5jsh0helicew7rwx\gradle-5.4.1" />
-        <entry key="$PROJECT_DIR$/../rest-sample" value="D:\Gradle" />
+        <entry key="$PROJECT_DIR$/../rest-sample" value="C:\Users\Admin\.gradle\wrapper\dists\gradle-5.4.1-all\3221gyojl5jsh0helicew7rwx\gradle-5.4.1" />
         <entry key="$PROJECT_DIR$/../soap-sample" value="C:\Users\Admin\.gradle\wrapper\dists\gradle-5.4.1-all\3221gyojl5jsh0helicew7rwx\gradle-5.4.1" />
       </map>
     </option>
@@ -897,20 +948,20 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4682022875963" />
+        <entry key="$PROJECT_DIR$" value="4683128196320" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="2144738398" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="2861582298" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2889983086" />
-        <entry key="$PROJECT_DIR$/../mantis-tests" value="4686704797007" />
+        <entry key="$PROJECT_DIR$/../mantis-tests" value="4686982163500" />
         <entry key="$PROJECT_DIR$/../mantis-tests/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/../mantis-tests/build.gradle" value="515549505" />
+        <entry key="$PROJECT_DIR$/../mantis-tests/build.gradle" value="501229716" />
         <entry key="$PROJECT_DIR$/../mantis-tests/gradle/wrapper/gradle-wrapper.properties" value="2889983086" />
-        <entry key="$PROJECT_DIR$/../rest-sample" value="3128118320728" />
+        <entry key="$PROJECT_DIR$/../rest-sample" value="3128193503487" />
         <entry key="$PROJECT_DIR$/../rest-sample/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/../rest-sample/build.gradle" value="3309959018" />
-        <entry key="$PROJECT_DIR$/../soap-sample" value="4687214411556" />
+        <entry key="$PROJECT_DIR$/../rest-sample/build.gradle" value="1242695399" />
+        <entry key="$PROJECT_DIR$/../soap-sample" value="4687493760561" />
         <entry key="$PROJECT_DIR$/../soap-sample/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/../soap-sample/build.gradle" value="4225847801" />
+        <entry key="$PROJECT_DIR$/../soap-sample/build.gradle" value="3313558285" />
         <entry key="$PROJECT_DIR$/../soap-sample/gradle/wrapper/gradle-wrapper.properties" value="2889983086" />
       </map>
     </option>
@@ -1595,12 +1646,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/generators/ContactDataGenerator.java" />
         <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/ContactPhoneTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/hbConnectionTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/model/ContactData.java" />
         <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/ContactDelitionTest.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/appmanager/ApplicationManager.java" />
         <option value="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/ContactCreation.java" />
@@ -1623,8 +1672,6 @@
         <option value="$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/model/MantisUsers.java" />
         <option value="$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/appmanager/RegistrationHelper.java" />
         <option value="$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/tests/ResetPasswordTest.java" />
-        <option value="$PROJECT_DIR$/../soap-sample/build.gradle" />
-        <option value="$PROJECT_DIR$/../mantis-tests/build.gradle" />
         <option value="$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/tests/Фчшч.java" />
         <option value="$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/tests/AxisLogHandler.java" />
         <option value="$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/model/GroupData.java" />
@@ -1640,11 +1687,15 @@
         <option value="$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/appmanager/SoapHelper.java" />
         <option value="$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/tests/SoapTests.java" />
         <option value="$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/tests/TestBase.java" />
-        <option value="$PROJECT_DIR$/../rest-sample/build.gradle" />
-        <option value="$PROJECT_DIR$/../rest-sample/src/test/java/gaidadym/javaForTesters/rest/tests/RestTests.java" />
         <option value="$PROJECT_DIR$/../rest-sample/src/test/java/gaidadym/javaForTesters/rest/model/Issue.java" />
         <option value="$PROJECT_DIR$/../rest-sample/src/test/java/gaidadym/javaForTesters/rest/RestTests.java" />
         <option value="$PROJECT_DIR$/../rest-sample/src/test/java/gaidadym/javaForTesters/rest/tests/RestTestsSample.java" />
+        <option value="$PROJECT_DIR$/../mantis-tests/build.gradle" />
+        <option value="$PROJECT_DIR$/../rest-sample/build.gradle" />
+        <option value="$PROJECT_DIR$/../soap-sample/build.gradle" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/../rest-sample/src/test/java/gaidadym/javaForTesters/rest/tests/RestTests.java" />
+        <option value="$PROJECT_DIR$/../rest-sample/src/test/java/gaidadym/javaForTesters/rest/tests/RestSample.java" />
         <option value="$PROJECT_DIR$/../rest-sample/src/test/java/gaidadym/javaForTesters/rest/tests/TestBase.java" />
       </list>
     </option>
@@ -1670,15 +1721,6 @@
           <expand>
             <path>
               <item name="addressbook-web-tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="addressbook-web-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="addressbook-web-tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="addressbook-web-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="addressbook-web-tests" type="b2602c69:ProjectViewProjectNode" />
               <item name="rest-sample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -1706,15 +1748,6 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="addressbook-web-tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rest-sample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="addressbook-web-tests" type="b2602c69:ProjectViewProjectNode" />
@@ -1733,7 +1766,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ToolWindowRun.ShowToolbar" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564139862778" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564142933554" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last.edited.regexp" value="4556 64 654564  &#10;" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../rest-sample/build.gradle" />
@@ -1743,14 +1776,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="gaidadym.javaForTesters.rest.model" />
+      <recent name="gaidadym.javaForTesters.mantis.appmanager" />
+      <recent name="gaidadym.javaForTesters.addressbook.tests" />
+      <recent name="gaidadym.javaForTesters.addressbook.appmanager" />
+      <recent name="gaidadym.javaForTesters.addressbook" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="gaidadym.javaForTesters.rest.tests" />
       <recent name="gaidadym.javaForTesters.rest" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\javaForTesters\mantis-tests\src\test\resources" />
-      <recent name="D:\javaForTesters\mantis-tests\src\test\java\gaidadym\javaForTesters\mantisbt" />
-      <recent name="D:\javaForTesters\addressbook-web-tests\src\test\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="gaidadym.javaForTesters.rest.tests" />
@@ -1759,12 +1794,10 @@
       <recent name="gaidadym.javaForTesters.addressbook.tests" />
       <recent name="gaidadym.javaForTesters.addressbook.generators" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="gaidadym.javaForTesters.rest.model" />
-      <recent name="gaidadym.javaForTesters.mantis.appmanager" />
-      <recent name="gaidadym.javaForTesters.addressbook.tests" />
-      <recent name="gaidadym.javaForTesters.addressbook.appmanager" />
-      <recent name="gaidadym.javaForTesters.addressbook" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\javaForTesters\mantis-tests\src\test\resources" />
+      <recent name="D:\javaForTesters\mantis-tests\src\test\java\gaidadym\javaForTesters\mantisbt" />
+      <recent name="D:\javaForTesters\addressbook-web-tests\src\test\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1779,7 +1812,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.RestTestsSample.testCreateIssue">
+  <component name="RunManager" selected="TestNG.RestSample (1)">
     <configuration name="GroupCreation" type="TestNG" factoryName="TestNG">
       <module name="addressbook-web-tests_test" />
       <option name="SUITE_NAME" value="" />
@@ -1818,23 +1851,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="rest-sample_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gaidadym.javaForTesters.rest.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="gaidadym.javaForTesters.rest" />
-      <option name="MAIN_CLASS_NAME" value="gaidadym.javaForTesters.rest.tests.RestTests" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RestTestsSample (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RestSample (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="rest-sample_test" />
       <extension name="coverage">
         <pattern>
@@ -1843,14 +1860,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="gaidadym.javaForTesters.rest.tests" />
-      <option name="MAIN_CLASS_NAME" value="gaidadym.javaForTesters.rest.tests.RestTestsSample" />
+      <option name="MAIN_CLASS_NAME" value="gaidadym.javaForTesters.rest.tests.RestSample" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestTestsSample (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RestSample (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="rest-sample_test" />
       <extension name="coverage">
         <pattern>
@@ -1859,14 +1876,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="gaidadym.javaForTesters.rest.tests" />
-      <option name="MAIN_CLASS_NAME" value="gaidadym.javaForTesters.rest.tests.RestTestsSample" />
+      <option name="MAIN_CLASS_NAME" value="gaidadym.javaForTesters.rest.tests.RestSample" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestTestsSample (3)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RestSample (3)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="rest-sample_test" />
       <extension name="coverage">
         <pattern>
@@ -1875,14 +1892,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="gaidadym.javaForTesters.rest.tests" />
-      <option name="MAIN_CLASS_NAME" value="gaidadym.javaForTesters.rest.tests.RestTestsSample" />
+      <option name="MAIN_CLASS_NAME" value="gaidadym.javaForTesters.rest.tests.RestSample" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestTestsSample (4)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RestSample (4)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="rest-sample_test" />
       <extension name="coverage">
         <pattern>
@@ -1891,14 +1908,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="gaidadym.javaForTesters.rest.tests" />
-      <option name="MAIN_CLASS_NAME" value="gaidadym.javaForTesters.rest.tests.RestTestsSample" />
+      <option name="MAIN_CLASS_NAME" value="gaidadym.javaForTesters.rest.tests.RestSample" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestTestsSample.testCreateIssue" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RestSample.testCreateIssue" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="rest-sample_test" />
       <extension name="coverage">
         <pattern>
@@ -1907,7 +1924,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="gaidadym.javaForTesters.rest.tests" />
-      <option name="MAIN_CLASS_NAME" value="gaidadym.javaForTesters.rest.tests.RestTestsSample" />
+      <option name="MAIN_CLASS_NAME" value="gaidadym.javaForTesters.rest.tests.RestSample" />
       <option name="METHOD_NAME" value="testCreateIssue" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -1938,20 +1955,19 @@
       <item itemvalue="TestNG.GroupDelition" />
       <item itemvalue="TestNG.GroupCreation" />
       <item itemvalue="TestNG.testPasswordReset" />
-      <item itemvalue="TestNG.RestTests" />
-      <item itemvalue="TestNG.RestTestsSample (3)" />
-      <item itemvalue="TestNG.RestTestsSample (4)" />
-      <item itemvalue="TestNG.RestTestsSample (1)" />
-      <item itemvalue="TestNG.RestTestsSample (2)" />
-      <item itemvalue="TestNG.RestTestsSample.testCreateIssue" />
+      <item itemvalue="TestNG.RestSample.testCreateIssue" />
+      <item itemvalue="TestNG.RestSample (1)" />
+      <item itemvalue="TestNG.RestSample (2)" />
+      <item itemvalue="TestNG.RestSample (3)" />
+      <item itemvalue="TestNG.RestSample (4)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RestTestsSample.testCreateIssue" />
-        <item itemvalue="TestNG.RestTestsSample (2)" />
-        <item itemvalue="TestNG.RestTestsSample (1)" />
-        <item itemvalue="TestNG.RestTestsSample (4)" />
-        <item itemvalue="TestNG.RestTestsSample (3)" />
+        <item itemvalue="TestNG.RestSample (1)" />
+        <item itemvalue="TestNG.RestSample (4)" />
+        <item itemvalue="TestNG.RestSample (3)" />
+        <item itemvalue="TestNG.RestSample.testCreateIssue" />
+        <item itemvalue="TestNG.RestSample (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -1969,35 +1985,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RestTestsSample_(4) - 2019.07.25 at 21h 16m 54s.xml">
-      <configuration name="RestTestsSample (4)" configurationId="TestNG" />
+    <history-entry file="DelitionContactFromGroup_testDelitingContactFromGroup - 2019.07.26 at 14h 29m 30s.xml">
+      <configuration name="DelitionContactFromGroup.testDelitingContactFromGroup" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RestTestsSample_(4) - 2019.07.25 at 21h 18m 54s.xml">
-      <configuration name="RestTestsSample (4)" configurationId="TestNG" />
+    <history-entry file="gaidadym_javaForTesters_addressbook_tests - 2019.07.26 at 14h 40m 45s.xml">
+      <configuration name="gaidadym.javaForTesters.addressbook.tests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RestTestsSample_(4) - 2019.07.25 at 21h 19m 17s.xml">
-      <configuration name="RestTestsSample (4)" configurationId="TestNG" />
+    <history-entry file="RestSample_testCreateIssue - 2019.07.26 at 14h 55m 20s.xml">
+      <configuration name="RestSample.testCreateIssue" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RestTestsSample_(4) - 2019.07.25 at 21h 19m 46s.xml">
-      <configuration name="RestTestsSample (4)" configurationId="TestNG" />
+    <history-entry file="RestSample - 2019.07.26 at 14h 55m 36s.xml">
+      <configuration name="RestSample" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RestTestsSample_(1) - 2019.07.25 at 21h 20m 58s.xml">
-      <configuration name="RestTestsSample (1)" configurationId="TestNG" />
+    <history-entry file="RestSample_(1) - 2019.07.26 at 14h 56m 30s.xml">
+      <configuration name="RestSample (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RestTestsSample_(2) - 2019.07.25 at 21h 21m 41s.xml">
-      <configuration name="RestTestsSample (2)" configurationId="TestNG" />
+    <history-entry file="RestSample_testCreateIssue - 2019.07.26 at 14h 59m 45s.xml">
+      <configuration name="RestSample.testCreateIssue" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RestTestsSample_(2) - 2019.07.25 at 21h 41m 43s.xml">
-      <configuration name="RestTestsSample (2)" configurationId="TestNG" />
+    <history-entry file="RestSample_testCreateIssue - 2019.07.26 at 15h 01m 23s.xml">
+      <configuration name="RestSample.testCreateIssue" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RestTestsSample_(2) - 2019.07.25 at 21h 43m 21s.xml">
-      <configuration name="RestTestsSample (2)" configurationId="TestNG" />
+    <history-entry file="RestSample_testCreateIssue - 2019.07.26 at 15h 02m 54s.xml">
+      <configuration name="RestSample.testCreateIssue" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RestTestsSample_testCreateIssue - 2019.07.25 at 21h 43m 59s.xml">
-      <configuration name="RestTestsSample.testCreateIssue" configurationId="TestNG" />
+    <history-entry file="RestSample_(3) - 2019.07.26 at 15h 03m 57s.xml">
+      <configuration name="RestSample (3)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RestTestsSample_testCreateIssue - 2019.07.25 at 21h 44m 14s.xml">
-      <configuration name="RestTestsSample.testCreateIssue" configurationId="TestNG" />
+    <history-entry file="RestSample_(4) - 2019.07.26 at 15h 04m 43s.xml">
+      <configuration name="RestSample (4)" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -2029,11 +2045,11 @@
       <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" weight="0.32814237" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32925472" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.4706823" weight="0.32814237" />
-      <window_info active="true" anchor="bottom" x="0" y="0" width="1920" height="1040" id="Run" order="9" sideWeight="0.52398723" side_tool="true" visible="true" weight="0.39933258" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.47014925" weight="0.32814237" />
+      <window_info anchor="bottom" x="0" y="0" width="1920" height="1040" id="Run" order="9" sideWeight="0.5298507" side_tool="true" visible="true" weight="0.32814237" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" weight="0.32925472" />
       <window_info anchor="bottom" id="Regex Tester" order="11" weight="0.32925472" />
-      <window_info anchor="bottom" id="Debug" order="12" sideWeight="0.4760128" visible="true" weight="0.39933258" />
+      <window_info anchor="bottom" id="Debug" order="12" sideWeight="0.47547975" weight="0.39599556" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -2083,12 +2099,6 @@
           <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/DelitionContactFromGroup.java</url>
-          <line>49</line>
-          <properties />
-          <option name="timeStamp" value="77" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/tests/SoapTests.java</url>
           <line>35</line>
           <properties />
@@ -2105,6 +2115,24 @@
           <line>27</line>
           <properties />
           <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/DelitionContactFromGroup.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/appmanager/ContactHelper.java</url>
+          <line>200</line>
+          <properties />
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/appmanager/ContactHelper.java</url>
+          <line>201</line>
+          <properties />
+          <option name="timeStamp" value="102" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -2123,20 +2151,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.9.10/11af8613a6b909307c7f2f554249c7b176cb50e6/testng-6.9.10-sources.jar!/org/testng/internal/MethodInvocationHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mantis-tests/src/test/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="37" column="72" selection-start-line="37" selection-start-column="72" selection-end-line="37" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -2255,13 +2269,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mantis-tests/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -2287,13 +2294,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/ContactDelitionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="39" column="21" selection-start-line="39" selection-end-line="40" />
         </state>
       </provider>
     </entry>
@@ -2336,6 +2336,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="1127" selection-start-line="1127" selection-end-line="1127" />
+          <folding>
+            <element signature="e#26929#26942#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2353,13 +2356,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/appmanager/ContactHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3145">
-          <caret line="211" column="70" selection-start-line="211" selection-start-column="70" selection-end-line="211" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -2433,42 +2429,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/DelitionContactFromGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../soap-sample/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rest-sample/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../rest-sample/src/test/java/gaidadym/javaForTesters/rest/tests/RestTestsSample.java" />
     <entry file="file://$PROJECT_DIR$/../mantis-tests/src/test/java/gaidadym/javaForTesters/mantis/tests/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="26" column="19" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rest-sample/src/test/java/gaidadym/javaForTesters/rest/tests/RestTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="41" column="5" selection-start-line="39" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2479,20 +2444,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../rest-sample/src/test/java/gaidadym/javaForTesters/rest/tests/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/../mantis-tests/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="664">
-          <caret line="49" column="75" selection-start-line="49" selection-start-column="75" selection-end-line="49" selection-end-column="75" />
+        <state relative-caret-position="663">
+          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rest-sample/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../soap-sample/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/ContactDelitionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/appmanager/ContactHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="201" selection-start-line="201" selection-end-line="201" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gaidadym/javaForTesters/addressbook/tests/DelitionContactFromGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gradle/wrapper/dists/gradle-5.4.1-all/3221gyojl5jsh0helicew7rwx/gradle-5.4.1/src/core-api/org/gradle/api/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="443" column="9" selection-start-line="443" selection-start-column="9" selection-end-line="443" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="44" column="46" lean-forward="true" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rest-sample/src/test/java/gaidadym/javaForTesters/rest/tests/RestTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/../rest-sample/src/test/java/gaidadym/javaForTesters/rest/tests/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="46" />
+        <state relative-caret-position="202">
+          <caret line="24" column="78" selection-start-line="24" selection-start-column="78" selection-end-line="24" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../rest-sample/src/test/java/gaidadym/javaForTesters/rest/tests/RestSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="37" selection-end-column="36" />
+          <folding>
+            <element signature="e#1403#1404#0" expanded="true" />
+            <element signature="e#1492#1493#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2548,7 +2583,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>rest-sample_test|rest-sample</last-edited>
+          <last-edited>soap-sample_test|soap-sample</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -16,8 +16,8 @@ import static com.sun.javafx.runtime.async.BackgroundExecutor.getExecutor;
 
 public class TestBase {
 
-    private boolean isIssueOpen(String issueId) throws IOException {
-        String json = getExecutor().execute( Request.Get("http://bugify.stqa.ru/api/issues.json"))
+    public boolean isIssueOpen(String issueId) throws IOException {
+        String json = getExecutor().execute( Request.Get(String.format("http://bugify.stqa.ru/api/issues/%s.json",issueId)))
                 .returnContent().asString();
         JsonElement parsed = new JsonParser().parse(json);
         JsonElement issues = parsed.getAsJsonObject().get("issues");
