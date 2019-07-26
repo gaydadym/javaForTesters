@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Tests" verbose="1" >
+   <test name="Contacts">
+        <classes>
+            <class name="gaidadym.javaForTesters.addressbook.tests.ContactUpdatingTest" />
+            <class name="gaidadym.javaForTesters.addressbook.tests.ContactCreation" />
+            <class name="gaidadym.javaForTesters.addressbook.tests.ContactPhoneTest" />
+            <class name="gaidadym.javaForTesters.addressbook.tests.ContactDelitionTest" />
+            <class name="gaidadym.javaForTesters.addressbook.tests.DelitionContactFromGroup" />
+            <class name="gaidadym.javaForTesters.addressbook.tests.AddingContactInGroup" />
+        </classes>
+    </test>
+</suite>

@@ -1,6 +1,7 @@
 package gaidadym.javaForTesters.rest.tests;
 
 import com.google.gson.Gson;
+import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
 import com.google.gson.reflect.TypeToken;
@@ -20,24 +21,17 @@ public class TestBase {
         String json = getExecutor().execute( Request.Get(String.format("http://bugify.stqa.ru/api/issues/%s.json",issueId)))
                 .returnContent().asString();
         JsonElement parsed = new JsonParser().parse(json);
-        JsonElement issues = parsed.getAsJsonObject().get("issues");
+        JsonArray issues = parsed.getAsJsonObject().getAsJsonArray("issues");
+        JsonElement issue = issues.get(0);
         String stateName = "";
         boolean state = false;
-        for (JsonElement issue:issues.getAsJsonArray()){
-            String id = "";
-            id = issue.getAsJsonObject().get("id").getAsString();
-
-            if (id.equals(issueId)){
-                stateName = issue.getAsJsonObject().get("state_name").getAsString();
-                if (stateName.equals("Open")){
-                    state = true;
-                }
-                else{
-                    state = false;
-                }
-            }
-
+        stateName = issue.getAsJsonObject().get("state_name").getAsString();
+        if (stateName.equals("Open")){
+                state = true;
+        }else{
+                state = false;
         }
+
         return state;
 
     }
