@@ -3,17 +3,21 @@ package gaidadym.javaForTesters.addressbook.appmanager;
 import gaidadym.javaForTesters.addressbook.model.ContactData;
 import gaidadym.javaForTesters.addressbook.model.Groups;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.BrowserType;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.net.URL;
 import java.util.HashSet;
 import java.util.Properties;
 import java.util.Set;
@@ -43,13 +47,18 @@ public class ApplicationManager {
         String target = System.getProperty("target", "local");
         properties.load(new FileReader(new File(String.format("src/test/resources/%s.properties",target))));
         dbHelper = new DbHelper();
-        if (browser.equals(BrowserType.CHROME)){
-            ChromeOptions options = new ChromeOptions();
-            options.addArguments("--kiosk");
-            wd = new ChromeDriver(options);
-        }
-        else {
-            wd = new FirefoxDriver();
+        if("".equals(properties.getProperty("selenium.server"))) {
+            if (browser.equals(BrowserType.CHROME)) {
+                ChromeOptions options = new ChromeOptions();
+                options.addArguments("--kiosk");
+                wd = new ChromeDriver(options);
+            } else {
+                wd = new FirefoxDriver();
+            }
+        }else {
+            DesiredCapabilities capabilies = new DesiredCapabilities();
+            capabilies.setBrowserName(browser);
+            wd = new RemoteWebDriver(new URL(properties.getProperty("selenium.server")),capabilies);
         }
 
         wd.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
